@@ -2385,7 +2385,7 @@
     (property "Value" "" (at -19.05 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at -19.05 13.97 0)
+    (property "Footprint" "blockaxe:bzm2" (at 0 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -19.05 13.97 0)
