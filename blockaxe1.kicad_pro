@@ -388,8 +388,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "blockaxe"
+    ],
+    "pinned_symbol_libs": [
+      "blockaxe"
+    ]
   },
   "meta": {
     "filename": "blockaxe1.kicad_pro",
