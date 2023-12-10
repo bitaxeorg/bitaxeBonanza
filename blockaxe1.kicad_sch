@@ -3001,7 +3001,7 @@
     (property "Value" "~" (at 74.93 167.005 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "bitaxe:polarity" (at 74.93 167.005 0)
+    (property "Footprint" "blockaxe:polarity" (at 74.93 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 74.93 167.005 0)
