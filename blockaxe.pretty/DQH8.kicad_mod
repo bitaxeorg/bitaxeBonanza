@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5ab8d2c9-9caa-4b3d-a062-6c796a5fff20)
   )
-  (fp_text value "DQH8" (at 0 0 unlocked) (layer "F.Fab")
+  (fp_text value "DQH8" (at -0.44 4.87 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4400f52a-fdf0-4bf7-8dc5-1930b6341904)
   )
@@ -14,17 +14,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cc0b11d6-a480-4057-a911-a5deb1a34cab)
   )
-  (fp_poly
-    (pts
-      (xy -1.905 -1.905)
-      (xy -1.905 1.905)
-      (xy -1.905 2.286)
-      (xy 2.54 2.286)
-      (xy 2.54 -2.286)
-      (xy -1.905 -2.286)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 56b8d3cc-6196-4a24-a338-3b02015af9e1))
   (fp_poly
     (pts
       (xy -3.187065 -2.259965)
@@ -229,16 +218,6 @@
     )
 
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp e628ec35-36ce-40c5-8d73-fc4ac95e6f8e))
-  (fp_poly
-    (pts
-      (xy 2.5908 -1.3462)
-      (xy 2.5908 -2.3368)
-      (xy -1.9558 -2.3368)
-      (xy -1.9558 2.3368)
-      (xy 2.5908 2.3368)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 9df68eb2-f458-416b-ac96-44a1cc9d5a49))
   (fp_line (start -3.4417 -2.8067) (end 3.4417 -2.8067)
     (stroke (width 0.1524) (type solid)) (layer "F.CrtYd") (tstamp e5bf0900-afaf-444f-9fd2-f2321fd645fd))
   (fp_line (start -3.4417 2.8067) (end -3.4417 -2.8067)
@@ -261,10 +240,11 @@
   (pad "2" smd rect (at -2.794 -0.635) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 54a99ce7-ec64-4e6c-9042-de881d510280))
   (pad "3" smd rect (at -2.794 0.635) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 26e71b0b-1466-40ac-b2c1-fdcf5ffa6f3a))
   (pad "4" smd rect (at -2.794 1.905) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp f0e8bd26-eb21-4ea8-9a3c-dd3b82caeba5))
+  (pad "5" smd rect (at 0.18 -0.01) (size 4.5 4.5) (layers "F.Cu" "F.Mask") (tstamp 50258704-eec9-4a38-ab49-21281d70b39c))
+  (pad "5" smd rect (at 2.794 -1.905) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 8150c90c-23b5-4c00-986d-9e0ca9267309))
+  (pad "5" smd rect (at 2.794 -0.635) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp bf7cbfeb-643d-4ee5-8fef-759664323e96))
+  (pad "5" smd rect (at 2.794 0.635) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 4a4a71e3-a71f-4f1c-a912-fac8e74223a9))
   (pad "5" smd rect (at 2.794 1.905) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 33b81574-8d9a-4efc-bf13-b83d887fe986))
-  (pad "6" smd rect (at 2.794 0.635) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 4a4a71e3-a71f-4f1c-a912-fac8e74223a9))
-  (pad "7" smd rect (at 2.794 -0.635) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp bf7cbfeb-643d-4ee5-8fef-759664323e96))
-  (pad "8" smd rect (at 2.794 -1.905) (size 0.7874 0.7112) (layers "F.Cu" "F.Mask") (tstamp 8150c90c-23b5-4c00-986d-9e0ca9267309))
   (model "${KIPRJMOD}/3d/CSD17312Q5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
