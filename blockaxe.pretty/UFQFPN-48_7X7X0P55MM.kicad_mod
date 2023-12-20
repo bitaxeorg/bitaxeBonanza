@@ -1,6 +1,7 @@
 (footprint "UFQFPN-48_7X7X0P55MM" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (tags "STM32F410CBU6 ")
+  (clearance 0.19)
   (attr smd)
   (fp_text reference "REF**" (at -3.035 -5.04 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
