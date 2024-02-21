@@ -669,6 +669,10 @@
     (stroke (width 0) (type default))
     (uuid 494b97c6-3894-404a-9768-ad3cf4120fe9)
   )
+  (wire (pts (xy 37.465 95.885) (xy 46.355 95.885))
+    (stroke (width 0) (type default))
+    (uuid 4a2ff712-07eb-451c-9463-2b65ad8a4b05)
+  )
   (wire (pts (xy 92.71 93.345) (xy 103.505 93.345))
     (stroke (width 0) (type default))
     (uuid 4a671db3-7a5f-4eb8-9171-e8d4a6bf7735)
@@ -749,6 +753,10 @@
     (stroke (width 0) (type default))
     (uuid 917c38d6-5da0-483a-9d9e-e6465c7444c9)
   )
+  (wire (pts (xy 37.465 106.045) (xy 46.355 106.045))
+    (stroke (width 0) (type default))
+    (uuid a12401de-42f6-4a3a-a2ec-bf9a6367be73)
+  )
   (wire (pts (xy 201.93 119.38) (xy 209.55 119.38))
     (stroke (width 0) (type default))
     (uuid a703448a-7643-455d-a043-62b149876d92)
@@ -769,6 +777,10 @@
     (stroke (width 0) (type default))
     (uuid b387e20c-635d-4ff1-8b45-4bc1db34de06)
   )
+  (wire (pts (xy 37.465 103.505) (xy 46.355 103.505))
+    (stroke (width 0) (type default))
+    (uuid bb1d2519-479f-4557-9a68-51bdd71d6cdd)
+  )
   (wire (pts (xy 117.475 139.065) (xy 140.335 139.065))
     (stroke (width 0) (type default))
     (uuid c4c93fc0-9e6f-40d1-921c-4a5fee30d03a)
@@ -776,6 +788,10 @@
   (wire (pts (xy 92.71 111.125) (xy 103.505 111.125))
     (stroke (width 0) (type default))
     (uuid c8cd916b-8392-4129-8ed1-abc752db42fc)
+  )
+  (wire (pts (xy 37.465 93.345) (xy 46.355 93.345))
+    (stroke (width 0) (type default))
+    (uuid cc53d6c8-48c7-407b-8840-8b748012210d)
   )
   (wire (pts (xy 136.525 57.785) (xy 136.525 60.325))
     (stroke (width 0) (type default))
@@ -793,6 +809,10 @@
     (stroke (width 0) (type default))
     (uuid e35e827b-ed58-403a-9858-80881387535b)
   )
+  (wire (pts (xy 37.465 100.965) (xy 46.355 100.965))
+    (stroke (width 0) (type default))
+    (uuid e9cb9499-6cfe-41d0-a180-a78fc36e1f84)
+  )
   (wire (pts (xy 133.985 116.205) (xy 140.335 116.205))
     (stroke (width 0) (type default))
     (uuid ed390808-61fd-4cf8-bb94-aa444c6ef39f)
@@ -804,6 +824,10 @@
   (wire (pts (xy 203.2 55.88) (xy 203.2 58.42))
     (stroke (width 0) (type default))
     (uuid f013b7a7-97a0-4fba-8974-fdefbdb10baa)
+  )
+  (wire (pts (xy 37.465 98.425) (xy 46.355 98.425))
+    (stroke (width 0) (type default))
+    (uuid f4d0284e-00c8-49e7-b29f-aecb5d80325a)
   )
   (wire (pts (xy 92.71 83.185) (xy 103.505 83.185))
     (stroke (width 0) (type default))
@@ -843,6 +867,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b96ddd2-3c19-4bfd-a399-5bc88b9d2133)
   )
+  (label "TX1" (at 46.355 98.425 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 15c325aa-bad8-4feb-b3e6-79a7b7569a2b)
+  )
   (label "3V3" (at 180.975 114.3 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17c947d2-403a-4e3d-b452-43376893ae1c)
@@ -871,6 +899,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3428f0dd-5123-4c31-955e-8d2ed1709bb0)
   )
+  (label "RESET" (at 93.98 93.345 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 34ac5ae9-1f0d-41ff-a00f-5a99edff3f37)
+  )
   (label "3V3" (at 194.31 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 376d10ff-707b-4657-8242-c36e053250c2)
@@ -879,6 +911,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 43380f99-f6af-4d62-8c37-1bb299526ac4)
   )
+  (label "TX6" (at 46.355 103.505 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 4846a8c8-36f7-4f21-aa30-ca4bc91fc02e)
+  )
   (label "SWCLK" (at 208.915 116.84 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4981bafd-f275-4c13-8b34-c4e5d0b086c1)
@@ -886,6 +922,10 @@
   (label "SWDIO" (at 92.71 108.585 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4da8e6ce-b47c-409f-92da-87be5f8c54ea)
+  )
+  (label "TRIP" (at 93.98 95.885 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 611cfde3-ac43-48ec-a821-b614f4d57268)
   )
   (label "TX1" (at 92.71 98.425 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -899,9 +939,21 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6ea6a6c1-1ef5-4bca-8f41-5fbf11bcf8d7)
   )
+  (label "TRIP" (at 46.355 95.885 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 83fa3ff7-f3b0-4741-a132-3323798d69dc)
+  )
+  (label "RX6" (at 46.355 106.045 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 851bba7b-e293-4032-9678-903e7b4f83cf)
+  )
   (label "GND" (at 117.475 139.065 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3ecd596-bac8-454f-9d77-57228f876ac9)
+  )
+  (label "RX1" (at 46.355 100.965 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a4f66063-0c4b-4ab9-81dc-41cd9635fbce)
   )
   (label "TX2" (at 92.71 80.645 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -938,6 +990,10 @@
   (label "RX2" (at 92.71 83.185 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e277c491-ca20-416b-adfe-0fcf4a3f2c71)
+  )
+  (label "RESET" (at 46.355 93.345 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid e97e19f4-c278-4c2b-ab86-410273d5318f)
   )
   (label "SWO" (at 92.71 113.665 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1020,6 +1076,94 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 37.465 93.345 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 13cccdd0-c7cc-4fbf-a7ea-6b632ede5e44)
+    (property "Reference" "TP13" (at 31.115 93.345 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 31.75 92.0751 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 37.465 88.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 37.465 88.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a251bc4-002d-4a6f-a422-d34ac2ce1751))
+    (instances
+      (project "bm1366-1"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/9f287754-26df-4418-a7f4-7b5e0717668c"
+          (reference "TP18") (unit 1)
+        )
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
+          (reference "TP33") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "TP24") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "TP7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "TP16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 37.465 100.965 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 18d7da0d-ab20-446e-92ed-b0d55be4ab1b)
+    (property "Reference" "TP13" (at 31.115 100.965 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 31.75 99.6951 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 37.465 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 37.465 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 315f2998-b28a-4e7a-af26-aaf31c773b67))
+    (instances
+      (project "bm1366-1"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/9f287754-26df-4418-a7f4-7b5e0717668c"
+          (reference "TP18") (unit 1)
+        )
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
+          (reference "TP34") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "TP24") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "TP7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "TP16") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 145.415 69.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20d5c53b-3d1b-405d-8686-15be8f756530)
@@ -1055,6 +1199,50 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 37.465 103.505 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 2aa7df56-3fa1-4d21-b457-f04a8b2ef770)
+    (property "Reference" "TP13" (at 31.115 103.505 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 31.75 102.2351 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 37.465 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 37.465 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4fcfc815-05e1-440f-89bc-3fe6388bce69))
+    (instances
+      (project "bm1366-1"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/9f287754-26df-4418-a7f4-7b5e0717668c"
+          (reference "TP18") (unit 1)
+        )
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
+          (reference "TP31") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "TP24") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "TP7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "TP16") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 194.945 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f8b6bd4-a808-4c7d-8e3d-d8713e4561e1)
@@ -1077,6 +1265,50 @@
       (project "blockaxe1"
         (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
           (reference "J7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 37.465 98.425 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 41ad7e3a-476a-43e6-8019-07532f6394b8)
+    (property "Reference" "TP13" (at 31.115 98.425 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 31.75 97.1551 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 37.465 93.345 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 37.465 93.345 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e322e9ff-de35-4178-bea1-b545c4fb2a9c))
+    (instances
+      (project "bm1366-1"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/9f287754-26df-4418-a7f4-7b5e0717668c"
+          (reference "TP18") (unit 1)
+        )
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
+          (reference "TP35") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "TP24") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "TP7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -1222,6 +1454,50 @@
         )
         (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
           (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 37.465 95.885 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 70462377-ffd9-4a56-bb6c-821baaee860e)
+    (property "Reference" "TP13" (at 31.115 95.885 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 31.75 94.6151 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 37.465 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 37.465 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa97f89b-94b7-47cf-9881-033a04c337e7))
+    (instances
+      (project "bm1366-1"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/9f287754-26df-4418-a7f4-7b5e0717668c"
+          (reference "TP18") (unit 1)
+        )
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
+          (reference "TP30") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "TP24") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "TP7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -1397,6 +1673,50 @@
         )
         (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 37.465 106.045 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid be0aee90-79b7-4b5e-bfa8-620a46752c70)
+    (property "Reference" "TP13" (at 31.115 106.045 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 31.75 104.7751 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 37.465 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 37.465 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f6b633b-07c3-4523-91ea-76d6800d2fc0))
+    (instances
+      (project "bm1366-1"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "TP13") (unit 1)
+        )
+      )
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/9f287754-26df-4418-a7f4-7b5e0717668c"
+          (reference "TP18") (unit 1)
+        )
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/a2f53eaa-4b17-468c-8132-e21e20b70349"
+          (reference "TP32") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "TP24") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "TP7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "TP16") (unit 1)
         )
       )
     )
