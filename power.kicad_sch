@@ -1924,7 +1924,7 @@
     (property "Footprint" "blockaxe:SQB16A" (at 167.64 36.83 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "LM27402SQ/NOPB" (at 165.1 39.37 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm27402.pdf" (at 165.1 39.37 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "DK" "LM27402SQ/NOPBCT-ND" (at 162.56 38.1 0)
