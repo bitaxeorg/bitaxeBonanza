@@ -2630,7 +2630,7 @@
     (property "Datasheet" "" (at 130.81 60.452 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "399-C0805C106K8PAC7800DKR-ND" (at 130.81 60.452 0)
+    (property "DK" "399-C0805C106K8PAC7800CT-ND" (at 130.81 60.452 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PARTNO" "C0805C106K8PAC7800" (at 130.81 60.452 0)

@@ -2238,7 +2238,7 @@
     (property "Footprint" "blockaxe:XTAL_ECS-240-8-33-AGN-TR" (at 77.216 120.396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 77.216 120.396 0)
+    (property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf" (at 77.216 120.396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DK" "50-ECS-80-12-33-JGN-CT-ND" (at 77.216 120.396 0)
