@@ -6,8 +6,8 @@
 
   (title_block
     (title "blockaxe1")
-    (date "2023-11-15")
-    (rev "1")
+    (date "2024-02-21")
+    (rev "2")
   )
 
   (lib_symbols

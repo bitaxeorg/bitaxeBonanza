@@ -6,8 +6,8 @@
 
   (title_block
     (title "blockaxe1")
-    (date "2023-11-15")
-    (rev "1")
+    (date "2024-02-21")
+    (rev "2")
   )
 
   (lib_symbols
@@ -1729,10 +1729,10 @@
     (property "Datasheet" "~" (at 223.012 49.022 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "P20.0KLCT-ND" (at 223.012 49.022 0)
+    (property "DK" "311-20.0KLRCT-ND" (at 223.012 49.022 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "ERJ-2RKF2002X" (at 223.012 49.022 0)
+    (property "PARTNO" "RC0402FR-0720KL" (at 223.012 49.022 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 456a1bca-669f-4ce5-a09d-49734bba3364))
@@ -2228,51 +2228,6 @@
     )
   )
 
-  (symbol (lib_id "blockaxe:Q_NMOS_CSD17311Q5_1") (at 173.99 27.432 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a1955b7a-676a-4140-8ccd-b28ca1cd7f04)
-    (property "Reference" "Q4" (at 179.07 26.162 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CSD17575Q3" (at 179.07 28.702 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "blockaxe:DQG0008A" (at 179.07 24.892 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd17575q3.pdf" (at 173.99 27.432 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "296-39994-1-ND" (at 173.99 27.432 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "CSD17575Q3" (at 173.99 27.432 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a716e45b-dd6a-44a9-b374-dc28f9081d59))
-    (pin "2" (uuid 9b7efd27-4f00-42d3-9c96-d34de36d3571))
-    (pin "3" (uuid 1e0c985e-9885-4420-91fa-3840f1235e57))
-    (pin "4" (uuid d6576cda-00be-42cb-917e-376d17be33df))
-    (pin "5" (uuid b354846c-d19c-4ef0-963a-e61b14f0bfb8))
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/b1ac536e-1817-4330-9049-6608155edca8"
-          (reference "Q4") (unit 1)
-        )
-      )
-      (project "power"
-        (path "/d3eaf28f-d55a-4d77-ac4e-fd16c6984c1a"
-          (reference "Q1") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "Q1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 162.56 68.072 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4319396-d8f0-42d0-97aa-75aa397f1403)
@@ -2660,6 +2615,51 @@
       (project "blockaxe1"
         (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/b1ac536e-1817-4330-9049-6608155edca8"
           (reference "C60") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "blockaxe:Q_NMOS_CSD17311Q5_1") (at 173.99 27.432 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fb946a5d-33fb-4263-9212-641a5cb66489)
+    (property "Reference" "Q1" (at 179.07 26.162 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CSD17312Q5" (at 179.07 28.702 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "blockaxe:DQH8" (at 179.07 24.892 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd17312q5.pdf" (at 173.99 27.432 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "296-27613-1-ND" (at 173.99 27.432 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "CSD17312Q5" (at 173.99 27.432 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bad72b99-d6e4-4868-9222-85efd5a00247))
+    (pin "2" (uuid 483fe761-5094-44b5-9c7f-2350b7b533d3))
+    (pin "3" (uuid 6bba728c-18d2-4112-92f8-24c18aa0e419))
+    (pin "4" (uuid 481af20c-9451-42ec-8e1d-98bf7dc6ca0e))
+    (pin "5" (uuid d370cb85-67c2-475a-ab74-6088a39ebd97))
+    (instances
+      (project "blockaxe1"
+        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de/b1ac536e-1817-4330-9049-6608155edca8"
+          (reference "Q1") (unit 1)
+        )
+      )
+      (project "power"
+        (path "/d3eaf28f-d55a-4d77-ac4e-fd16c6984c1a"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "bitaxeUltra"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "Q2") (unit 1)
         )
       )
     )
