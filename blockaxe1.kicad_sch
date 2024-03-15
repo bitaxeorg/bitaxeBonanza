@@ -1,1201 +1,2952 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid a166cb37-4e3a-4be5-b2da-277a3281a4de)
-
-  (paper "A4")
-
-  (title_block
-    (title "blockaxe1")
-    (date "2024-02-21")
-    (rev "2")
-  )
-
-  (lib_symbols
-    (symbol "Connector:Barrel_Jack_Switch" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.334 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Barrel_Jack_Switch" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 1.27 -1.016 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 1.27 -1.016 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "DC power barrel jack connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "DC Barrel Jack with an internal switch" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "BarrelJack*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Barrel_Jack_Switch_0_1"
-        (rectangle (start -5.08 3.81) (end 5.08 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (arc (start -3.302 3.175) (mid -3.9343 2.54) (end -3.302 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (arc (start -3.302 3.175) (mid -3.9343 2.54) (end -3.302 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -2.286)
-            (xy 1.905 -1.651)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 3.81 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy 1.27 0)
-            (xy 1.27 -2.286)
-            (xy 0.635 -1.651)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -2.54)
-            (xy -2.54 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -2.54)
-            (xy 2.54 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.683 3.175) (end -3.302 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "Barrel_Jack_Switch_1_1"
-        (pin power_out line (at 7.62 2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 -2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
-      (property "Reference" "FID" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Fiducial" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "fiducial marker" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Fiducial Marker" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Fiducial*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Fiducial_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 0.508) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "bitaxe:polarity" (in_bom no) (on_board yes)
-      (property "Reference" "U" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "bitaxe:polarity" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "polarity_1_1"
-        (text "Polarity Symbol" (at -1.27 -1.27 0)
-          (effects (font (size 1.27 1.27)))
-        )
-      )
-    )
-  )
-
-  (junction (at 34.925 167.64) (diameter 0) (color 0 0 0 0)
-    (uuid 0ec76007-f7b7-4a72-a1cf-7602606b03c9)
-  )
-  (junction (at 34.925 175.26) (diameter 0) (color 0 0 0 0)
-    (uuid 319ebcb5-c02b-487e-8052-407fdc874f7e)
-  )
-  (junction (at 168.402 58.674) (diameter 0) (color 0 0 0 0)
-    (uuid 44b2004e-4520-4a61-bd52-779a2a3b4bdf)
-  )
-  (junction (at 34.925 159.385) (diameter 0) (color 0 0 0 0)
-    (uuid 8c37f464-7341-4c6d-ac3c-4a63425efd16)
-  )
-
-  (wire (pts (xy 128.27 109.982) (xy 120.65 109.982))
-    (stroke (width 0) (type default))
-    (uuid 0815bdca-5f95-4bb2-bb3d-48d7820db5ca)
-  )
-  (wire (pts (xy 136.652 41.402) (xy 144.78 41.402))
-    (stroke (width 0) (type default))
-    (uuid 0efb6abd-0b28-4fe1-a679-e3fd2ec942f3)
-  )
-  (wire (pts (xy 196.85 33.782) (xy 204.47 33.782))
-    (stroke (width 0) (type default))
-    (uuid 24d6c7c8-bc41-43b6-b414-996cd23e14ae)
-  )
-  (wire (pts (xy 99.822 71.882) (xy 107.442 71.882))
-    (stroke (width 0) (type default))
-    (uuid 26f6a277-d596-4332-b64e-133c7c0e802f)
-  )
-  (wire (pts (xy 136.652 38.862) (xy 154.94 38.862))
-    (stroke (width 0) (type default))
-    (uuid 296827e6-419b-4b32-b06e-d880dcdb67c8)
-  )
-  (wire (pts (xy 168.402 58.674) (xy 168.402 71.882))
-    (stroke (width 0) (type default))
-    (uuid 2ae806eb-7ae5-4d09-bd64-8fb33c58f9c9)
-  )
-  (wire (pts (xy 154.432 69.342) (xy 159.512 69.342))
-    (stroke (width 0) (type default))
-    (uuid 30596f18-06cc-4545-bef9-c3d807d4281c)
-  )
-  (wire (pts (xy 34.925 175.26) (xy 34.925 189.23))
-    (stroke (width 0) (type default))
-    (uuid 41aedb11-fc80-4146-b5b1-74469c2217bc)
-  )
-  (wire (pts (xy 112.522 93.98) (xy 112.522 112.522))
-    (stroke (width 0) (type default))
-    (uuid 4c94fb81-1f80-4146-8d3a-488fcf5d5594)
-  )
-  (wire (pts (xy 68.326 69.342) (xy 80.01 69.342))
-    (stroke (width 0) (type default))
-    (uuid 4e5d7ca5-9a57-4992-8862-3646f8a69ab7)
-  )
-  (wire (pts (xy 99.822 93.98) (xy 112.522 93.98))
-    (stroke (width 0) (type default))
-    (uuid 538187f3-ae65-46ff-91c8-57f2965ea0df)
-  )
-  (wire (pts (xy 196.85 41.91) (xy 204.47 41.91))
-    (stroke (width 0) (type default))
-    (uuid 5b96bebe-0d1e-44c2-baaf-2ce50f0a057c)
-  )
-  (wire (pts (xy 196.85 44.45) (xy 204.47 44.45))
-    (stroke (width 0) (type default))
-    (uuid 5d57057e-73c3-42ea-bd23-f1ade130e8cd)
-  )
-  (wire (pts (xy 136.652 36.322) (xy 177.292 36.322))
-    (stroke (width 0) (type default))
-    (uuid 6625c588-b9d1-4bc5-b596-b190e0af0541)
-  )
-  (wire (pts (xy 99.822 69.342) (xy 107.442 69.342))
-    (stroke (width 0) (type default))
-    (uuid 6b656874-f763-47b0-9604-8b66200a0127)
-  )
-  (wire (pts (xy 168.402 44.45) (xy 177.292 44.45))
-    (stroke (width 0) (type default))
-    (uuid 6cb7a306-bee6-401d-a28c-523db46e5764)
-  )
-  (wire (pts (xy 154.432 83.312) (xy 177.292 83.312))
-    (stroke (width 0) (type default))
-    (uuid 6cbaaa3a-afd7-4198-9080-994c2445ab3c)
-  )
-  (wire (pts (xy 68.326 58.674) (xy 68.326 69.342))
-    (stroke (width 0) (type default))
-    (uuid 6d2b1543-2f61-49a3-b189-5e79097e18d1)
-  )
-  (wire (pts (xy 168.402 46.99) (xy 168.402 58.674))
-    (stroke (width 0) (type default))
-    (uuid 6e5ddf77-6d38-4749-9477-e798401aaedf)
-  )
-  (wire (pts (xy 70.612 76.962) (xy 80.01 76.962))
-    (stroke (width 0) (type default))
-    (uuid 737a13ed-7f24-4c78-8127-608d2df9c730)
-  )
-  (wire (pts (xy 154.432 76.2) (xy 177.292 76.2))
-    (stroke (width 0) (type default))
-    (uuid 7877b960-6c2d-4b5c-b13f-65c1fdff53a4)
-  )
-  (wire (pts (xy 70.612 71.882) (xy 80.01 71.882))
-    (stroke (width 0) (type default))
-    (uuid 7aab65b4-2f0a-457c-9832-c2b1da78f24e)
-  )
-  (wire (pts (xy 70.612 74.422) (xy 80.01 74.422))
-    (stroke (width 0) (type default))
-    (uuid 7b771c75-2290-4005-9aa6-1d162950f78b)
-  )
-  (wire (pts (xy 177.292 46.99) (xy 168.402 46.99))
-    (stroke (width 0) (type default))
-    (uuid 7d1f3c88-71b3-465f-8983-cc0a57ca9cdc)
-  )
-  (wire (pts (xy 68.326 58.674) (xy 168.402 58.674))
-    (stroke (width 0) (type default))
-    (uuid 80748812-8e28-49fd-9272-52c0a1b5473f)
-  )
-  (wire (pts (xy 115.062 115.062) (xy 115.062 91.44))
-    (stroke (width 0) (type default))
-    (uuid 8e35a717-f87c-4e05-b468-5ac61498cb82)
-  )
-  (wire (pts (xy 154.432 78.74) (xy 177.292 78.74))
-    (stroke (width 0) (type default))
-    (uuid 91d2abbc-34ef-4371-8fec-da11113f2f4d)
-  )
-  (wire (pts (xy 154.432 85.852) (xy 177.292 85.852))
-    (stroke (width 0) (type default))
-    (uuid 9266f8c2-ed56-4866-9d2a-ef3719213f9c)
-  )
-  (wire (pts (xy 99.822 76.2) (xy 128.27 76.2))
-    (stroke (width 0) (type default))
-    (uuid 931fff41-3d54-4e29-a6e3-8dc6858be659)
-  )
-  (wire (pts (xy 115.062 91.44) (xy 99.822 91.44))
-    (stroke (width 0) (type default))
-    (uuid 93b04c42-33b3-4baa-a692-8abda5ec379a)
-  )
-  (wire (pts (xy 99.822 78.74) (xy 128.27 78.74))
-    (stroke (width 0) (type default))
-    (uuid 9500e7f8-f478-4a99-92c4-b2511c2d2773)
-  )
-  (wire (pts (xy 196.85 71.882) (xy 201.93 71.882))
-    (stroke (width 0) (type default))
-    (uuid 9854f731-832c-4c98-a1b2-de0680410ae0)
-  )
-  (wire (pts (xy 128.27 115.062) (xy 115.062 115.062))
-    (stroke (width 0) (type default))
-    (uuid a797664c-a2d4-4c85-9599-b4ff27932108)
-  )
-  (wire (pts (xy 168.402 71.882) (xy 177.292 71.882))
-    (stroke (width 0) (type default))
-    (uuid a7a9ad30-e41f-4e3f-a1ff-d2a88e0e959b)
-  )
-  (wire (pts (xy 34.925 167.64) (xy 34.925 175.26))
-    (stroke (width 0) (type default))
-    (uuid bf8ca920-84d2-4ee2-82d2-1326b36be509)
-  )
-  (wire (pts (xy 34.925 151.13) (xy 34.925 159.385))
-    (stroke (width 0) (type default))
-    (uuid cdc2bc82-ac82-4463-a081-81566312506b)
-  )
-  (wire (pts (xy 196.85 36.83) (xy 204.47 36.83))
-    (stroke (width 0) (type default))
-    (uuid d2e54780-1250-4fd3-af75-f6ec3a4de0f4)
-  )
-  (wire (pts (xy 112.522 112.522) (xy 128.27 112.522))
-    (stroke (width 0) (type default))
-    (uuid dc07b431-7497-4abe-8c35-736268ef260d)
-  )
-  (wire (pts (xy 196.85 39.37) (xy 204.47 39.37))
-    (stroke (width 0) (type default))
-    (uuid e9615d04-23b9-4d41-a3d1-b1b157f4279d)
-  )
-  (wire (pts (xy 34.925 159.385) (xy 34.925 167.64))
-    (stroke (width 0) (type default))
-    (uuid ef9d2be8-278b-4491-9842-053961e990c2)
-  )
-  (wire (pts (xy 120.65 117.602) (xy 128.27 117.602))
-    (stroke (width 0) (type default))
-    (uuid ffcb34bd-04a9-4e26-ac4a-ca272e58e935)
-  )
-
-  (label "3V3" (at 120.65 117.602 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 067b2f00-1dc6-44d0-b0e2-4f6c12c8ce8e)
-  )
-  (label "3V3" (at 201.93 71.882 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 08a18a7d-5f27-47fc-94a1-f72236762514)
-  )
-  (label "GND" (at 143.002 41.402 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0a4e0cad-4043-4c57-9c54-49a72a1c2b4c)
-  )
-  (label "SCL" (at 204.47 39.37 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1e3c7510-12f9-4848-8307-8993639da4e9)
-  )
-  (label "3V3" (at 159.512 69.342 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 28bba14e-dfcf-499a-b230-3b1f5ffcddd0)
-  )
-  (label "PLUG_SENSE" (at 78.232 76.962 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 438a2918-ed43-4eac-a10d-6212dfdb44a0)
-  )
-  (label "5V" (at 107.442 71.882 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4b86e1a4-3b2e-4919-94e5-1c020247f8e1)
-  )
-  (label "PLUG_SENSE" (at 154.94 38.862 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4bdcfd82-a81e-45ed-83d3-6514de84a979)
-  )
-  (label "COREV" (at 169.926 71.882 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5ee5f438-385e-4199-8792-bb431db1926b)
-  )
-  (label "PWR_EN" (at 70.612 71.882 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 894e183a-a220-4492-ab51-827de969fcf3)
-  )
-  (label "PWR_EN" (at 204.47 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 8f1cc137-e37b-4d1f-be8e-af923be227a8)
-  )
-  (label "PGOOD" (at 70.612 74.422 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 90057b64-b26a-4ec3-84cb-e49c540ae90c)
-  )
-  (label "GND" (at 34.925 184.15 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 98ed874e-1c1e-40dc-bbc7-80782b12c607)
-  )
-  (label "5V" (at 120.65 109.982 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9e6dc868-ffa6-45b3-ba6b-eb4b35fea371)
-  )
-  (label "SDA" (at 120.65 112.522 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ac2342a3-aa67-4ab9-bd35-8af80ee54e14)
-  )
-  (label "3V3" (at 204.47 33.782 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ae1c2337-3536-4c77-a296-39a8cedf2c06)
-  )
-  (label "PGOOD" (at 204.47 41.91 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b10dd6a9-7727-484c-8649-3fe098d99179)
-  )
-  (label "SCL" (at 120.65 115.062 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b2749c1f-2400-471b-9648-d2708502b82c)
-  )
-  (label "SDA" (at 204.47 36.83 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d3127b32-ad73-456c-b2e3-bbd1f64d1783)
-  )
-  (label "5V" (at 168.402 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d6bf2476-bf70-4619-b712-9898946b4779)
-  )
-  (label "3V3" (at 107.442 69.342 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid f8280a7d-40b7-4562-8487-adf5eadc328d)
-  )
-  (label "COREV" (at 70.612 69.342 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ff20d947-1bad-436e-9abc-7de56322edce)
-  )
-
-  (global_label "GND" (shape input) (at 144.78 41.402 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 35714e46-1698-489e-9849-69298eb94624)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 151.0636 41.3226 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
-  (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 129.032 38.862 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0b144e14-4249-4c1d-b176-1b2e59392089)
-    (property "Reference" "J5" (at 129.032 29.972 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EJ503A" (at 129.032 32.512 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "blockaxe:MPD_EJ503A" (at 130.302 39.878 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.memoryprotectiondevices.com/datasheets/EJ503A-datasheet.pdf" (at 130.302 39.878 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "EJ503A-ND" (at 129.032 38.862 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "EJ503A" (at 129.032 38.862 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f90db818-b76a-4b83-8e9e-1afb1265a2bf))
-    (pin "2" (uuid f5755f10-43c3-4855-a06a-e6a4a55cb512))
-    (pin "3" (uuid 68ef4364-6b3d-4f1a-9b64-4619a7872f47))
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "J5") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 168.275 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1bba4e16-0587-48ae-86d3-14b98eecdfa6)
-    (property "Reference" "FID5" (at 113.03 167.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 113.03 170.18 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 168.275 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 109.855 168.275 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID5") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 182.245 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 216fbb38-dff1-4d08-b4df-d2c66b40a846)
-    (property "Reference" "H6" (at 66.04 180.9749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 66.04 183.5149 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 63.5 182.245 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 182.245 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "H6") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 90.805 184.15 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 369f952f-c68c-465b-814a-cb1d59b5125f)
-    (property "Reference" "FID4" (at 93.98 183.515 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 93.98 186.055 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.805 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.805 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID4") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 37.465 159.385 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3d18c44d-ca6a-4e61-8b09-406c427e3a52)
-    (property "Reference" "H2" (at 41.91 158.75 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 41.91 161.29 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 37.465 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 37.465 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7da761e8-0d7a-43ac-8741-660e942106c8))
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 37.465 175.26 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 47d46faf-3ef1-405c-a96c-003297bb9ab2)
-    (property "Reference" "H4" (at 41.91 174.625 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 41.91 177.165 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 37.465 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 37.465 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 315972c9-a1a1-4d17-8d9b-d03e2b54d54d))
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "H4") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 37.465 151.13 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 54e60d87-64a4-49af-8015-d628666e99bb)
-    (property "Reference" "H1" (at 41.91 150.495 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 41.91 153.035 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 37.465 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 37.465 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1b5c6617-be57-4bb1-bed3-476a1c9c57c6))
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 90.805 167.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 55164226-4111-4d07-b666-1ce490c209b4)
-    (property "Reference" "FID1" (at 93.98 167.005 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 93.98 169.545 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.805 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.805 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID1") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 90.805 173.355 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 62724e79-7bcc-44b7-8b63-5ee97b3de0bc)
-    (property "Reference" "FID2" (at 93.98 172.72 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 93.98 175.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.805 173.355 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.805 173.355 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID2") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 184.785 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7f222f3f-ed05-406f-9c2b-70a26d35209f)
-    (property "Reference" "FID8" (at 113.03 184.15 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 113.03 186.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 184.785 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 109.855 184.785 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID8") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 90.805 178.435 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 98caf8ae-3464-43eb-a249-2a7213b90291)
-    (property "Reference" "FID3" (at 93.98 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 93.98 180.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.805 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.805 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID3") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 179.07 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ab3d28c3-74ab-4fd2-9242-88db6ac338bb)
-    (property "Reference" "FID7" (at 113.03 178.435 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 113.03 180.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 109.855 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID7") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 37.465 167.64 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c5517725-39d1-4d1a-8abc-ed6dac3b9614)
-    (property "Reference" "H3" (at 41.91 167.005 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 41.91 169.545 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 37.465 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 37.465 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8578570-ee27-454b-8db0-a22546f748d7))
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "H3") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "bitaxe:polarity") (at 74.93 167.005 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cc5f71ef-b10b-4ccc-9b35-4d32a4e6b77d)
-    (property "Reference" "U3" (at 73.66 165.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 74.93 167.005 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "blockaxe:polarity" (at 74.93 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 74.93 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "U3") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Fiducial") (at 109.855 173.99 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cf72fe04-ad90-4d95-9a45-0339753a74b3)
-    (property "Reference" "FID6" (at 113.03 173.355 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 113.03 175.895 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 109.855 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 109.855 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "FID6") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 174.625 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f8aa2b7c-7aaf-46a9-95dd-191efa38ccea)
-    (property "Reference" "H5" (at 66.04 173.3549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 66.04 175.8949 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm" (at 63.5 174.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 174.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
-          (reference "H5") (unit 1)
-        )
-      )
-      (project "bitaxeUltra"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 80.01 66.802) (size 19.812 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 255 194 1.0000))
-    (uuid 97fce8a4-b016-4d76-8490-b8c988e88337)
-    (property "Sheetname" "ESP32" (at 80.01 66.0904 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "esp32.kicad_sch" (at 80.01 97.8666 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "5V" input (at 99.822 71.882 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 15f58f84-7cde-4f09-8740-a36da849c416)
-    )
-    (pin "3V3" output (at 99.822 69.342 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 87321f07-f24a-4053-8404-0c20ccc624a0)
-    )
-    (pin "SCL" input (at 99.822 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9e18cf71-6e6a-432b-a01b-3ddd5d0d6bc1)
-    )
-    (pin "SDA" input (at 99.822 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d96dd680-ee47-432c-a0a2-48213877489e)
-    )
-    (pin "COREV" input (at 80.01 69.342 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1af8e1f0-42e9-4a2d-a654-e7358d185e00)
-    )
-    (pin "PWR_EN" output (at 80.01 71.882 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid be8bf44c-9408-4057-8d44-21a00f0198c5)
-    )
-    (pin "PGOOD" output (at 80.01 74.422 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e07f225f-b5b5-4f71-9440-5006a627f19e)
-    )
-    (pin "RX" input (at 99.822 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f4f391c2-b4e0-4342-a8fc-500258aab045)
-    )
-    (pin "TX" input (at 99.822 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1955cb50-0d3c-4087-b6e3-e3d685864c3f)
-    )
-    (pin "PLUG_SENSE" input (at 80.01 76.962 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b9d6cc65-0900-4486-8761-3c3d3963254f)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 128.27 106.172) (size 19.812 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 255 194 1.0000))
-    (uuid 9ade2dfd-d645-4858-bc8e-4487a98e94a2)
-    (property "Sheetname" "Fan" (at 128.27 105.4604 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "fan.kicad_sch" (at 128.27 127.0766 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "5V" input (at 128.27 109.982 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 197aa24d-b555-4db8-8476-b675035b2ce0)
-    )
-    (pin "SDA" input (at 128.27 112.522 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5859f5a5-53d8-405b-b030-da5f1524af90)
-    )
-    (pin "SCL" input (at 128.27 115.062 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f9dbdb9a-cc04-43d5-b2cf-a8b593611127)
-    )
-    (pin "3V3" input (at 128.27 117.602 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b0c24c8c-b284-4a27-b066-d17c1e2a80d5)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 177.292 66.802) (size 19.558 22.098) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 255 194 1.0000))
-    (uuid 9f287754-26df-4418-a7f4-7b5e0717668c)
-    (property "Sheetname" "ASIC" (at 177.292 66.0904 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "asic.kicad_sch" (at 177.292 89.6116 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RST" input (at 177.292 85.852 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bbdeb082-9f06-4ec1-bf4c-8ab9a85d2c0e)
-    )
-    (pin "TRIP" output (at 177.292 83.312 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 03d14884-e8a8-44ba-b41a-5197d179596f)
-    )
-    (pin "3V3" input (at 196.85 71.882 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 86546281-569e-46b6-b26c-c9ad7a05b337)
-    )
-    (pin "TX" input (at 177.292 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 769720d3-bbd1-4ceb-8bdc-04cc2d0c45a1)
-    )
-    (pin "RX" output (at 177.292 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 98f16986-2db0-420a-aef3-82920dd707b9)
-    )
-    (pin "COREV" input (at 177.292 71.882 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 65166cfa-150a-4388-b91d-fac0e447bf6d)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 128.27 66.802) (size 26.162 22.098) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 255 194 1.0000))
-    (uuid a2f53eaa-4b17-468c-8132-e21e20b70349)
-    (property "Sheetname" "STM32" (at 128.27 66.0904 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "stm32.kicad_sch" (at 128.27 89.6116 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RX-ESP32" input (at 128.27 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4aa3215b-5ed6-4d43-8465-01d7d87d6a6a)
-    )
-    (pin "TX-ESP32" output (at 128.27 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 44a25915-095d-43fd-914e-6d3210bc52bf)
-    )
-    (pin "TX-ASIC" output (at 154.432 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b15062a6-3a3e-4121-a6aa-b4b3fca3aed2)
-    )
-    (pin "RX-ASIC" input (at 154.432 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 80657e73-65dc-4242-98db-d93a9f87b56b)
-    )
-    (pin "TRIP" input (at 154.432 83.312 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 5c5d0316-fac1-42e7-ab29-2465927f7724)
-    )
-    (pin "RESET" output (at 154.432 85.852 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b3376c64-f8c4-4dda-a14f-d3569c431d51)
-    )
-    (pin "3V3" input (at 154.432 69.342 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 849d3f51-c9ea-4da4-9afa-e0b3d8010583)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 177.292 29.972) (size 19.558 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 255 194 1.0000))
-    (uuid b1ac536e-1817-4330-9049-6608155edca8)
-    (property "Sheetname" "Power" (at 177.292 29.2604 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 177.292 50.8766 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "PWR_EN" input (at 196.85 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e2ab4421-41cb-49af-8bdb-586ed0955e85)
-    )
-    (pin "5V" output (at 177.292 44.45 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 42f2c0af-50be-42fb-9417-f56b0764bc7a)
-    )
-    (pin "SDA" input (at 196.85 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 013f26f8-cdcf-4d68-827c-c01c6bb98967)
-    )
-    (pin "SCL" input (at 196.85 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 21efe870-1db2-4f9f-92d3-c0c87f54e6f4)
-    )
-    (pin "PGOOD" output (at 196.85 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 621a9f8a-b6cb-487f-9376-02bdeab9e94d)
-    )
-    (pin "3V3" input (at 196.85 33.782 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 12883317-22de-4066-9848-28807820f04f)
-    )
-    (pin "COREV" input (at 177.292 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a0b3f9c2-92bb-4e33-a431-7c935b28d485)
-    )
-    (pin "VIN" input (at 177.292 36.322 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1c7caa24-2a91-4453-a7d6-0933787ec24a)
-    )
-    (instances
-      (project "blockaxe1"
-        (path "/a166cb37-4e3a-4be5-b2da-277a3281a4de" (page "5"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a166cb37-4e3a-4be5-b2da-277a3281a4de")
+	(paper "A4")
+	(title_block
+		(title "blockaxe1")
+		(date "2024-02-21")
+		(rev "2")
+	)
+	(lib_symbols
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bitaxe:polarity"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitaxe:polarity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "polarity_1_1"
+				(text "Polarity Symbol"
+					(at -1.27 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 34.925 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec76007-f7b7-4a72-a1cf-7602606b03c9")
+	)
+	(junction
+		(at 34.925 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "319ebcb5-c02b-487e-8052-407fdc874f7e")
+	)
+	(junction
+		(at 168.402 58.674)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44b2004e-4520-4a61-bd52-779a2a3b4bdf")
+	)
+	(junction
+		(at 34.925 159.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c37f464-7341-4c6d-ac3c-4a63425efd16")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.982) (xy 120.65 109.982)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0815bdca-5f95-4bb2-bb3d-48d7820db5ca")
+	)
+	(wire
+		(pts
+			(xy 136.652 41.402) (xy 144.78 41.402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efb6abd-0b28-4fe1-a679-e3fd2ec942f3")
+	)
+	(wire
+		(pts
+			(xy 196.85 33.782) (xy 204.47 33.782)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d6c7c8-bc41-43b6-b414-996cd23e14ae")
+	)
+	(wire
+		(pts
+			(xy 99.822 71.882) (xy 107.442 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f6a277-d596-4332-b64e-133c7c0e802f")
+	)
+	(wire
+		(pts
+			(xy 136.652 38.862) (xy 154.94 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296827e6-419b-4b32-b06e-d880dcdb67c8")
+	)
+	(wire
+		(pts
+			(xy 168.402 58.674) (xy 168.402 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae806eb-7ae5-4d09-bd64-8fb33c58f9c9")
+	)
+	(wire
+		(pts
+			(xy 154.432 69.342) (xy 159.512 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30596f18-06cc-4545-bef9-c3d807d4281c")
+	)
+	(wire
+		(pts
+			(xy 34.925 175.26) (xy 34.925 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41aedb11-fc80-4146-b5b1-74469c2217bc")
+	)
+	(wire
+		(pts
+			(xy 112.522 93.98) (xy 112.522 112.522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c94fb81-1f80-4146-8d3a-488fcf5d5594")
+	)
+	(wire
+		(pts
+			(xy 68.326 69.342) (xy 80.01 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5d7ca5-9a57-4992-8862-3646f8a69ab7")
+	)
+	(wire
+		(pts
+			(xy 99.822 93.98) (xy 112.522 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538187f3-ae65-46ff-91c8-57f2965ea0df")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b96bebe-0d1e-44c2-baaf-2ce50f0a057c")
+	)
+	(wire
+		(pts
+			(xy 196.85 44.45) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d57057e-73c3-42ea-bd23-f1ade130e8cd")
+	)
+	(wire
+		(pts
+			(xy 136.652 36.322) (xy 177.292 36.322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6625c588-b9d1-4bc5-b596-b190e0af0541")
+	)
+	(wire
+		(pts
+			(xy 99.822 69.342) (xy 107.442 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b656874-f763-47b0-9604-8b66200a0127")
+	)
+	(wire
+		(pts
+			(xy 168.402 44.45) (xy 177.292 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb7a306-bee6-401d-a28c-523db46e5764")
+	)
+	(wire
+		(pts
+			(xy 154.432 83.312) (xy 177.292 83.312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbaaa3a-afd7-4198-9080-994c2445ab3c")
+	)
+	(wire
+		(pts
+			(xy 68.326 58.674) (xy 68.326 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2b1543-2f61-49a3-b189-5e79097e18d1")
+	)
+	(wire
+		(pts
+			(xy 168.402 46.99) (xy 168.402 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5ddf77-6d38-4749-9477-e798401aaedf")
+	)
+	(wire
+		(pts
+			(xy 70.612 76.962) (xy 80.01 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737a13ed-7f24-4c78-8127-608d2df9c730")
+	)
+	(wire
+		(pts
+			(xy 154.432 76.2) (xy 177.292 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7877b960-6c2d-4b5c-b13f-65c1fdff53a4")
+	)
+	(wire
+		(pts
+			(xy 70.612 71.882) (xy 80.01 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aab65b4-2f0a-457c-9832-c2b1da78f24e")
+	)
+	(wire
+		(pts
+			(xy 70.612 74.422) (xy 80.01 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b771c75-2290-4005-9aa6-1d162950f78b")
+	)
+	(wire
+		(pts
+			(xy 177.292 46.99) (xy 168.402 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1f3c88-71b3-465f-8983-cc0a57ca9cdc")
+	)
+	(wire
+		(pts
+			(xy 68.326 58.674) (xy 168.402 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80748812-8e28-49fd-9272-52c0a1b5473f")
+	)
+	(wire
+		(pts
+			(xy 115.062 115.062) (xy 115.062 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e35a717-f87c-4e05-b468-5ac61498cb82")
+	)
+	(wire
+		(pts
+			(xy 154.432 78.74) (xy 177.292 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d2abbc-34ef-4371-8fec-da11113f2f4d")
+	)
+	(wire
+		(pts
+			(xy 154.432 85.852) (xy 177.292 85.852)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9266f8c2-ed56-4866-9d2a-ef3719213f9c")
+	)
+	(wire
+		(pts
+			(xy 99.822 76.2) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931fff41-3d54-4e29-a6e3-8dc6858be659")
+	)
+	(wire
+		(pts
+			(xy 115.062 91.44) (xy 99.822 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b04c42-33b3-4baa-a692-8abda5ec379a")
+	)
+	(wire
+		(pts
+			(xy 99.822 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9500e7f8-f478-4a99-92c4-b2511c2d2773")
+	)
+	(wire
+		(pts
+			(xy 196.85 71.882) (xy 201.93 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9854f731-832c-4c98-a1b2-de0680410ae0")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.062) (xy 115.062 115.062)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a797664c-a2d4-4c85-9599-b4ff27932108")
+	)
+	(wire
+		(pts
+			(xy 168.402 71.882) (xy 177.292 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a9ad30-e41f-4e3f-a1ff-d2a88e0e959b")
+	)
+	(wire
+		(pts
+			(xy 34.925 167.64) (xy 34.925 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8ca920-84d2-4ee2-82d2-1326b36be509")
+	)
+	(wire
+		(pts
+			(xy 34.925 151.13) (xy 34.925 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc2bc82-ac82-4463-a081-81566312506b")
+	)
+	(wire
+		(pts
+			(xy 196.85 36.83) (xy 204.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e54780-1250-4fd3-af75-f6ec3a4de0f4")
+	)
+	(wire
+		(pts
+			(xy 112.522 112.522) (xy 128.27 112.522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc07b431-7497-4abe-8c35-736268ef260d")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 204.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9615d04-23b9-4d41-a3d1-b1b157f4279d")
+	)
+	(wire
+		(pts
+			(xy 34.925 159.385) (xy 34.925 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9d2be8-278b-4491-9842-053961e990c2")
+	)
+	(wire
+		(pts
+			(xy 120.65 117.602) (xy 128.27 117.602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcb34bd-04a9-4e26-ac4a-ca272e58e935")
+	)
+	(label "3V3"
+		(at 120.65 117.602 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "067b2f00-1dc6-44d0-b0e2-4f6c12c8ce8e")
+	)
+	(label "3V3"
+		(at 201.93 71.882 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08a18a7d-5f27-47fc-94a1-f72236762514")
+	)
+	(label "GND"
+		(at 143.002 41.402 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a4e0cad-4043-4c57-9c54-49a72a1c2b4c")
+	)
+	(label "SCL"
+		(at 204.47 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e3c7510-12f9-4848-8307-8993639da4e9")
+	)
+	(label "3V3"
+		(at 159.512 69.342 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28bba14e-dfcf-499a-b230-3b1f5ffcddd0")
+	)
+	(label "PLUG_SENSE"
+		(at 78.232 76.962 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "438a2918-ed43-4eac-a10d-6212dfdb44a0")
+	)
+	(label "5V"
+		(at 107.442 71.882 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b86e1a4-3b2e-4919-94e5-1c020247f8e1")
+	)
+	(label "PLUG_SENSE"
+		(at 154.94 38.862 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bdcfd82-a81e-45ed-83d3-6514de84a979")
+	)
+	(label "COREV"
+		(at 169.926 71.882 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ee5f438-385e-4199-8792-bb431db1926b")
+	)
+	(label "PWR_EN"
+		(at 70.612 71.882 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "894e183a-a220-4492-ab51-827de969fcf3")
+	)
+	(label "PWR_EN"
+		(at 204.47 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f1cc137-e37b-4d1f-be8e-af923be227a8")
+	)
+	(label "PGOOD"
+		(at 70.612 74.422 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90057b64-b26a-4ec3-84cb-e49c540ae90c")
+	)
+	(label "GND"
+		(at 34.925 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ed874e-1c1e-40dc-bbc7-80782b12c607")
+	)
+	(label "5V"
+		(at 120.65 109.982 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e6dc868-ffa6-45b3-ba6b-eb4b35fea371")
+	)
+	(label "SDA"
+		(at 120.65 112.522 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac2342a3-aa67-4ab9-bd35-8af80ee54e14")
+	)
+	(label "3V3"
+		(at 204.47 33.782 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae1c2337-3536-4c77-a296-39a8cedf2c06")
+	)
+	(label "PGOOD"
+		(at 204.47 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b10dd6a9-7727-484c-8649-3fe098d99179")
+	)
+	(label "SCL"
+		(at 120.65 115.062 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2749c1f-2400-471b-9648-d2708502b82c")
+	)
+	(label "SDA"
+		(at 204.47 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3127b32-ad73-456c-b2e3-bbd1f64d1783")
+	)
+	(label "5V"
+		(at 168.402 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6bf2476-bf70-4619-b712-9898946b4779")
+	)
+	(label "3V3"
+		(at 107.442 69.342 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8280a7d-40b7-4562-8487-adf5eadc328d")
+	)
+	(label "COREV"
+		(at 70.612 69.342 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff20d947-1bad-436e-9abc-7de56322edce")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 144.78 41.402 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35714e46-1698-489e-9849-69298eb94624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.0636 41.3226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 129.032 38.862 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b144e14-4249-4c1d-b176-1b2e59392089")
+		(property "Reference" "J5"
+			(at 129.032 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EJ503A"
+			(at 129.032 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blockaxe:MPD_EJ503A"
+			(at 130.302 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.memoryprotectiondevices.com/datasheets/EJ503A-datasheet.pdf"
+			(at 130.302 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.032 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "EJ503A-ND"
+			(at 129.032 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EJ503A"
+			(at 129.032 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90db818-b76a-4b83-8e9e-1afb1265a2bf")
+		)
+		(pin "2"
+			(uuid "f5755f10-43c3-4855-a06a-e6a4a55cb512")
+		)
+		(pin "3"
+			(uuid "68ef4364-6b3d-4f1a-9b64-4619a7872f47")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 109.855 168.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bba4e16-0587-48ae-86d3-14b98eecdfa6")
+		(property "Reference" "FID5"
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 109.855 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.855 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 182.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "216fbb38-dff1-4d08-b4df-d2c66b40a846")
+		(property "Reference" "H6"
+			(at 66.04 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 183.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 63.5 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 90.805 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369f952f-c68c-465b-814a-cb1d59b5125f")
+		(property "Reference" "FID4"
+			(at 93.98 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 93.98 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 90.805 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.805 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.805 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 37.465 159.385 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d18c44d-ca6a-4e61-8b09-406c427e3a52")
+		(property "Reference" "H2"
+			(at 41.91 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 41.91 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 37.465 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da761e8-0d7a-43ac-8741-660e942106c8")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 37.465 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47d46faf-3ef1-405c-a96c-003297bb9ab2")
+		(property "Reference" "H4"
+			(at 41.91 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 41.91 177.165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 37.465 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315972c9-a1a1-4d17-8d9b-d03e2b54d54d")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 37.465 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e60d87-64a4-49af-8015-d628666e99bb")
+		(property "Reference" "H1"
+			(at 41.91 150.495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 41.91 153.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 37.465 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b5c6617-be57-4bb1-bed3-476a1c9c57c6")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 90.805 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55164226-4111-4d07-b666-1ce490c209b4")
+		(property "Reference" "FID1"
+			(at 93.98 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 93.98 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 90.805 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.805 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.805 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 90.805 173.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62724e79-7bcc-44b7-8b63-5ee97b3de0bc")
+		(property "Reference" "FID2"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 93.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 90.805 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.805 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.805 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 109.855 184.785 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f222f3f-ed05-406f-9c2b-70a26d35209f")
+		(property "Reference" "FID8"
+			(at 113.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 113.03 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 109.855 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.855 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID8")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 90.805 178.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98caf8ae-3464-43eb-a249-2a7213b90291")
+		(property "Reference" "FID3"
+			(at 93.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 90.805 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.805 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.805 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 109.855 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab3d28c3-74ab-4fd2-9242-88db6ac338bb")
+		(property "Reference" "FID7"
+			(at 113.03 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 113.03 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 109.855 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.855 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID7")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 37.465 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5517725-39d1-4d1a-8abc-ed6dac3b9614")
+		(property "Reference" "H3"
+			(at 41.91 167.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 41.91 169.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 37.465 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8578570-ee27-454b-8db0-a22546f748d7")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:polarity")
+		(at 74.93 167.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5f71ef-b10b-4ccc-9b35-4d32a4e6b77d")
+		(property "Reference" "U3"
+			(at 73.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 74.93 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blockaxe:polarity"
+			(at 74.93 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 109.855 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf72fe04-ad90-4d95-9a45-0339753a74b3")
+		(property "Reference" "FID6"
+			(at 113.03 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 113.03 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 109.855 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.855 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 174.625 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8aa2b7c-7aaf-46a9-95dd-191efa38ccea")
+		(property "Reference" "H5"
+			(at 66.04 173.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 63.5 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+			(project "bitaxeUltra"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 66.802)
+		(size 19.812 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "97fce8a4-b016-4d76-8490-b8c988e88337")
+		(property "Sheetname" "ESP32"
+			(at 80.01 66.0904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 80.01 97.8666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 99.822 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15f58f84-7cde-4f09-8740-a36da849c416")
+		)
+		(pin "3V3" output
+			(at 99.822 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87321f07-f24a-4053-8404-0c20ccc624a0")
+		)
+		(pin "SCL" input
+			(at 99.822 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e18cf71-6e6a-432b-a01b-3ddd5d0d6bc1")
+		)
+		(pin "SDA" input
+			(at 99.822 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d96dd680-ee47-432c-a0a2-48213877489e")
+		)
+		(pin "COREV" input
+			(at 80.01 69.342 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1af8e1f0-42e9-4a2d-a654-e7358d185e00")
+		)
+		(pin "PWR_EN" output
+			(at 80.01 71.882 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be8bf44c-9408-4057-8d44-21a00f0198c5")
+		)
+		(pin "PGOOD" output
+			(at 80.01 74.422 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e07f225f-b5b5-4f71-9440-5006a627f19e")
+		)
+		(pin "RX" input
+			(at 99.822 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4f391c2-b4e0-4342-a8fc-500258aab045")
+		)
+		(pin "TX" input
+			(at 99.822 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1955cb50-0d3c-4087-b6e3-e3d685864c3f")
+		)
+		(pin "PLUG_SENSE" input
+			(at 80.01 76.962 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9d6cc65-0900-4486-8761-3c3d3963254f")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 106.172)
+		(size 19.812 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "9ade2dfd-d645-4858-bc8e-4487a98e94a2")
+		(property "Sheetname" "Fan"
+			(at 128.27 105.4604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan.kicad_sch"
+			(at 128.27 127.0766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 128.27 109.982 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "197aa24d-b555-4db8-8476-b675035b2ce0")
+		)
+		(pin "SDA" input
+			(at 128.27 112.522 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5859f5a5-53d8-405b-b030-da5f1524af90")
+		)
+		(pin "SCL" input
+			(at 128.27 115.062 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9dbdb9a-cc04-43d5-b2cf-a8b593611127")
+		)
+		(pin "3V3" input
+			(at 128.27 117.602 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0c24c8c-b284-4a27-b066-d17c1e2a80d5")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.292 66.802)
+		(size 19.558 22.098)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "9f287754-26df-4418-a7f4-7b5e0717668c")
+		(property "Sheetname" "ASIC"
+			(at 177.292 66.0904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "asic.kicad_sch"
+			(at 177.292 89.6116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" input
+			(at 177.292 85.852 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbdeb082-9f06-4ec1-bf4c-8ab9a85d2c0e")
+		)
+		(pin "TRIP" output
+			(at 177.292 83.312 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03d14884-e8a8-44ba-b41a-5197d179596f")
+		)
+		(pin "3V3" input
+			(at 196.85 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86546281-569e-46b6-b26c-c9ad7a05b337")
+		)
+		(pin "TX" input
+			(at 177.292 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "769720d3-bbd1-4ceb-8bdc-04cc2d0c45a1")
+		)
+		(pin "RX" output
+			(at 177.292 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98f16986-2db0-420a-aef3-82920dd707b9")
+		)
+		(pin "COREV" input
+			(at 177.292 71.882 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65166cfa-150a-4388-b91d-fac0e447bf6d")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 66.802)
+		(size 26.162 22.098)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "a2f53eaa-4b17-468c-8132-e21e20b70349")
+		(property "Sheetname" "STM32"
+			(at 128.27 66.0904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 128.27 89.6116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX-ESP32" input
+			(at 128.27 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4aa3215b-5ed6-4d43-8465-01d7d87d6a6a")
+		)
+		(pin "TX-ESP32" output
+			(at 128.27 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44a25915-095d-43fd-914e-6d3210bc52bf")
+		)
+		(pin "TX-ASIC" output
+			(at 154.432 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b15062a6-3a3e-4121-a6aa-b4b3fca3aed2")
+		)
+		(pin "RX-ASIC" input
+			(at 154.432 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80657e73-65dc-4242-98db-d93a9f87b56b")
+		)
+		(pin "TRIP" input
+			(at 154.432 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c5d0316-fac1-42e7-ab29-2465927f7724")
+		)
+		(pin "RESET" output
+			(at 154.432 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3376c64-f8c4-4dda-a14f-d3569c431d51")
+		)
+		(pin "3V3" input
+			(at 154.432 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "849d3f51-c9ea-4da4-9afa-e0b3d8010583")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.292 29.972)
+		(size 19.558 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b1ac536e-1817-4330-9049-6608155edca8")
+		(property "Sheetname" "Power"
+			(at 177.292 29.2604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 177.292 50.8766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 196.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2ab4421-41cb-49af-8bdb-586ed0955e85")
+		)
+		(pin "5V" output
+			(at 177.292 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42f2c0af-50be-42fb-9417-f56b0764bc7a")
+		)
+		(pin "SDA" input
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "013f26f8-cdcf-4d68-827c-c01c6bb98967")
+		)
+		(pin "SCL" input
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21efe870-1db2-4f9f-92d3-c0c87f54e6f4")
+		)
+		(pin "PGOOD" output
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "621a9f8a-b6cb-487f-9376-02bdeab9e94d")
+		)
+		(pin "3V3" input
+			(at 196.85 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12883317-22de-4066-9848-28807820f04f")
+		)
+		(pin "COREV" input
+			(at 177.292 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0b3f9c2-92bb-4e33-a431-7c935b28d485")
+		)
+		(pin "VIN" input
+			(at 177.292 36.322 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c7caa24-2a91-4453-a7d6-0933787ec24a")
+		)
+		(instances
+			(project "blockaxe1"
+				(path "/a166cb37-4e3a-4be5-b2da-277a3281a4de"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
