@@ -1,1 +1,1 @@
-BitaxeAura - Dual Auradine 3nm Treasure ASICs
+BitaxeBonanza - Dual Intel BZM2 ASICs
