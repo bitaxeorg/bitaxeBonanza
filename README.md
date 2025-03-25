@@ -1,2 +1,1 @@
-# the blockaxe1
-it's coming!
+BitaxeAura - Dual Auradine 3nm Treasure ASICs

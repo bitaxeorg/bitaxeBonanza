@@ -1,0 +1,108 @@
+(footprint "SLC7649"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.835 -4.428 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "57b588a2-ce02-440b-84bb-17a23015013b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SLC7649"
+		(at -0.192 10.927 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cab03a46-e20e-470f-a43e-e72587b7aff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e0afd3a-4c02-4fcd-9fc3-d9aa64d5dcd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a6d9583-9f3e-42fb-956e-b9e650705cf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.65 -3.375)
+		(end 3.65 3.375)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "62157e89-b40a-4bca-bd55-d92684c896fa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.027 13.309 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b7d72ff-70b5-4832-b351-1a2206098aa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.86 0 180)
+		(size 2.54 3.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f7f8a7b9-664f-44b6-8b13-667354f9c207")
+	)
+	(pad "2" smd roundrect
+		(at 2.86 0 180)
+		(size 2.54 3.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "2c68dbce-be47-43b4-9f37-0bf726ae1c30")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/SLC7649S-101KLC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
