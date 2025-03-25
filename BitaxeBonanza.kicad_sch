@@ -2646,7 +2646,7 @@
 		)
 		(pin "TT_3V3" output
 			(at 173.99 58.42 180)
-			(uuid "a7a33af3-24b6-421b-8b36-04d8b7b13640")
+			(uuid "6ea345bf-c002-45f6-aff9-5ec46f73244a")
 			(effects
 				(font
 					(size 1.27 1.27)
