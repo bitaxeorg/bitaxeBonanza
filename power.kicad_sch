@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "bitaxeBonanza")
-		(date "2025-03-25")
-		(rev "1000x")
+		(date "2025-05-19")
+		(rev "1001x")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

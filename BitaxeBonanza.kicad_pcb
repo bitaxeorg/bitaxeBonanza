@@ -46622,7 +46622,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1000x"
+	(gr_text "1001x"
 		(at 138.48 67.98 0)
 		(layer "F.SilkS")
 		(uuid "d74a5db9-fea5-497b-a610-214502c56eab")
