@@ -372,144 +372,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:gt_heatsink"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:GT_heatsink"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "gt_heatsink_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 -3.81 0)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 -6.35 0)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 -8.89 0)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 -11.43 0)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 139.7 104.14)
@@ -518,16 +380,10 @@
 		(uuid "0a1f1ab5-80a9-4e29-9980-51f3170a106a")
 	)
 	(junction
-		(at 71.12 167.64)
+		(at 69.85 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "171fc9b2-67cb-4e69-a29d-02f79eabe2b7")
-	)
-	(junction
-		(at 71.12 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "291f06b2-5ed5-4c48-85a4-3043030e111b")
+		(uuid "3cf69737-0a9b-4673-a15b-67b72a4a79df")
 	)
 	(junction
 		(at 135.89 100.33)
@@ -536,16 +392,32 @@
 		(uuid "7a15d459-b9c1-4473-9e9e-5693a5097481")
 	)
 	(junction
+		(at 69.85 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "974b1002-fa52-4359-8142-9965c9b781e1")
+	)
+	(junction
 		(at 78.74 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aca023c6-e72a-4c7f-b731-09ee1238ecca")
 	)
 	(junction
-		(at 71.12 160.02)
+		(at 69.85 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f62bc8c7-bab0-4780-8a58-60601d5c188a")
+		(uuid "fc345998-1d6a-4587-8025-8de26782ba5b")
+	)
+	(wire
+		(pts
+			(xy 69.85 177.8) (xy 69.85 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fd32ca-49a3-47f2-8933-6155bb524280")
 	)
 	(wire
 		(pts
@@ -596,26 +468,6 @@
 			(type default)
 		)
 		(uuid "1ec5a6a5-40ee-459d-9775-fb357e34882b")
-	)
-	(wire
-		(pts
-			(xy 71.12 175.26) (xy 71.12 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5512a9-5495-4da8-a3ef-db31e9d6d74c")
-	)
-	(wire
-		(pts
-			(xy 71.12 160.02) (xy 71.12 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2072ffb1-371e-4f3b-90e7-621757639832")
 	)
 	(wire
 		(pts
@@ -679,16 +531,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 182.88) (xy 83.82 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40cb9b6f-4278-4c16-b54e-f2d351d9e061")
-	)
-	(wire
-		(pts
 			(xy 158.75 69.85) (xy 158.75 119.38)
 		)
 		(stroke
@@ -739,13 +581,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 71.12 152.4)
+			(xy 69.85 154.94) (xy 69.85 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "705a075b-5e19-47b8-b3a4-623ac12fa74b")
+		(uuid "6c39fd62-85e1-407b-a6b3-281973078dbd")
 	)
 	(wire
 		(pts
@@ -759,13 +601,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 78.74 160.02)
+			(xy 69.85 162.56) (xy 77.47 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7923a163-9a49-4267-b941-fbdd51481669")
+		(uuid "7d541637-ff6e-4e91-871a-ca4816b3adc4")
 	)
 	(wire
 		(pts
@@ -799,16 +641,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 175.26) (xy 78.74 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820704b7-aafb-42b6-8c02-c0b02196ee6a")
-	)
-	(wire
-		(pts
 			(xy 96.52 69.85) (xy 96.52 96.52)
 		)
 		(stroke
@@ -839,6 +671,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 170.18) (xy 77.47 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b13110-19c1-45a8-a74d-4847d55fa801")
+	)
+	(wire
+		(pts
 			(xy 90.17 120.65) (xy 102.87 120.65)
 		)
 		(stroke
@@ -856,6 +698,16 @@
 			(type default)
 		)
 		(uuid "a0581753-14ae-452e-9fb1-c9c87acf67d8")
+	)
+	(wire
+		(pts
+			(xy 77.47 154.94) (xy 69.85 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f90b58-fcb9-493c-84f6-eb663a065dcf")
 	)
 	(wire
 		(pts
@@ -919,16 +771,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 71.12 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef3dde6-dff0-4051-85f1-b84008313e37")
-	)
-	(wire
-		(pts
 			(xy 102.87 69.85) (xy 96.52 69.85)
 		)
 		(stroke
@@ -949,13 +791,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 71.12 175.26)
+			(xy 69.85 185.42) (xy 82.55 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6bf7b91-360b-402c-a4cf-b7c56dfc71bd")
+		(uuid "c211a3d4-97bd-40c7-898b-70259b82bb6b")
 	)
 	(wire
 		(pts
@@ -1009,6 +851,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 177.8) (xy 77.47 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d66271-87cb-465c-9e9e-c0350867735d")
+	)
+	(wire
+		(pts
 			(xy 82.55 104.14) (xy 102.87 104.14)
 		)
 		(stroke
@@ -1036,6 +888,26 @@
 			(type default)
 		)
 		(uuid "dfa4a02d-869a-4187-862c-0d305aa3aadf")
+	)
+	(wire
+		(pts
+			(xy 69.85 162.56) (xy 69.85 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbcd48a-8075-47bc-ab68-5c63bae93890")
+	)
+	(wire
+		(pts
+			(xy 69.85 170.18) (xy 69.85 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e119a428-ac1e-4ded-9e21-1b14857fe433")
 	)
 	(wire
 		(pts
@@ -1067,16 +939,6 @@
 		)
 		(uuid "f4ff8b7e-09ab-4948-bd9f-255739599fe2")
 	)
-	(wire
-		(pts
-			(xy 71.12 167.64) (xy 78.74 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6f5285-3ae3-4e62-be59-df6277152629")
-	)
 	(label "3V3"
 		(at 90.17 120.65 0)
 		(effects
@@ -1086,16 +948,6 @@
 			(justify left bottom)
 		)
 		(uuid "0131a1f9-2b62-42cb-97a3-b7d046d38614")
-	)
-	(label "GND"
-		(at 80.01 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1779db82-c23d-4a21-b25e-87f9e5e1f2a8")
 	)
 	(label "3V3"
 		(at 90.17 48.26 0)
@@ -1197,27 +1049,15 @@
 		)
 		(uuid "c46ee254-fb60-479d-b1a1-63f065958abc")
 	)
-	(global_label "GND"
-		(shape input)
-		(at 83.82 182.88 0)
-		(fields_autoplaced yes)
+	(label "GND"
+		(at 78.74 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "169e0b1e-7f25-45c2-8e07-05c895ff55c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6757 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "d9ebc745-a453-41cd-ae9c-a507b71013e8")
 	)
 	(global_label "GND"
 		(shape input)
@@ -1241,9 +1081,31 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c376edf1-9560-4419-8a7e-4c93371332dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 160.02 270)
+		(at 80.01 162.56 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1252,7 +1114,7 @@
 		(fields_autoplaced yes)
 		(uuid "1626d1cb-ff0c-41e7-ad29-494f89fc2632")
 		(property "Reference" "H2"
-			(at 85.09 158.7499 90)
+			(at 83.82 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1123,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 161.2899 90)
+			(at 83.82 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1132,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 160.02 0)
+			(at 80.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 160.02 0)
+			(at 80.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,36 +1150,19 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 160.02 0)
+			(at 80.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 81.28 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 81.28 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
 			(uuid "fbc22fd8-f611-49d8-9311-0a009fc47cad")
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H2")
 					(unit 1)
@@ -1327,7 +1172,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 175.26 270)
+		(at 80.01 177.8 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1336,7 +1181,7 @@
 		(fields_autoplaced yes)
 		(uuid "24054009-b6b2-4eb2-9a19-7fb2369996dd")
 		(property "Reference" "H4"
-			(at 85.09 173.9899 90)
+			(at 83.82 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1190,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 176.5299 90)
+			(at 83.82 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1199,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 175.26 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 175.26 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,36 +1217,19 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 175.26 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 81.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 81.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
 			(uuid "9e1667e8-6bd5-47cb-bc34-6d796de5e393")
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H4")
 					(unit 1)
@@ -1410,101 +1238,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:gt_heatsink")
-		(at 116.84 185.42 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d869e22-6afa-4427-8b49-336bbedc6765")
-		(property "Reference" "H16"
-			(at 119.38 184.7849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink Mounts"
-			(at 119.38 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:GT_heatsink"
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f97db1e-3a1e-43c7-985b-aef583d741c3")
-		)
-		(pin "2"
-			(uuid "808528ba-7463-4bdf-ab2f-c2697a82f864")
-		)
-		(pin "3"
-			(uuid "6d29570f-2a70-4211-bddc-f58bbb62e080")
-		)
-		(pin "4"
-			(uuid "99f0322c-f4d0-4009-b534-4dbfdfe0f9f9")
-		)
-		(instances
-			(project ""
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 167.64 270)
+		(at 114.3 177.8 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
-		(property "Reference" "H3"
-			(at 85.09 166.3699 90)
+		(uuid "55571f22-a93c-4d77-81ad-0aeb57566573")
+		(property "Reference" "H8"
+			(at 118.11 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1257,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 168.9099 90)
+			(at 118.11 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,8 +1265,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 167.64 0)
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1284,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,8 +1292,48 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 81.28 167.64 0)
+		(pin "1"
+			(uuid "75b58c4f-1814-48e5-ac71-0de2d2d15284")
+		)
+		(instances
+			(project "BitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 80.01 170.18 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
+		(property "Reference" "H3"
+			(at 83.82 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 83.82 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 80.01 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,21 +1341,165 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 81.28 167.64 0)
+		(property "Datasheet" "~"
+			(at 80.01 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5cbc2d8d-5c9f-444f-aa3a-5fe2f8a2e581")
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 114.3 156.21 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571baa72-b80b-4d56-a3ed-f094aefddcc3")
+		(property "Reference" "H5"
+			(at 118.11 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5018a222-799c-45a3-85f1-93fca51eae06")
+		)
+		(instances
+			(project "BitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 114.3 163.83 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "579edd0f-bcf0-441b-9434-248e81b782a7")
+		(property "Reference" "H6"
+			(at 118.11 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a2cc333-14ff-4055-80ae-5b4c7ccd6e8a")
+		)
+		(instances
+			(project "BitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1688,7 +1616,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 158.75 0)
+		(at 43.18 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1697,7 +1625,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b5e4188-1e9d-4ba5-a145-a6a81e6d7127")
 		(property "Reference" "FID2"
-			(at 46.99 157.4799 0)
+			(at 45.72 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,8 +1633,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial_front"
-			(at 46.99 160.0199 0)
+		(property "Value" "Fiducial"
+			(at 45.72 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,8 +1642,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 44.45 158.75 0)
+		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+			(at 43.18 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 158.75 0)
+			(at 43.18 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,33 +1661,16 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 158.75 0)
+			(at 43.18 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 44.45 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 44.45 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "FID2")
 					(unit 1)
@@ -1769,16 +1680,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 152.4 270)
+		(at 114.3 170.18 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
-		(property "Reference" "H1"
-			(at 85.09 151.1299 90)
+		(uuid "71361519-3893-460d-a461-3dca25e9855b")
+		(property "Reference" "H7"
+			(at 118.11 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1698,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 153.6699 90)
+			(at 118.11 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,8 +1706,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 152.4 0)
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 152.4 0)
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1725,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 152.4 0)
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,8 +1733,48 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 81.28 152.4 0)
+		(pin "1"
+			(uuid "b6c5e196-6766-401c-9ffc-810837aabee8")
+		)
+		(instances
+			(project "BitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 80.01 154.94 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
+		(property "Reference" "H1"
+			(at 83.82 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 83.82 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 80.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,19 +1782,29 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 81.28 152.4 0)
+		(property "Datasheet" "~"
+			(at 80.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "80644af7-9b1b-4339-ba2d-44c98807606d")
 		)
 		(instances
-			(project ""
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H1")
 					(unit 1)
@@ -1853,259 +1814,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 152.4 0)
+		(at 43.18 173.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b91bfcc4-c4da-404b-8879-bad81dc0d2b2")
-		(property "Reference" "FID1"
-			(at 46.99 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial_front"
-			(at 46.99 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 44.45 165.1 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb54600b-2c93-474f-822b-7bb587446d0c")
-		(property "Reference" "FID3"
-			(at 46.99 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial_front"
-			(at 46.99 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 44.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 44.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 44.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 44.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 44.45 187.96 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc960f02-8ffc-49b7-8af8-a4b7bf922ad3")
-		(property "Reference" "FID6"
-			(at 46.99 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial_back"
-			(at 46.99 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 44.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "FID6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 44.45 175.26 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cddfa820-ae48-42ee-97df-92cd8b1cb5fb")
+		(uuid "b3f5c192-b088-4ada-8ff3-36d82ff2adb5")
 		(property "Reference" "FID4"
-			(at 46.99 173.9899 0)
+			(at 45.72 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,8 +1831,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial_back"
-			(at 46.99 176.5299 0)
+		(property "Value" "Fiducial"
+			(at 45.72 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,8 +1840,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 44.45 175.26 0)
+		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+			(at 43.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +1850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 175.26 0)
+			(at 43.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,33 +1859,16 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 175.26 0)
+			(at 43.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "FID4")
 					(unit 1)
@@ -2177,16 +1878,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 181.61 0)
+		(at 43.18 154.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa206ade-9018-4198-9f52-97ccaee62d14")
-		(property "Reference" "FID5"
-			(at 46.99 180.3399 0)
+		(uuid "b91bfcc4-c4da-404b-8879-bad81dc0d2b2")
+		(property "Reference" "FID1"
+			(at 45.72 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,8 +1895,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial_back"
-			(at 46.99 182.8799 0)
+		(property "Value" "Fiducial"
+			(at 45.72 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,8 +1904,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 44.45 181.61 0)
+		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +1914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 181.61 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,35 +1923,82 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 181.61 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "FID5")
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 43.18 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb54600b-2c93-474f-822b-7bb587446d0c")
+		(property "Reference" "FID3"
+			(at 45.72 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 45.72 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "FID3")
 					(unit 1)
 				)
 			)

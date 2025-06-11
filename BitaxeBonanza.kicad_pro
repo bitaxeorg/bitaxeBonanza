@@ -66,30 +66,6 @@
         [
           "copper_sliver|133105750|87457853|00000000-0000-0000-0000-000000000000|F.Cu",
           ""
-        ],
-        [
-          "solder_mask_bridge|121150000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|0cc4dcbb-2e8b-4576-9642-0260081413d8",
-          "net-tie"
-        ],
-        [
-          "solder_mask_bridge|121312500|83850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|a493383f-7135-43b8-a831-19bd3245b9b6",
-          "net-tie"
-        ],
-        [
-          "solder_mask_bridge|121350000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|5d8f042e-6d5c-4a4b-9a38-0d0d372526e4",
-          "net-tie"
-        ],
-        [
-          "solder_mask_bridge|145500000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|f17884af-fdf8-47dc-9058-ddc3ea73ba8f",
-          "net-tie"
-        ],
-        [
-          "solder_mask_bridge|145662500|83830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|9f50eb76-3ed2-4330-8dac-b57fa4d7ad4e",
-          "net-tie"
-        ],
-        [
-          "solder_mask_bridge|145700000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|3375acfe-c802-4b60-921e-7a0e2301dc2f",
-          "net-tie"
         ]
       ],
       "meta": {
@@ -745,6 +721,70 @@
     [
       "edab3562-ad75-4c4e-afab-a1841dcf5714",
       "fan"
+    ],
+    [
+      "1839dd6a-6da4-43e4-869e-5f1c3a692dae",
+      "bypass5-1"
+    ],
+    [
+      "e7a3b23b-3e91-40f8-8eb1-74e6b1002e0e",
+      "bypass1-1"
+    ],
+    [
+      "7182e5f5-7c1f-4907-b066-063f65254832",
+      "bypass2-1"
+    ],
+    [
+      "25011f59-b197-4b80-9e13-50bcd8397584",
+      "bypass1-2"
+    ],
+    [
+      "59ff3b46-ff6d-4c90-9b1d-f478b842ed95",
+      "bypass2-2"
+    ],
+    [
+      "e551e515-aca6-49a7-80d3-47c6c23e7831",
+      "bypass4-1"
+    ],
+    [
+      "e2beb58a-24ce-4062-a188-a172c045a96f",
+      "bypass4-2"
+    ],
+    [
+      "6bd2f899-c307-419e-ace6-93ee2d17c7cc",
+      "bypass3-1"
+    ],
+    [
+      "93ac77d4-9b75-4dc7-aa65-e503eb8b5007",
+      "bypass3-2"
+    ],
+    [
+      "989dcc2d-abd6-4ecc-8579-1f93e51e9383",
+      "bypass5-2"
+    ],
+    [
+      "266ca2b6-aa4d-437e-a783-4ce8fb6679e3",
+      "bypass6-1"
+    ],
+    [
+      "4568b792-dd60-4ded-b65e-eeab7d0b21e1",
+      "bypass6-2"
+    ],
+    [
+      "b995a4b7-acde-4998-ab6f-b5236f488b5b",
+      "bypass7-1"
+    ],
+    [
+      "52ff0721-58be-44aa-874b-18af8ecc5e1a",
+      "bypass7-2"
+    ],
+    [
+      "a9c9f77a-8501-48b8-9a71-f3d2565cdb95",
+      "bypass8-1"
+    ],
+    [
+      "840839b3-9095-406e-90e2-cc6e9ff653e1",
+      "bypass8-2"
     ]
   ],
   "text_variables": {}
