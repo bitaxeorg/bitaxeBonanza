@@ -1885,7 +1885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021ae13a-8870-426b-a702-9ea57988cbc3")
-		(property "Reference" "TP21"
+		(property "Reference" "TP23"
 			(at 206.502 104.14 90)
 			(effects
 				(font
@@ -1954,7 +1954,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "TP21")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -1969,7 +1969,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4a69cb53-9107-45a2-8753-b41c36f2873a")
-		(property "Reference" "R35"
+		(property "Reference" "R30"
 			(at 170.434 109.474 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R35")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2056,7 +2056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1a3a70-c619-4019-b19b-4dbf3b6e5a29")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -2188,7 +2188,7 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2203,7 +2203,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7151ca93-da12-4320-b0a9-25c3f2362bb4")
-		(property "Reference" "R33"
+		(property "Reference" "R29"
 			(at 170.434 92.964 0)
 			(effects
 				(font
@@ -2274,7 +2274,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R33")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76647c0d-1036-4e8c-9ea3-a06417c51e9a")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 241.554 85.09 0)
 			(effects
 				(font
@@ -2379,7 +2379,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "766e2d16-0754-4ac1-8077-22b7fd20ea24")
-		(property "Reference" "TP20"
+		(property "Reference" "TP24"
 			(at 223.012 101.6 90)
 			(effects
 				(font
@@ -2464,7 +2464,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "TP20")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec6f354-6970-403f-914a-e3eac81435b4")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 259.08 98.044 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2697,7 +2697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5cd8801-96f1-4084-8e4b-40dc52199062")
-		(property "Reference" "C92"
+		(property "Reference" "C65"
 			(at 105.664 69.088 0)
 			(effects
 				(font
@@ -2786,7 +2786,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C92")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -2802,7 +2802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da15695d-ae2e-420f-8661-91af4e195fc8")
-		(property "Reference" "C94"
+		(property "Reference" "C67"
 			(at 225.044 85.598 0)
 			(effects
 				(font
@@ -2891,7 +2891,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C94")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -2906,7 +2906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f265a769-90bf-4661-915f-65606dca0c87")
-		(property "Reference" "C41"
+		(property "Reference" "C66"
 			(at 230.632 108.204 90)
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C41")
+					(reference "C66")
 					(unit 1)
 				)
 			)
