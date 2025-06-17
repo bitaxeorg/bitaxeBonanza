@@ -1,0 +1,217 @@
+(footprint "bitaxeGT_extruded_heatsink"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 4.3mm, M4, DIN965")
+	(tags "mounting hole 4.3mm m4 din965")
+	(property "Reference" "H7"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8fcd3d68-02cc-4955-ae9d-42fba54e2c81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 1.122 29.91 0)
+		(layer "F.Fab")
+		(uuid "703475d1-927c-4a2f-b65f-26194a37c504")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d25890c5-605e-4d05-8e3e-54830e5b2c9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d3e37d7-2807-4f32-85b3-437c38991248")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "partnum" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a64439c7-1d4c-4241-b6cc-da4d681e62ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a482b659-242d-48e2-84f2-dde9cff7898e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.5)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -5 -55)
+		(end 55 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "1fa7f88c-dbce-4b11-b312-81fc27be764a")
+	)
+	(fp_rect
+		(start 0 -50)
+		(end 50 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "fdf96851-4a20-474e-801b-3bd0f5d370e5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "87e46f45-c5bf-44eb-a90b-c772e11280b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8d0f8a62-0cbf-4493-b7b6-24227d86401c")
+	)
+	(fp_rect
+		(start 12.91 -33.5)
+		(end 20.41 -26.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8d8ed58c-5c8c-4d5f-bc91-f65214c1ed8a")
+	)
+	(fp_rect
+		(start 12.91 -23.5)
+		(end 20.41 -16.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "431f87b1-8362-42f3-8be2-5b0b988b83ac")
+	)
+	(fp_rect
+		(start 29.57 -33.5)
+		(end 37.07 -26.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "498c1943-13f8-41eb-852d-b06e1f10208e")
+	)
+	(fp_rect
+		(start 29.57 -23.5)
+		(end 37.07 -16.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "de95110d-ed17-42d1-afa8-1df1f5f1ab58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -12.274 29.764 0)
+		(layer "F.Fab")
+		(uuid "be08c7a1-7fdc-4660-914d-d5f5966d7c69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -50)
+		(size 6 6)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c10c0ce5-957c-4e85-b79a-5d6a3cb4b2b3")
+	)
+	(pad "2" thru_hole circle
+		(at 50 -50)
+		(size 6 6)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3df29d2e-030b-480c-8d1a-5dc58357c6a8")
+	)
+	(pad "3" thru_hole circle
+		(at 50 0)
+		(size 6 6)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ea52c5d-2d0a-4b15-b140-c15cc51a1e19")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "130c01a5-7e48-4d49-b6b7-e4ca2c087985")
+	)
+	(embedded_fonts no)
+)

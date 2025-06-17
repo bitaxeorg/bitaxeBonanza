@@ -372,6 +372,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bitaxe:gt_heatsink"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitaxe:GT_heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "gt_heatsink_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -8.89 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 139.7 104.14)
@@ -1290,17 +1428,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 142.24 177.8 270)
+		(lib_id "bitaxe:gt_heatsink")
+		(at 115.57 146.05 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32f4ccb3-e09e-4d48-9ec9-fb35ff971db2")
-		(property "Reference" "H12"
-			(at 146.05 176.5299 90)
+		(uuid "4df25cbe-677f-4e1b-85d1-e8e05de44aae")
+		(property "Reference" "H15"
+			(at 118.11 145.4149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,8 +1446,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 146.05 179.0699 90)
+		(property "Value" "~"
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,8 +1455,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 142.24 177.8 0)
+		(property "Footprint" "bitaxe:bitaxeGT_extruded_heatsink"
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,8 +1464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 142.24 177.8 0)
+		(property "Datasheet" ""
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,8 +1473,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 142.24 177.8 0)
+		(property "Description" ""
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,213 +1483,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "c11d8add-e45e-44cb-9629-3ee600fd4e07")
+			(uuid "9e6d80e6-edd5-40d6-9834-964c8958e1a8")
+		)
+		(pin "2"
+			(uuid "53931ecd-76db-4539-ac9c-f743033d95eb")
+		)
+		(pin "3"
+			(uuid "89590f63-0ff3-42fa-adb9-3cdebf14f462")
+		)
+		(pin "4"
+			(uuid "adc8f1fe-9223-4116-8d42-ce1a6de00207")
 		)
 		(instances
-			(project "BitaxeBonanza"
+			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 142.24 156.21 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c99e6c-18a7-492d-a4db-e96da6bd014f")
-		(property "Reference" "H9"
-			(at 146.05 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 146.05 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88b826fc-d23a-43c0-8376-09a992cb84a9")
-		)
-		(instances
-			(project "BitaxeBonanza"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 142.24 170.18 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d473669-281a-41ac-94af-7262ddabc9fe")
-		(property "Reference" "H11"
-			(at 146.05 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 146.05 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 142.24 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 142.24 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d58f8a8f-699c-4e65-a518-403ceeb5b6eb")
-		)
-		(instances
-			(project "BitaxeBonanza"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 114.3 177.8 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55571f22-a93c-4d77-81ad-0aeb57566573")
-		(property "Reference" "H8"
-			(at 118.11 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 179.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 114.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 114.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75b58c4f-1814-48e5-ac71-0de2d2d15284")
-		)
-		(instances
-			(project "BitaxeBonanza"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H8")
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -1619,140 +1565,6 @@
 			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 114.3 156.21 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "571baa72-b80b-4d56-a3ed-f094aefddcc3")
-		(property "Reference" "H5"
-			(at 118.11 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 114.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 114.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5018a222-799c-45a3-85f1-93fca51eae06")
-		)
-		(instances
-			(project "BitaxeBonanza"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 114.3 163.83 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "579edd0f-bcf0-441b-9434-248e81b782a7")
-		(property "Reference" "H6"
-			(at 118.11 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a2cc333-14ff-4055-80ae-5b4c7ccd6e8a")
-		)
-		(instances
-			(project "BitaxeBonanza"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1932,17 +1744,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 114.3 170.18 270)
+		(lib_id "bitaxe:gt_heatsink")
+		(at 143.51 146.05 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71361519-3893-460d-a461-3dca25e9855b")
-		(property "Reference" "H7"
-			(at 118.11 168.9099 90)
+		(uuid "7938b329-a443-4086-99e2-a1fee4c50078")
+		(property "Reference" "H16"
+			(at 146.05 145.4149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,8 +1762,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 171.4499 90)
+		(property "Value" "~"
+			(at 146.05 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,8 +1771,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 114.3 170.18 0)
+		(property "Footprint" "bitaxe:bitaxeGT_extruded_heatsink"
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,8 +1780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 170.18 0)
+		(property "Datasheet" ""
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,8 +1789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 114.3 170.18 0)
+		(property "Description" ""
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,12 +1799,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6c5e196-6766-401c-9ffc-810837aabee8")
+			(uuid "d9d20cbf-b4ca-426c-a307-4aa09c03e303")
+		)
+		(pin "2"
+			(uuid "d1e3bb7a-d0a1-4fc7-9b31-bb2fcf736666")
+		)
+		(pin "3"
+			(uuid "82fbf784-255f-4a8b-ae23-a3a9f8b4e78e")
+		)
+		(pin "4"
+			(uuid "5d6fc53c-6fec-419c-b96f-4e94cfd8002a")
 		)
 		(instances
 			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H7")
+					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -2255,73 +2076,6 @@
 			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 142.24 163.83 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1d0481d-3ec2-4ffb-8222-ab55d0a174a2")
-		(property "Reference" "H10"
-			(at 146.05 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 146.05 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
-			(at 142.24 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 142.24 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c2f9d80-3b0a-4922-98f3-86f1c87ebd27")
-		)
-		(instances
-			(project "BitaxeBonanza"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H10")
 					(unit 1)
 				)
 			)

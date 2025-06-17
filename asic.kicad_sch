@@ -3879,7 +3879,7 @@
 		(uuid "39d7849c-ae8f-4b12-8b20-529bfb4e3b8c")
 	)
 	(no_connect
-		(at 171.45 247.65)
+		(at 394.97 247.65)
 		(uuid "3ca96072-1fb6-4be8-92cd-95f465ce248a")
 	)
 	(no_connect
@@ -3943,6 +3943,10 @@
 		(uuid "93fea845-24c2-491a-a922-e11deffd0cd5")
 	)
 	(no_connect
+		(at 394.97 101.6)
+		(uuid "979a7e85-925a-4870-a1b0-13dd289386cf")
+	)
+	(no_connect
 		(at 209.55 127)
 		(uuid "9a6b2337-2508-4d37-9bbc-d5c993e0667e")
 	)
@@ -3955,7 +3959,7 @@
 		(uuid "9ee035a3-ebad-4d35-99f0-50f01edd2b26")
 	)
 	(no_connect
-		(at 171.45 322.58)
+		(at 394.97 322.58)
 		(uuid "ac038dd2-1533-463d-b94d-fe035ccd3933")
 	)
 	(no_connect
@@ -4003,7 +4007,7 @@
 		(uuid "c60cffa2-f98d-46a7-ba95-206d47242e6b")
 	)
 	(no_connect
-		(at 171.45 177.8)
+		(at 394.97 177.8)
 		(uuid "d6cca50d-3814-4465-acc3-d912baf97695")
 	)
 	(no_connect
@@ -4388,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 177.8) (xy 412.75 177.8)
+			(xy 171.45 177.8) (xy 153.67 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6608,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 101.6) (xy 412.75 101.6)
+			(xy 171.45 101.6) (xy 153.67 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7368,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 322.58) (xy 401.32 322.58)
+			(xy 171.45 322.58) (xy 162.56 322.58)
 		)
 		(stroke
 			(width 0)
@@ -7708,7 +7712,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 247.65) (xy 403.86 247.65)
+			(xy 171.45 247.65) (xy 162.56 247.65)
 		)
 		(stroke
 			(width 0)
@@ -7757,12 +7761,12 @@
 		(uuid "015b1bec-e212-4d5a-bed9-de152b4fb743")
 	)
 	(label "1V2-2"
-		(at 412.75 177.8 180)
+		(at 153.67 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "02d42e4d-f646-4ea4-aaa3-2280ad99af40")
 	)
@@ -7897,12 +7901,12 @@
 		(uuid "472d3585-e7c8-4232-ad0e-2fc48f03867c")
 	)
 	(label "1V2-1"
-		(at 403.86 247.65 180)
+		(at 162.56 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "48ceb82f-bb98-46c8-8ffb-195c270a3614")
 	)
@@ -8047,12 +8051,12 @@
 		(uuid "605febab-abd0-4e8c-aa37-340a72204998")
 	)
 	(label "1V2"
-		(at 401.32 322.58 180)
+		(at 162.56 322.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "65baa96e-b3f6-432e-b341-d9901d8a985f")
 	)
@@ -8127,12 +8131,12 @@
 		(uuid "8108e56f-7494-4e39-b3a3-8feb65112229")
 	)
 	(label "1V2-3"
-		(at 412.75 101.6 180)
+		(at 153.67 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8b446f43-6284-4dc1-a6b0-05eec81c3402")
 	)

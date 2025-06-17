@@ -2567,12 +2567,6 @@
 		(uuid "940986b7-8b0c-4bec-8d00-f8d9bd41bea5")
 	)
 	(junction
-		(at 281.94 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9456dfae-e068-425c-b61d-5247c8271689")
-	)
-	(junction
 		(at 231.14 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2583,6 +2577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b2b8e87-10c4-4827-8717-7f641ee231d4")
+	)
+	(junction
+		(at 280.67 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fb787e5-d384-4190-bcf9-e13234c37979")
 	)
 	(junction
 		(at 72.39 187.96)
@@ -2932,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 54.61) (xy 281.94 54.61)
+			(xy 276.86 54.61) (xy 280.67 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3009,16 +3009,6 @@
 			(type default)
 		)
 		(uuid "0b2cdf03-36f7-4565-b712-6f2174c88c1c")
-	)
-	(wire
-		(pts
-			(xy 281.94 54.61) (xy 293.37 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8b7ce3-33ac-467f-a401-60ca08852644")
 	)
 	(wire
 		(pts
@@ -3179,16 +3169,6 @@
 			(type default)
 		)
 		(uuid "19866c34-7195-455e-b566-c702194d293d")
-	)
-	(wire
-		(pts
-			(xy 278.13 40.64) (xy 281.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19de4f09-2b19-467a-84d5-bcafda83e2f2")
 	)
 	(wire
 		(pts
@@ -3792,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 54.61) (xy 293.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa4c465-de3f-4285-9c70-bf172fdaeba3")
+	)
+	(wire
+		(pts
 			(xy 208.28 163.83) (xy 208.28 170.18)
 		)
 		(stroke
@@ -4082,16 +4072,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 40.64) (xy 281.94 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5457ed50-3df6-45cb-9dcf-9eefb6f43a83")
-	)
-	(wire
-		(pts
 			(xy 271.78 92.71) (xy 271.78 88.9)
 		)
 		(stroke
@@ -4202,16 +4182,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 40.64) (xy 273.05 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae47f79-56e6-4b4d-9127-22c5cb3a592f")
-	)
-	(wire
-		(pts
 			(xy 306.07 105.41) (xy 318.77 105.41)
 		)
 		(stroke
@@ -4299,16 +4269,6 @@
 			(type default)
 		)
 		(uuid "5ed9e7dc-d276-4a61-9116-426a950d4a3b")
-	)
-	(wire
-		(pts
-			(xy 279.4 157.48) (xy 281.94 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60143937-082a-4efb-86aa-70c1204a74d0")
 	)
 	(wire
 		(pts
@@ -4782,6 +4742,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 53.34) (xy 280.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80352c8e-e4a5-4003-8d12-4431acae7422")
+	)
+	(wire
+		(pts
 			(xy 237.49 66.04) (xy 241.3 66.04)
 		)
 		(stroke
@@ -4802,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 157.48) (xy 274.32 157.48)
+			(xy 271.78 160.02) (xy 281.94 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4982,7 +4952,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 165.1) (xy 281.94 168.91)
+			(xy 281.94 167.64) (xy 281.94 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5049,16 +5019,6 @@
 			(type default)
 		)
 		(uuid "8ffa670d-0b83-4861-b207-6114e444b30c")
-	)
-	(wire
-		(pts
-			(xy 281.94 48.26) (xy 281.94 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9127b993-dfda-4671-be9f-59f11bda5f28")
 	)
 	(wire
 		(pts
@@ -5512,13 +5472,23 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 50.8) (xy 271.78 40.64)
+			(xy 271.78 50.8) (xy 271.78 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2f25f78-1217-48f8-a545-a6b1bcce705f")
+	)
+	(wire
+		(pts
+			(xy 280.67 48.26) (xy 280.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30c9386-4db2-4942-8724-17300f4fd151")
 	)
 	(wire
 		(pts
@@ -6212,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 157.48) (xy 281.94 160.02)
+			(xy 281.94 160.02) (xy 281.94 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6309,6 +6279,16 @@
 			(type default)
 		)
 		(uuid "e5472e04-b170-4001-a558-0205fa1160c5")
+	)
+	(wire
+		(pts
+			(xy 280.67 46.99) (xy 271.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fa0d23-f939-4eb4-a0ed-5ffa12d89ebe")
 	)
 	(wire
 		(pts
@@ -6462,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 165.1) (xy 271.78 157.48)
+			(xy 271.78 165.1) (xy 271.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8004,8 +7984,8 @@
 		(at 208.28 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "109a0e6a-6f0e-4456-89df-b3ed9eb7c8e4")
 		(property "Reference" "R16"
@@ -10153,7 +10133,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 281.94 162.56 0)
+		(at 281.94 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10161,7 +10142,7 @@
 		(dnp no)
 		(uuid "3dc3d45b-ba9f-476e-98bf-c11bb499aed1")
 		(property "Reference" "C28"
-			(at 283.972 160.782 0)
+			(at 279.908 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +10151,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 284.226 163.068 0)
+			(at 279.654 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +10160,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 281.94 162.56 0)
+			(at 281.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10169,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 281.94 162.56 0)
+			(at 281.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 281.94 162.56 0)
+			(at 281.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10187,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 281.94 162.56 90)
+			(at 281.94 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +10196,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 281.94 162.56 90)
+			(at 281.94 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10205,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 281.94 162.56 0)
+			(at 281.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +10214,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 281.94 162.56 0)
+			(at 281.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +12855,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 281.94 45.72 0)
+		(at 280.67 50.8 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12882,7 +12864,7 @@
 		(dnp no)
 		(uuid "99484245-73af-40ee-a23a-9045a88fd2a4")
 		(property "Reference" "C27"
-			(at 287.02 44.196 0)
+			(at 275.59 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12873,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 289.814 46.228 0)
+			(at 272.796 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12900,7 +12882,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 281.94 45.72 0)
+			(at 280.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +12891,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 281.94 45.72 0)
+			(at 280.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +12900,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 281.94 45.72 0)
+			(at 280.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +12909,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 281.94 45.72 90)
+			(at 280.67 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12936,7 +12918,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 281.94 45.72 90)
+			(at 280.67 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12945,7 +12927,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 281.94 45.72 0)
+			(at 280.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12954,7 +12936,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 281.94 45.72 0)
+			(at 280.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12971,110 +12953,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 275.59 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b59cfc7-c1eb-485e-8315-cb76b7dc29fe")
-		(property "Reference" "R20"
-			(at 274.32 36.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 274.828 38.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 275.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 275.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 275.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-070RL"
-			(at 275.59 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-0.0JRCT-ND"
-			(at 275.59 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 275.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 275.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb02e808-4d70-43a0-8bc1-8c2733f6bc9d")
-		)
-		(pin "1"
-			(uuid "ab04ae62-738a-4b0c-a619-fc3725b3b844")
-		)
-		(instances
-			(project "BitaxeAura"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13189,8 +13067,8 @@
 		(at 189.23 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "9e0664f3-e319-4f63-a884-874da340ceb1")
 		(property "Reference" "R12"
@@ -14969,8 +14847,8 @@
 		(at 189.23 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "c5bd14c0-950b-4647-84c1-7721f28b8c05")
 		(property "Reference" "R13"
@@ -16531,110 +16409,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 276.86 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9603669-2bde-40a3-9a67-720a2232ab72")
-		(property "Reference" "R22"
-			(at 275.59 152.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 276.098 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 276.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 276.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 276.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-070RL"
-			(at 276.86 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-0.0JRCT-ND"
-			(at 276.86 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 276.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 276.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bfff9261-a267-4097-816d-a58fcc7c874c")
-		)
-		(pin "1"
-			(uuid "ec8a1fa9-3aad-4ac7-b19c-614c418043fe")
-		)
-		(instances
-			(project "BitaxeAura"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "R22")
 					(unit 1)
 				)
 			)
