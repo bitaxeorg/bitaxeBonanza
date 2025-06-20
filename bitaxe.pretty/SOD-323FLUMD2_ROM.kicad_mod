@@ -407,38 +407,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2c8ae2fe-4278-4905-88af-ad9c0c24a18c")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "2e32d2a3-5927-4ed4-9064-c2c56a2180b9")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -0.7366 -0.6223) (xy 0.7366 -0.6223) (xy 0.7366 0.6223) (xy -0.7366 0.6223)
-			)
-		)
-	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d/SOD-323FL_UMD2__ROM.step"
 		(offset

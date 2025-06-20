@@ -7910,7 +7910,7 @@
 		)
 		(uuid "48ceb82f-bb98-46c8-8ffb-195c270a3614")
 	)
-	(label "1V5"
+	(label "1V2"
 		(at 93.98 331.47 180)
 		(effects
 			(font
@@ -8380,7 +8380,7 @@
 		)
 		(uuid "c0e57ad0-ee16-484a-9361-a9d1de1a4b7b")
 	)
-	(label "1V5"
+	(label "1V2"
 		(at 57.15 328.93 0)
 		(effects
 			(font
