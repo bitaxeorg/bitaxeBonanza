@@ -9416,7 +9416,7 @@
 			)
 		)
 		(property "Value" "1000pF"
-			(at 282.702 174.752 0)
+			(at 286.512 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15568,7 +15568,7 @@
 		(dnp no)
 		(uuid "dd636ca0-a611-4719-8d20-dedff5c6dc47")
 		(property "Reference" "C25"
-			(at 281.432 58.42 0)
+			(at 282.956 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
