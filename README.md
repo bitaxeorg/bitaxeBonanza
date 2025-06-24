@@ -1,1 +1,1 @@
-BitaxeBonanza - Dual Intel BZM2 ASICs
+BitaxeBonanza - Eight Intel BZM2 ASICs
