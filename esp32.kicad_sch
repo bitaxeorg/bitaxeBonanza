@@ -3397,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 48.26 121.92)
+			(xy 31.75 76.2) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3774,16 +3774,6 @@
 			(type default)
 		)
 		(uuid "c62ddfec-95ac-423c-93a6-2cf834f81bc7")
-	)
-	(wire
-		(pts
-			(xy 85.09 76.2) (xy 66.04 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c933866f-70a3-4d06-8d3a-f8c2100332c9")
 	)
 	(wire
 		(pts
@@ -4205,16 +4195,6 @@
 		)
 		(uuid "a01aa9ab-b1d4-4a8b-8920-411b4434eb7f")
 	)
-	(label "RST_3V3"
-		(at 48.26 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a81d5f97-7db1-4804-8b9b-fe1af058f793")
-	)
 	(label "GND"
 		(at 214.63 58.42 180)
 		(effects
@@ -4488,7 +4468,7 @@
 	)
 	(hierarchical_label "RST_3V3"
 		(shape output)
-		(at 31.75 121.92 180)
+		(at 31.75 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
