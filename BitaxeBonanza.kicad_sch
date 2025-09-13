@@ -2493,7 +2493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ESP32.kicad_sch"
+		(property "Sheetfile" "esp32.kicad_sch"
 			(at 102.87 128.8546 0)
 			(effects
 				(font

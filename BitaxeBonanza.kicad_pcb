@@ -161,7 +161,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -347,7 +346,7 @@
 	(net 169 "Net-(U1-EN)")
 	(net 170 "Net-(U3-MSEL1)")
 	(net 171 "unconnected-(A4-TDI-Pad10)")
-	(net 172 "Net-(U3-MSEL2)")
+	(net 172 "unconnected-(U3-MSEL2-Pad29)")
 	(net 173 "/ASIC/GND3")
 	(net 174 "Net-(A5-RESET_OUT)")
 	(net 175 "unconnected-(A5-TDO-Pad9)")
@@ -5739,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5855,7 +5854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6083,7 +6082,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6904,7 +6903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7018,7 +7017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7297,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7525,7 +7524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7751,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8030,7 +8029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9037,7 +9036,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9265,7 +9264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9381,7 +9380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9609,7 +9608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9840,7 +9839,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -10420,7 +10419,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/27a434b4-bbb1-463d-808c-020e8e3f29b3")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.107836 -0.36)
 			(end -0.107836 -0.36)
@@ -10858,7 +10857,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11356,7 +11355,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11634,7 +11633,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -12126,7 +12125,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13270,7 +13269,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13795,7 +13794,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13920,7 +13919,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "36a17289-eeb0-4826-9b06-755fedbf7703")
@@ -13932,7 +13931,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13960,7 +13959,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A476MQHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13974,7 +13973,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-1167-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14197,7 +14196,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "e83c4106-a87a-4599-87bb-713695067659")
@@ -14209,7 +14208,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14237,7 +14236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A476MQHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14251,7 +14250,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-1167-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14486,7 +14485,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14750,7 +14749,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -15242,7 +15241,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15344,7 +15343,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/46ca24f9-725e-46db-9776-c7ae08f48c67")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.711252 0.91)
 			(end -0.711252 0.91)
@@ -15519,7 +15518,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16540,7 +16539,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17726,7 +17725,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18003,7 +18002,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18280,7 +18279,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18557,7 +18556,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18792,7 +18791,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19364,7 +19363,7 @@
 			(at 0 -0.750001 270)
 			(size 0.499999 0.499999)
 			(drill 0.3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 253 "unconnected-(U7-PAD-Pad17)_1")
 			(pinfunction "PAD")
@@ -19384,7 +19383,7 @@
 			(at 0 0.750001 270)
 			(size 0.499999 0.499999)
 			(drill 0.3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 252 "unconnected-(U7-PAD-Pad17)")
 			(pinfunction "PAD")
@@ -19792,7 +19791,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20026,7 +20025,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20397,7 +20396,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20534,7 +20533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21074,7 +21073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21325,7 +21324,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "b9125857-56a1-4025-ac57-b76392fcbb21")
@@ -21337,7 +21336,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21365,7 +21364,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A476MQHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21379,7 +21378,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-1167-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21614,7 +21613,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22154,7 +22153,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22431,7 +22430,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22707,7 +22706,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23342,7 +23341,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23812,7 +23811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23949,7 +23948,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24226,7 +24225,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24503,7 +24502,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25630,7 +25629,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26171,7 +26170,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26602,7 +26601,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26867,7 +26866,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "6.81k"
+		(property "Value" "31.6k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "353fad60-ffa8-43c5-aa93-68a040a76ad9")
@@ -26907,7 +26906,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "RC0402FR-136K81L"
+		(property "PARTNO" "RC0402FR-0731K6L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26921,7 +26920,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "13-RC0402FR-136K81LCT-ND"
+		(property "DK" "YAG3115CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26967,7 +26966,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/7ad8d59d-9894-41ea-a643-969570c36c8f")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.153641 -0.38)
 			(end -0.153641 -0.38)
@@ -27142,7 +27141,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27699,7 +27698,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27801,7 +27800,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/dc40cb6a-bdc4-447c-8e4f-bed78cb0d795")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.711252 0.91)
 			(end -0.711252 0.91)
@@ -27976,7 +27975,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28238,7 +28237,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28363,7 +28362,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "27311832-df8b-4c67-b594-821e903d3858")
@@ -28375,7 +28374,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28403,7 +28402,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A476MQHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28417,7 +28416,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-1167-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28653,7 +28652,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28896,7 +28895,7 @@
 			(at -2.5 0 180)
 			(size 3 3)
 			(drill 1.7)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/12V")
 			(pinfunction "+V")
@@ -28907,7 +28906,7 @@
 			(at 2.5 0 180)
 			(size 3 3)
 			(drill 1.7)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 115 "GND")
 			(pinfunction "GND")
@@ -28918,7 +28917,7 @@
 			(at -5.5 10 180)
 			(size 2 2)
 			(drill 1)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 11 "unconnected-(J1-MNT1-Pad3)")
 			(pinfunction "MNT1")
@@ -28930,7 +28929,7 @@
 			(at 5.5 10 180)
 			(size 2 2)
 			(drill 1)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "unconnected-(J1-MNT2-Pad4)")
 			(pinfunction "MNT2")
@@ -28982,7 +28981,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29258,7 +29257,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29395,7 +29394,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29936,7 +29935,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "70nH"
+		(property "Value" "120nH"
 			(at -0.192 -10.927 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29977,7 +29976,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "SLC7649S-700KLB"
+		(property "PARTNO" "SLC7649S-121KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29991,7 +29990,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "2457-SLC7649S-700KLD-ND"
+		(property "DK" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30363,7 +30362,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30485,7 +30484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30719,7 +30718,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31119,7 +31118,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31354,7 +31353,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31618,7 +31617,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "70nH"
+		(property "Value" "120nH"
 			(at -0.192 -10.927 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31659,7 +31658,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "SLC7649S-700KLB"
+		(property "PARTNO" "SLC7649S-121KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31673,7 +31672,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "2457-SLC7649S-700KLD-ND"
+		(property "DK" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32136,7 +32135,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32385,7 +32384,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33906,9 +33905,9 @@
 			(size 0.8 0.25)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 172 "Net-(U3-MSEL2)")
+			(net 172 "unconnected-(U3-MSEL2-Pad29)")
 			(pinfunction "MSEL2")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "e6580e03-5331-4f01-9e56-ab9b09a96f4a")
 		)
 		(pad "30" smd roundrect
@@ -34195,7 +34194,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34431,7 +34430,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -34923,7 +34922,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35174,7 +35173,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "6.34k"
+		(property "Value" "6.19k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "b2d6f8b1-b25e-4910-b2f2-3e2c56ad7026")
@@ -35214,7 +35213,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "RC0402FR-076K34L"
+		(property "PARTNO" "RC0402FR-076K19L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35228,7 +35227,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "YAG3218CT-ND"
+		(property "DK" "311-6.19KLRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35260,7 +35259,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/0e0fbbf0-9246-41bf-b8fa-98dea3f62ce6")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.153641 0.38)
 			(end -0.153641 0.38)
@@ -35670,7 +35669,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36431,7 +36430,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36708,7 +36707,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36985,7 +36984,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37220,7 +37219,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37454,7 +37453,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37827,7 +37826,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -38318,7 +38317,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38717,7 +38716,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39451,7 +39450,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40503,7 +40502,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40738,7 +40737,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41016,7 +41015,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41127,7 +41126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41514,7 +41513,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "715"
+		(property "Value" "787"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "83e5fc16-1510-4a32-adfc-b1d16fb17c9b")
@@ -41554,7 +41553,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "13-AC0402FR-07715RLCT-ND"
+		(property "PARTNO" "RC0402FR-07787RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41568,7 +41567,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "AC0402FR-07715RL"
+		(property "DK" "YAG3233CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41614,7 +41613,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/6e96fc42-d3c0-465d-a0ee-6375b26a7c62")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.153641 0.38)
 			(end -0.153641 0.38)
@@ -41789,7 +41788,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42066,7 +42065,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42343,7 +42342,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42592,7 +42591,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42869,7 +42868,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43146,7 +43145,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43381,7 +43380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43645,7 +43644,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -44635,7 +44634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45356,7 +45355,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "33uF"
+		(property "Value" "100uF"
 			(at 0 -3.1 90)
 			(layer "B.Fab")
 			(uuid "b31d05c2-a0d3-42b9-b9d5-294193cfcb9c")
@@ -45396,7 +45395,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "399-3882-1-ND"
+		(property "DK" "478-TAJD107K020RNJVCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45410,7 +45409,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "T495D336K025ATE300"
+		(property "PARTNO" "TAJD107K020RNJV"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45424,7 +45423,7 @@
 				(justify mirror)
 			)
 		)
-		(property "voltage" "25V"
+		(property "voltage" "20V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45665,7 +45664,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45899,7 +45898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46271,7 +46270,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46797,7 +46796,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47074,7 +47073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47309,7 +47308,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47586,7 +47585,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47863,7 +47862,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48140,7 +48139,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48377,7 +48376,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20.5k"
+		(property "Value" "1.96k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "853eae9c-6898-4db5-b81e-f29a1b46b9e4")
@@ -48417,7 +48416,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0720K5L"
+		(property "PARTNO" "RC0402FR-071K96L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48431,7 +48430,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "YAG3052CT-ND"
+		(property "DK" "311-1.96KLRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48463,7 +48462,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/11887d58-cd25-4d05-9fa4-1dc8712347ab")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.153641 -0.38)
 			(end -0.153641 -0.38)
@@ -48638,7 +48637,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48915,7 +48914,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49427,7 +49426,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49663,7 +49662,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -50154,7 +50153,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51066,7 +51065,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51343,7 +51342,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51883,7 +51882,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52161,7 +52160,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -52641,7 +52640,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "1331dfaf-789d-4bb4-bf2a-62c7a1fe82da")
@@ -52653,7 +52652,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52681,7 +52680,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A476MQHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52695,7 +52694,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-1167-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52930,7 +52929,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53040,7 +53039,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "8.25k"
+		(property "Value" "17.8k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "26172673-c3c0-449f-a9ee-047d2b67a8f1")
@@ -53080,7 +53079,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "RC0402FR-078K25L"
+		(property "PARTNO" "RC0402FR-0717K8L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53094,7 +53093,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "311-8.25KLRCT-ND"
+		(property "DK" "YAG3012CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53126,7 +53125,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/1b14d2b8-92c7-4782-be63-db2e4f85e46d")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.153641 0.38)
 			(end -0.153641 0.38)
@@ -53301,7 +53300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53841,7 +53840,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -54117,7 +54116,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -54240,7 +54239,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -54793,7 +54792,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -54931,7 +54930,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -55423,7 +55422,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55658,7 +55657,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55881,7 +55880,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "22uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "baa3447f-2348-4d66-a76b-48c8b6a4c578")
@@ -55893,7 +55892,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55921,7 +55920,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A226KAHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55935,7 +55934,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-3047-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -56405,7 +56404,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -56682,7 +56681,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -56784,7 +56783,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/85bf6a7b-e0df-4b8b-8c17-6533da2bbcab")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.711252 0.91)
 			(end -0.711252 0.91)
@@ -57210,7 +57209,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "33uF"
+		(property "Value" "100uF"
 			(at 0 -3.1 90)
 			(layer "B.Fab")
 			(uuid "eecc41a5-1111-4074-a79c-6817b6db3d27")
@@ -57250,7 +57249,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "399-3882-1-ND"
+		(property "DK" "478-TAJD107K020RNJVCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57264,7 +57263,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "T495D336K025ATE300"
+		(property "PARTNO" "TAJD107K020RNJV"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57493,7 +57492,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "031f0d1c-767a-4639-9cfa-fdea214997c0")
@@ -57505,7 +57504,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57533,7 +57532,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A476MQHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57547,7 +57546,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-1167-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57782,7 +57781,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -57884,7 +57883,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/db70ce64-9264-4dbc-8469-6e6552dab1f5")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.711252 0.91)
 			(end -0.711252 0.91)
@@ -58059,7 +58058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -58543,7 +58542,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -59097,7 +59096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -59637,7 +59636,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -59900,7 +59899,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -60163,7 +60162,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -60440,7 +60439,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -60718,7 +60717,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -61473,7 +61472,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -61750,7 +61749,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62247,7 +62246,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62384,7 +62383,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62647,7 +62646,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62882,7 +62881,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -63117,7 +63116,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -63934,7 +63933,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64211,7 +64210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64460,7 +64459,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64581,7 +64580,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64996,7 +64995,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -65488,7 +65487,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -65764,7 +65763,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -65901,7 +65900,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66398,7 +66397,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66509,7 +66508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "22uF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "b0f772d0-4127-4a66-8603-6bf1748da208")
@@ -66521,7 +66520,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66549,7 +66548,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "CL31A226KAHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66563,7 +66562,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "1276-3047-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66798,7 +66797,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -67074,7 +67073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -67197,7 +67196,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -67432,7 +67431,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -68302,7 +68301,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -68426,7 +68425,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -68917,7 +68916,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -69334,7 +69333,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")

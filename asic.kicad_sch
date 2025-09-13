@@ -3524,6 +3524,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "->"
+		(exclude_from_sim no)
+		(at 121.666 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11e9b6cc-5c30-4165-a7d9-8f9f8564c20d")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 121.666 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93bb66bb-cbd9-4b24-b760-ba383b6cc22d")
+	)
+	(text "->"
+		(exclude_from_sim no)
+		(at 121.666 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c9d1f23-b89e-4300-b09d-bb16ce65d6ee")
+	)
 	(text "Direction Control\nHIGH= A -> B\nLOW = A <- B"
 		(exclude_from_sim no)
 		(at 122.936 68.834 0)
@@ -3533,6 +3563,16 @@
 			)
 		)
 		(uuid "ab3fe789-6fe3-419c-ba68-0a782ab00245")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 121.666 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cff11c85-3c21-4d69-b29e-fe9cfa6984a6")
 	)
 	(junction
 		(at 431.8 367.03)

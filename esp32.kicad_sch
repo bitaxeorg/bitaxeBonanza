@@ -4680,7 +4680,7 @@
 			(uuid "2058583c-378b-4165-a2e0-a053bdf86eec")
 		)
 		(instances
-			(project ""
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "J2")
 					(unit 1)
@@ -4938,7 +4938,7 @@
 			(uuid "c9d884c1-8b41-414e-bd8f-a0cc9144fa21")
 		)
 		(instances
-			(project ""
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "J5")
 					(unit 1)
@@ -5136,7 +5136,7 @@
 			(uuid "6496e3fe-2371-41d9-b0c9-44a652607e66")
 		)
 		(instances
-			(project "BitaxeGT"
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "C45")
 					(unit 1)
@@ -5356,7 +5356,7 @@
 			(uuid "292cc1d2-2c4e-42e3-a5ba-b9a7bb6a895c")
 		)
 		(instances
-			(project ""
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "U5")
 					(unit 1)
@@ -5542,7 +5542,7 @@
 			(uuid "b14f8df0-e846-4990-ab7b-955ebb76f3e0")
 		)
 		(instances
-			(project ""
+			(project "BitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "J3")
 					(unit 1)
