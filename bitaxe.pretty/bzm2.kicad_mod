@@ -507,7 +507,7 @@
 		(uuid "5419ecf3-1dc6-4d66-886a-e41de679de32")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3d/BZM2model.step"
+	(model "${KIPRJMOD}/3d/BZM2.step"
 		(offset
 			(xyz 0 0 0)
 		)
