@@ -8,6 +8,8 @@
 		(title "bitaxeBonanza")
 		(date "2026-02-11")
 		(rev "1002x")
+		(company "bitaxeorg")
+		(comment 1 "OHL v2")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
