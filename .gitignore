@@ -30,3 +30,9 @@ fp-info-cache
 *.xml
 *auto_saved_files*
 *bak
+
+*.zip
+*-backups/
+*.lck
+\#auto_saved_files#
+.DS_Store
