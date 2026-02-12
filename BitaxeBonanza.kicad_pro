@@ -129,7 +129,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1524,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -543,7 +543,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://bitaxe.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

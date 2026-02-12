@@ -681,6 +681,12 @@
 		(color 0 0 0 0)
 		(uuid "291f06b2-5ed5-4c48-85a4-3043030e111b")
 	)
+	(junction
+		(at 78.74 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70428d06-7a1c-4473-841a-652d3c9a53bb")
+	)
 	(no_connect
 		(at 119.38 189.23)
 		(uuid "04a6783a-fec6-4488-8222-5c26922ecc6b")
@@ -813,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 44.45) (xy 102.87 44.45)
+			(xy 58.42 44.45) (xy 78.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 102.87 125.73)
+			(xy 90.17 129.54) (xy 102.87 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1143,6 +1149,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 124.46) (xy 78.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2494cb-10b3-4654-949e-242bb37f4561")
+	)
+	(wire
+		(pts
 			(xy 58.42 48.26) (xy 62.23 48.26)
 		)
 		(stroke
@@ -1200,6 +1216,16 @@
 			(type default)
 		)
 		(uuid "e0323ea7-ecf9-4679-a624-9bd87f728bdf")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d77ed6-664f-4008-9fbb-884757d2ef30")
 	)
 	(wire
 		(pts
@@ -1263,6 +1289,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 124.46) (xy 78.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59c8153-b57f-4ed9-bc64-1c382ac34253")
+	)
+	(wire
+		(pts
 			(xy 167.64 73.66) (xy 198.12 73.66)
 		)
 		(stroke
@@ -1302,7 +1338,7 @@
 		(uuid "1779db82-c23d-4a21-b25e-87f9e5e1f2a8")
 	)
 	(label "5V_SWITCH"
-		(at 90.17 125.73 0)
+		(at 90.17 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2448,7 +2484,7 @@
 			)
 		)
 		(pin "5V_SWITCH" output
-			(at 102.87 125.73 180)
+			(at 102.87 129.54 180)
 			(uuid "ff25c70c-0ee3-4b54-b245-feff396b0e3e")
 			(effects
 				(font
@@ -2515,6 +2551,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 102.87 124.46 180)
+			(uuid "6bb3ae79-0e22-4a66-a3d1-340276baf2d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
