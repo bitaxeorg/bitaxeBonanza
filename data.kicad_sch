@@ -4948,6 +4948,16 @@
 		)
 		(uuid "1c92f032-5ceb-4446-9642-d8cdaa3aa705")
 	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 233.68 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b527f89-a1ea-4bd6-a9fd-ca938dd60292")
+	)
 	(text "UART1"
 		(exclude_from_sim no)
 		(at 228.6 199.644 0)
@@ -4967,6 +4977,26 @@
 			)
 		)
 		(uuid "67d34b36-3898-49ce-a4e7-2a68f7d51848")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 233.68 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5ce34e8-8eef-42b4-8d9f-f38a86d0cc82")
+	)
+	(text "UART0"
+		(exclude_from_sim no)
+		(at 236.22 186.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e27d6f3a-b139-4955-83dc-494bf1b4d6d1")
 	)
 	(junction
 		(at 248.92 161.29)
@@ -5235,10 +5265,6 @@
 		(uuid "1509ce0c-b5c7-4fa3-8267-b7479d94352c")
 	)
 	(no_connect
-		(at 259.08 74.93)
-		(uuid "21b0f0a0-8d7f-4120-891e-b206e3e9578b")
-	)
-	(no_connect
 		(at 245.11 218.44)
 		(uuid "260094bd-1440-4ad7-be56-a0c7de9546dd")
 	)
@@ -5253,10 +5279,6 @@
 	(no_connect
 		(at 245.11 243.84)
 		(uuid "4b3d6c25-943c-404b-9993-ce37cabc39fa")
-	)
-	(no_connect
-		(at 245.11 187.96)
-		(uuid "4e394bd3-aaad-48c1-8e18-4140b5e4bc42")
 	)
 	(no_connect
 		(at 245.11 236.22)
@@ -5343,10 +5365,6 @@
 		(uuid "c193217f-dd1d-495f-b322-f64e4cb2da06")
 	)
 	(no_connect
-		(at 245.11 190.5)
-		(uuid "ca0bdcad-6990-49a3-a04f-25e2318bad0b")
-	)
-	(no_connect
 		(at 259.08 95.25)
 		(uuid "d5ca42ef-7ece-4f7d-9b28-66dfa6643173")
 	)
@@ -5365,10 +5383,6 @@
 	(no_connect
 		(at 245.11 195.58)
 		(uuid "dcae8855-77ac-458e-b203-78b205dea573")
-	)
-	(no_connect
-		(at 259.08 72.39)
-		(uuid "e13fffaa-8d90-48ff-b3af-1c22783994d1")
 	)
 	(no_connect
 		(at 245.11 223.52)
@@ -5461,6 +5475,16 @@
 			(type default)
 		)
 		(uuid "05727c7f-d3d4-479a-bc15-12b537e0d603")
+	)
+	(wire
+		(pts
+			(xy 259.08 72.39) (xy 279.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0664fbb4-9948-47f1-b601-5151dcfe3145")
 	)
 	(wire
 		(pts
@@ -5581,6 +5605,16 @@
 			(type default)
 		)
 		(uuid "0e6ce936-f3a0-499a-a918-ada29d248307")
+	)
+	(wire
+		(pts
+			(xy 259.08 74.93) (xy 279.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fafe6f6-0ac8-4486-afad-e91f80031d41")
 	)
 	(wire
 		(pts
@@ -6394,6 +6428,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 190.5) (xy 265.43 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1e1ead-cfa0-43fa-9b78-88a73a8c309b")
+	)
+	(wire
+		(pts
 			(xy 245.11 241.3) (xy 257.81 241.3)
 		)
 		(stroke
@@ -7044,6 +7088,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 187.96) (xy 265.43 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5ea031-c331-4f0b-971a-e55f460a15d5")
+	)
+	(wire
+		(pts
 			(xy 57.15 35.56) (xy 71.12 35.56)
 		)
 		(stroke
@@ -7522,7 +7576,7 @@
 		)
 		(uuid "04ebf31d-ae01-4d96-9513-eb8529abf9e5")
 	)
-	(label "ESP32_TX"
+	(label "ESP32_TX_DATA"
 		(at 262.89 200.66 180)
 		(effects
 			(font
@@ -7571,6 +7625,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ff58d8e-ad56-4553-80c4-a86297737af7")
+	)
+	(label "ESP32_RX_CTRL"
+		(at 279.4 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "242ff284-7b97-41aa-b180-8610a506a87e")
 	)
 	(label "GND"
 		(at 274.32 52.07 180)
@@ -7702,7 +7766,7 @@
 		)
 		(uuid "46d6d699-c7b8-40d0-a44f-396c675f6fde")
 	)
-	(label "ESP32_RX"
+	(label "ESP32_RX_DATA"
 		(at 262.89 198.12 180)
 		(effects
 			(font
@@ -7722,7 +7786,7 @@
 		)
 		(uuid "49f10354-b562-47b1-bbaf-b08465c74c0a")
 	)
-	(label "ESP32_RX"
+	(label "ESP32_RX_DATA"
 		(at 127 113.03 0)
 		(effects
 			(font
@@ -7742,7 +7806,7 @@
 		)
 		(uuid "4daeedaf-b502-428c-9cb3-341ff23cd0c3")
 	)
-	(label "ESP32_TX"
+	(label "ESP32_TX_DATA"
 		(at 127 110.49 0)
 		(effects
 			(font
@@ -7952,6 +8016,16 @@
 		)
 		(uuid "9c82cc43-8d3e-414d-ad45-9d47505d948d")
 	)
+	(label "ESP32_TX_CTRL"
+		(at 279.4 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a00d35b4-996a-4c23-9ea4-5401b7849627")
+	)
 	(label "QSPI_SD3"
 		(at 181.61 218.44 0)
 		(effects
@@ -8062,6 +8136,16 @@
 		)
 		(uuid "c3dfb286-337b-416b-8c3f-82e5cdcb816a")
 	)
+	(label "ESP32_RX_CTRL"
+		(at 265.43 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c92c9112-d639-466c-9271-999bc293afad")
+	)
 	(label "5V_SWITCH"
 		(at 346.71 101.6 180)
 		(effects
@@ -8161,6 +8245,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9d0c838-d498-42d7-81e6-7fec6707ae07")
+	)
+	(label "ESP32_TX_CTRL"
+		(at 265.43 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed801ca9-b28d-4d99-829b-8d0a2444a811")
 	)
 	(label "5V"
 		(at 303.53 101.6 0)
