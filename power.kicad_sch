@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(property "Footprint" "bitaxe:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 			(at 129.54 189.23 0)
 			(effects
 				(font
@@ -6595,6 +6595,24 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-47436-1-ND"
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPS82130SILR"
 			(at 129.54 172.72 0)
 			(effects
 				(font
@@ -8235,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(property "Footprint" "bitaxe:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 			(at 129.54 236.22 0)
 			(effects
 				(font
@@ -8263,6 +8281,24 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 129.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-47436-1-ND"
+			(at 129.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPS82130SILR"
 			(at 129.54 219.71 0)
 			(effects
 				(font

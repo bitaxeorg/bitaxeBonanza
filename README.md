@@ -1,5 +1,7 @@
 bitaxeBonanza quad Intel BZM2 ASIC miner.
 
+![](doc/render.png)
+
 It is still an untested prototype! Don't build this expecting it to work out of the box. Do build it if you want to hack on some rad stuff.
 
 

@@ -1,0 +1,333 @@
+(footprint "Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas SIL0008D MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Texas MicroSiP NoLead")
+	(property "Reference" "U7"
+		(at 0 -2.45 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6344606-e95a-4fc5-b394-4727247a31e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS82130"
+		(at 0 2.45 180)
+		(layer "F.Fab")
+		(uuid "1a9a74ba-0887-4856-af37-cd79b2229829")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps82130.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b92b94-4e47-4dc6-95e8-96e72f0da657")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3897c2b-5824-4ab6-9789-73fc0e137125")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a003ee4-580d-4fb2-895e-bb97cf610f99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK" "296-47436-1-ND"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "469b9a8e-2f34-4b12-ad88-8c0574b70465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTNO" "TPS82130SILR"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22c0f5bc-5371-40d2-85b3-d53481061151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.51 -1.61)
+		(end 1.51 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb565f44-d9c5-4595-9ce6-5094dda2d272")
+	)
+	(fp_line
+		(start -1.51 -1.485)
+		(end -1.51 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b903f86-66a2-4126-94c0-6f3b1f8cd034")
+	)
+	(fp_line
+		(start -1.51 1.61)
+		(end -1.51 1.485)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3093a583-4a10-488f-8ea3-b3e07f96b7bc")
+	)
+	(fp_line
+		(start 1.51 -1.61)
+		(end 1.51 -1.485)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efa78215-49e2-41ad-83d4-dbedb2b0def3")
+	)
+	(fp_line
+		(start 1.51 1.485)
+		(end 1.51 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41572de9-9d0c-483d-a9dc-f30701abb8c6")
+	)
+	(fp_line
+		(start 1.51 1.61)
+		(end -1.51 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31af3a14-f5c8-4e06-8178-6a986310e9f1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.64 -0.98) (xy -1.97 -0.74) (xy -1.97 -1.22)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e7225151-44ee-4b1a-937e-57eda32da8f1")
+	)
+	(fp_rect
+		(start -1.65 -1.75)
+		(end 1.65 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b0fa7044-1174-4781-af5b-1d6f20acadea")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -0.8) (xy -1.4 1.5) (xy 1.4 1.5) (xy 1.4 -1.5) (xy -0.7 -1.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f91b8ec4-430d-4b40-8529-7657d5ec42b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "b97d7475-9a8f-428e-b7fa-d15a5e4aea71")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 -0.63)
+		(size 0.95 0.55)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7acbd93f-f5fe-46cb-aaaf-f3eb7a1f4e9b")
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 0.95 0.55)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7e5623ff-7338-4797-86e4-658aa29c31f9")
+	)
+	(pad "" smd roundrect
+		(at 0 0.63)
+		(size 0.95 0.55)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "783d3526-aaba-4164-893a-827b45eb1f5c")
+	)
+	(pad "1" smd roundrect
+		(at -1.0625 -0.975)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3c11b349-ec40-44c0-9e4c-5ea7d3986768")
+	)
+	(pad "2" smd roundrect
+		(at -1.0625 -0.325)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "509c8b4b-4e5a-4b01-b79a-3b36b31bc737")
+	)
+	(pad "3" smd roundrect
+		(at -1.0625 0.325)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "64add5c8-f166-49f8-ae13-2b48a3effeae")
+	)
+	(pad "4" smd roundrect
+		(at -1.0625 0.975)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8fc3dec1-af57-4939-bb7f-3049512057da")
+	)
+	(pad "5" smd roundrect
+		(at 1.0625 0.975)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "07479785-0a8e-4022-830e-5920bcac2ac1")
+	)
+	(pad "6" smd roundrect
+		(at 1.0625 0.325)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1fd31774-a10c-49d8-8e6f-62949c7455cd")
+	)
+	(pad "7" smd roundrect
+		(at 1.0625 -0.325)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "33d6e53f-e8b6-4343-b15f-1888f6c1cbab")
+	)
+	(pad "8" smd roundrect
+		(at 1.0625 -0.975)
+		(size 0.625 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "97c6756a-a43a-46a7-b076-f3ed9de6db48")
+	)
+	(pad "9" thru_hole circle
+		(at 0 -0.75)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "3a9f8580-7970-4876-b347-5b091612d721")
+	)
+	(pad "9" thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "6ff811bd-59ab-42b3-8548-eb7dff7f93ad")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.5 2)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(zone_connect 2)
+		(uuid "8f7923db-441e-4433-b3cd-40cd8cb6e490")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.1 1.9)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "972f3ee6-5ae4-4d70-bc3a-17ee8b8dc86f")
+	)
+	(pad "9" thru_hole circle
+		(at 0 0.75)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "a1a92848-d496-4102-9f7c-04b0f22f27b0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/TPS82130SILR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

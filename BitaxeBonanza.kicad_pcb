@@ -4870,6 +4870,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6742,6 +6743,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18564,7 +18566,7 @@
 			)
 		)
 	)
-	(footprint "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+	(footprint "bitaxe:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 		(layer "B.Cu")
 		(uuid "2544a7e1-d3bf-4709-b7d8-394e660fdd88")
 		(at 97.89 61.97)
@@ -18635,6 +18637,34 @@
 				(justify mirror)
 			)
 		)
+		(property "DK" "296-47436-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68e30f80-c82e-4abe-95ab-b6ee9d3b0564")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "TPS82130SILR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f58192fd-29c3-4bcc-8d76-14c74de66efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Texas*MicroSiP*1EP*2.8x3mm*P0.65mm*")
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/69acf7ea-b4ad-42cf-9aae-635a78483c0c")
 		(sheetname "/Power/")
@@ -18648,7 +18678,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "10294ba2-f819-4581-9cf1-20a809934369")
+			(uuid "94d6a59c-e686-415a-b4be-f0f651f4fe76")
 		)
 		(fp_line
 			(start -1.51 1.485)
@@ -18658,7 +18688,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "199b029f-f4b8-4e5a-ba88-2302ab098e8c")
+			(uuid "96136ef3-076f-477c-9181-d2951912fc2c")
 		)
 		(fp_line
 			(start -1.51 1.61)
@@ -18668,7 +18698,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d148fb2e-91fc-4fb0-8725-0cf73d79cdfc")
+			(uuid "de3aad07-9561-4d68-bdc4-4d4ea1f9728c")
 		)
 		(fp_line
 			(start 1.51 -1.61)
@@ -18678,7 +18708,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "e4521969-2dc0-430e-9a74-4d97d8de25a3")
+			(uuid "4fb4a89d-24dd-4d40-8f9d-c4d136892ce5")
 		)
 		(fp_line
 			(start 1.51 -1.485)
@@ -18688,7 +18718,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9a0cf062-3539-4f01-9af0-9c33feab2abb")
+			(uuid "0e2464df-feb7-4294-9792-635f93285119")
 		)
 		(fp_line
 			(start 1.51 1.61)
@@ -18698,7 +18728,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c285e4c2-1cd9-42ee-875c-90b97b74750b")
+			(uuid "579595f4-f698-4a82-b66f-782b62fea040")
 		)
 		(fp_poly
 			(pts
@@ -18710,7 +18740,7 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(uuid "f48f3668-be0b-47e2-b95b-6839054c2c50")
+			(uuid "5e9f2193-e451-47e7-847d-a3212e96db52")
 		)
 		(fp_rect
 			(start -1.65 1.75)
@@ -18721,7 +18751,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "07f7e8dc-1099-4dad-b7e0-521d0dd1695d")
+			(uuid "b33198b1-1000-4010-997b-c19378501d93")
 		)
 		(fp_poly
 			(pts
@@ -18733,7 +18763,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "857f141f-326c-4cd2-91ed-46e59a57f6e3")
+			(uuid "4e1e9976-fd5a-47d6-a55b-1b2f53e6e380")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -18752,21 +18782,21 @@
 			(size 0.95 0.55)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "5bbc4c47-335f-44a6-9b3b-779265e4936d")
+			(uuid "209e65ee-b8c0-4f5d-bc76-c82795dc4f38")
 		)
 		(pad "" smd roundrect
 			(at 0 0)
 			(size 0.95 0.55)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "0ac3cc2e-8e17-42d2-a165-6b54ddc7a1dd")
+			(uuid "ce0258d1-aa52-4074-812d-537d109c46e8")
 		)
 		(pad "" smd roundrect
 			(at 0 0.63)
 			(size 0.95 0.55)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "77bd1d2e-f21e-4c0f-9e50-ef1edcfb08e0")
+			(uuid "d4902be2-8e69-43a5-8b6e-9f6ffef08133")
 		)
 		(pad "1" smd roundrect
 			(at -1.0625 0.975)
@@ -18870,7 +18900,7 @@
 			(net 15 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "094b9c01-e272-4ecf-81a0-94c8df3fb678")
+			(uuid "234ddcb7-9cfc-4ee5-a7ba-ba3d1ddffc38")
 		)
 		(pad "9" smd rect
 			(at 0 0)
@@ -18881,7 +18911,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a3fc3b10-d554-4b74-ab27-a4770db0ddc2")
+			(uuid "234ddcb7-9cfc-4ee5-a7ba-ba3d1ddffc38")
 		)
 		(pad "9" smd rect
 			(at 0 0)
@@ -18892,7 +18922,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "4039e3c8-7afb-4436-ae86-8d68d837707d")
+			(uuid "234ddcb7-9cfc-4ee5-a7ba-ba3d1ddffc38")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.75)
@@ -18904,10 +18934,10 @@
 			(net 15 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "bd58c86b-7802-4431-99da-271270070a3c")
+			(uuid "234ddcb7-9cfc-4ee5-a7ba-ba3d1ddffc38")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm.step"
+		(model "${KIPRJMOD}/3d/TPS82130SILR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54228,14 +54258,14 @@
 			)
 		)
 	)
-	(footprint "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+	(footprint "bitaxe:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 		(layer "B.Cu")
 		(uuid "cafbaf3a-5f9f-41cb-a272-89cf6d655590")
 		(at 104.42 61.9 -90)
 		(descr "Texas SIL0008D MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Texas MicroSiP NoLead")
 		(property "Reference" "U10"
-			(at 0 2.45 90)
+			(at 0 2.45 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "fc92b494-c820-4d9c-8fde-b02c3e55ec6e")
@@ -54248,7 +54278,7 @@
 			)
 		)
 		(property "Value" "TPS82130"
-			(at 0 -2.45 90)
+			(at 0 -2.45 270)
 			(layer "B.Fab")
 			(uuid "e64a3c52-9007-4f5d-9402-6dc31ae576d5")
 			(effects
@@ -54260,7 +54290,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps82130.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "36fcea47-ca74-4416-9e3b-4d89fe0ce035")
@@ -54273,7 +54303,7 @@
 			)
 		)
 		(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f67560af-f1f6-40c4-b1bf-522b8ab135bf")
@@ -54299,6 +54329,34 @@
 				(justify mirror)
 			)
 		)
+		(property "DK" "296-47436-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "10e72ebf-1270-410d-b276-251b96e11207")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "TPS82130SILR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e002d2ef-9801-4cc8-8839-ae7842b824c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Texas*MicroSiP*1EP*2.8x3mm*P0.65mm*")
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/a638ed65-c9da-4979-b6f6-f7b643aebe90")
 		(sheetname "/Power/")
@@ -54312,7 +54370,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "254c4ea3-f267-423a-a548-a2480655d87d")
+			(uuid "75b31c7d-d270-450f-a430-9d97f4e75c75")
 		)
 		(fp_line
 			(start 1.51 1.61)
@@ -54322,7 +54380,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2fda09eb-0283-4185-ae8b-6f3a6d4b32c7")
+			(uuid "ca2654a8-102e-42d8-a257-204a069a1824")
 		)
 		(fp_line
 			(start -1.51 1.485)
@@ -54332,7 +54390,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "009a58f2-b7ad-46e0-a1a1-046d304b6f7f")
+			(uuid "2ca1ac65-b6a8-47f4-95e2-ca73c290baec")
 		)
 		(fp_line
 			(start 1.51 -1.485)
@@ -54342,7 +54400,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "4527d64c-759d-45f3-81cd-dad259851dd0")
+			(uuid "6e2e1883-3374-41cc-80e4-ac475ee31d01")
 		)
 		(fp_line
 			(start -1.51 -1.61)
@@ -54352,7 +54410,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d7a99f66-e681-47b5-9fc8-ef0c9585cfa2")
+			(uuid "cd890dc5-607e-47a8-abbb-09410af4efb9")
 		)
 		(fp_line
 			(start 1.51 -1.61)
@@ -54362,7 +54420,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fb7183fc-ead1-4282-9d53-6d01a159030f")
+			(uuid "81851ad4-3235-4d9d-9acf-8e49673ce069")
 		)
 		(fp_poly
 			(pts
@@ -54374,7 +54432,7 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(uuid "024dba2c-6cdc-475c-90a2-572191cacb54")
+			(uuid "80e6ad3b-6b16-44f2-8ca3-cdc6e831f1af")
 		)
 		(fp_rect
 			(start -1.65 1.75)
@@ -54385,7 +54443,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "4152c41c-2498-4ae3-bfd5-81d577213ceb")
+			(uuid "945ed74d-b72e-4d06-a53e-43daf0fbaa47")
 		)
 		(fp_poly
 			(pts
@@ -54397,7 +54455,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "a04cacf3-c793-4b88-91f8-f3fc7f8bff28")
+			(uuid "305884c7-3256-4ddf-8f80-450e5db09207")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -54416,21 +54474,21 @@
 			(size 0.95 0.55)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "00261d88-0ff4-4bab-b0cb-f52109fcf4b1")
+			(uuid "bd545acb-9357-4a63-a2df-8583dd54b549")
 		)
 		(pad "" smd roundrect
 			(at 0 0 270)
 			(size 0.95 0.55)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "478645e2-d0ef-43ac-a0e3-a26095e34f2c")
+			(uuid "581be053-0502-4003-8929-46c6d2e7aa89")
 		)
 		(pad "" smd roundrect
 			(at 0 0.63 270)
 			(size 0.95 0.55)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "d5da49d2-43c8-47ca-8f84-16a303860514")
+			(uuid "0353ed70-18fd-407f-bf0d-b14ac633ebf5")
 		)
 		(pad "1" smd roundrect
 			(at -1.0625 0.975 270)
@@ -54534,7 +54592,7 @@
 			(net 15 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "893ca54b-9267-4606-9379-6581facbf3c3")
+			(uuid "dc308c5d-5a91-4e8d-a069-c69207c1cde2")
 		)
 		(pad "9" smd rect
 			(at 0 0 270)
@@ -54545,7 +54603,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "9bff93be-2b3f-4878-a5e7-96374f0268be")
+			(uuid "dc308c5d-5a91-4e8d-a069-c69207c1cde2")
 		)
 		(pad "9" smd rect
 			(at 0 0 270)
@@ -54556,7 +54614,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "ab53ebd1-4416-4860-a223-e0c71f626a29")
+			(uuid "dc308c5d-5a91-4e8d-a069-c69207c1cde2")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.75 270)
@@ -54568,10 +54626,10 @@
 			(net 15 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cc172652-835d-4f25-99ad-0084af22cc79")
+			(uuid "dc308c5d-5a91-4e8d-a069-c69207c1cde2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm.step"
+		(model "${KIPRJMOD}/3d/TPS82130SILR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
