@@ -423,132 +423,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin power_in line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -878,6 +752,150 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bitaxe:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT1"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin power_in line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -1807,7 +1825,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 2.54 0 0)
 					(length 2.54)
 					(name "VIN"
@@ -1936,7 +1954,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 38.1 0 180)
 					(length 2.54)
 					(name "VOUT"
@@ -1990,7 +2008,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 38.1 -12.7 180)
 					(length 2.54)
 					(name "GND"
@@ -2175,10 +2193,22 @@
 		(uuid "339e822b-905e-4bd7-86f2-5ac289443cd5")
 	)
 	(junction
+		(at 119.38 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bb5f737-b9c4-4e57-b82d-70d920bcb250")
+	)
+	(junction
 		(at 312.42 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e6d00c4-3e65-4c75-ae7e-4c54fef0f190")
+	)
+	(junction
+		(at 120.65 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f9f7e7c-6d68-4e42-bd8d-4290e44fd069")
 	)
 	(junction
 		(at 120.65 181.61)
@@ -2970,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 200.66) (xy 129.54 200.66)
+			(xy 114.3 200.66) (xy 119.38 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3447,6 +3477,16 @@
 			(type default)
 		)
 		(uuid "7d15f81b-6650-46a3-9eb7-3f00e9985bee")
+	)
+	(wire
+		(pts
+			(xy 119.38 200.66) (xy 129.54 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff82524-da45-4689-b599-8f0a5fa42f1d")
 	)
 	(wire
 		(pts
@@ -3940,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 156.21) (xy 129.54 156.21)
+			(xy 114.3 156.21) (xy 120.65 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4067,6 +4107,16 @@
 			(type default)
 		)
 		(uuid "cb44ad3f-6a72-49c3-9c11-e8c72a2a604d")
+	)
+	(wire
+		(pts
+			(xy 120.65 156.21) (xy 129.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf06657-e183-43c2-bbe5-c5c3854c453e")
 	)
 	(wire
 		(pts
@@ -5283,7 +5333,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14659-1-ND"
 			(at 129.54 210.82 90)
 			(effects
 				(font
@@ -6097,7 +6147,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0740K2L"
 			(at 64.77 171.45 0)
 			(effects
 				(font
@@ -6106,7 +6156,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-40.2KLRCT-ND"
 			(at 64.77 171.45 0)
 			(effects
 				(font
@@ -6428,7 +6478,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-6295-1-ND"
 			(at 74.93 175.26 90)
 			(effects
 				(font
@@ -6456,6 +6506,107 @@
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6086219c-6d62-45ed-8386-9ee31b8abc96")
+		(property "Reference" "TP15"
+			(at 119.38 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 121.666 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 119.38 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 119.38 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 119.38 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95968cec-6207-4feb-a2c2-e656e3c7d9f9")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -6515,7 +6666,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0740K2L"
 			(at 64.77 215.9 0)
 			(effects
 				(font
@@ -6524,7 +6675,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-40.2KLRCT-ND"
 			(at 64.77 215.9 0)
 			(effects
 				(font
@@ -6884,7 +7035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
+		(lib_id "bitaxe:NetTie_2")
 		(at 217.17 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7241,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-07249KL"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -7250,7 +7401,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-249KLRCT-ND"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -7781,7 +7932,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "RHM1KTR-ND"
+		(property "DK" "RHM1KCT-ND"
 			(at 217.17 85.09 0)
 			(effects
 				(font
@@ -7886,7 +8037,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "445-14433-1-ND"
 			(at 58.42 167.64 90)
 			(effects
 				(font
@@ -7914,6 +8065,107 @@
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2d9ebd8-7f26-41c5-9d36-21266169001b")
+		(property "Reference" "TP9"
+			(at 120.65 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 122.936 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 125.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 120.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 120.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 120.65 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 120.65 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a32c6077-2c5b-45fe-8124-12c7237c7a08")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8086,7 +8338,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0776K8L"
 			(at 120.65 215.9 0)
 			(effects
 				(font
@@ -8095,7 +8347,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG3230CT-ND"
 			(at 120.65 215.9 0)
 			(effects
 				(font
@@ -8408,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "445-14433-1-ND"
 			(at 58.42 212.09 90)
 			(effects
 				(font
@@ -9281,7 +9533,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-6295-1-ND"
 			(at 74.93 219.71 90)
 			(effects
 				(font
@@ -9377,7 +9629,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14659-1-ND"
 			(at 129.54 166.37 90)
 			(effects
 				(font
