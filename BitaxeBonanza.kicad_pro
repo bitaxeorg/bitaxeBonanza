@@ -64,15 +64,7 @@
           ""
         ],
         [
-          "hole_clearance|137830000|87205000|b191049a-baba-4712-8d2f-9dcc6eaa4321|334a37b1-7cab-4efd-9175-234b7c107252",
-          ""
-        ],
-        [
-          "unconnected_items|162235000|69965000|F.Cu|4|a14f5bae-8796-4d57-b360-cf1f79e6ef58|921400ba-0936-451a-bdd4-8080ae235169",
-          ""
-        ],
-        [
-          "unconnected_items|162620000|60940000|F.Cu|4|cb146801-fd70-486f-bdf9-c6cb4d62919e|921400ba-0936-451a-bdd4-8080ae235169",
+          "hole_clearance|137830000|87205000|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
         ]
       ],

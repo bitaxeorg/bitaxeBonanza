@@ -12758,7 +12758,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
-			(at 0.3048 0 0)
+			(at 14.732 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +12767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0.3048 0 0)
+			(at 3.302 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +12776,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 0 0 0)
+			(at 6.858 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12859,7 +12859,7 @@
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "Mounting"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)

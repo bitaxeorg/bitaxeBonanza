@@ -225,7 +225,7 @@
 				)
 			)
 			(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
-				(at 0.3048 0 0)
+				(at 14.732 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -234,7 +234,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0.3048 0 0)
+				(at 3.302 -5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -243,7 +243,7 @@
 				)
 			)
 			(property "Description" "Heatsink"
-				(at 0 0 0)
+				(at 6.858 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -326,7 +326,7 @@
 				(pin input line
 					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "Mounting"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -617,23 +617,23 @@
 		(uuid "dde84f21-13d9-481b-afe4-1ede55ed3216")
 	)
 	(no_connect
-		(at 119.38 189.23)
+		(at 29.21 171.45)
 		(uuid "04a6783a-fec6-4488-8222-5c26922ecc6b")
 	)
 	(no_connect
-		(at 119.38 186.69)
+		(at 29.21 168.91)
 		(uuid "14f9303c-c0ea-4dac-971d-05ce4b44ed83")
 	)
 	(no_connect
-		(at 119.38 191.77)
+		(at 29.21 173.99)
 		(uuid "5e7b1b39-2dbe-4437-b20b-4c6541ef455a")
 	)
 	(no_connect
-		(at 119.38 181.61)
+		(at 29.21 163.83)
 		(uuid "a9192ec2-38dd-446a-9de8-9cb4c19610da")
 	)
 	(no_connect
-		(at 119.38 184.15)
+		(at 29.21 166.37)
 		(uuid "eb0f73d5-7b56-41e8-99e3-efca7adb3a03")
 	)
 	(wire
@@ -1527,16 +1527,15 @@
 	)
 	(symbol
 		(lib_id "bitaxe:Heatsink")
-		(at 121.92 179.07 0)
+		(at 31.75 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b689995-7c98-4d53-90e0-5cfdabf79b83")
 		(property "Reference" "HS1"
-			(at 125.73 177.1014 0)
+			(at 35.56 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1544,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 125.73 179.6414 0)
+			(at 35.56 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1553,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Heatsink-5hole-BitaxeGT"
-			(at 122.2248 179.07 0)
+			(at 32.0548 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.2248 179.07 0)
+			(at 32.0548 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1571,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 121.92 179.07 0)
+			(at 31.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1580,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 121.92 179.07 0)
+			(at 31.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1589,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 121.92 179.07 0)
+			(at 31.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1912,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 158.75 0)
+		(at 52.07 162.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1922,7 +1921,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b5e4188-1e9d-4ba5-a145-a6a81e6d7127")
 		(property "Reference" "FID2"
-			(at 46.99 157.4799 0)
+			(at 54.61 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1930,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 46.99 160.0199 0)
+			(at 54.61 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1939,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 158.75 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +1948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 158.75 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1957,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 158.75 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1966,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 44.45 158.75 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1975,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 44.45 158.75 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2079,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 171.45 0)
+		(at 52.07 175.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2089,7 +2088,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3f5c192-b088-4ada-8ff3-36d82ff2adb5")
 		(property "Reference" "FID4"
-			(at 46.99 170.1799 0)
+			(at 54.61 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2097,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 46.99 172.7199 0)
+			(at 54.61 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2106,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 171.45 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 171.45 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2124,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 171.45 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2133,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 44.45 171.45 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2142,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 44.45 171.45 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2161,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 152.4 0)
+		(at 52.07 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2171,7 +2170,7 @@
 		(fields_autoplaced yes)
 		(uuid "b91bfcc4-c4da-404b-8879-bad81dc0d2b2")
 		(property "Reference" "FID1"
-			(at 46.99 151.1299 0)
+			(at 54.61 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2179,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 46.99 153.6699 0)
+			(at 54.61 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2188,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 152.4 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 152.4 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2206,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 152.4 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2215,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 44.45 152.4 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2224,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 44.45 152.4 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2243,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 165.1 0)
+		(at 52.07 168.91 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2253,7 +2252,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb54600b-2c93-474f-822b-7bb587446d0c")
 		(property "Reference" "FID3"
-			(at 46.99 163.8299 0)
+			(at 54.61 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2261,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 46.99 166.3699 0)
+			(at 54.61 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2270,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 165.1 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 165.1 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2288,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 165.1 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2297,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 44.45 165.1 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2306,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 44.45 165.1 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
