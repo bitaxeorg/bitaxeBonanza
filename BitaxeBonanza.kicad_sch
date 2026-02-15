@@ -1513,6 +1513,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 81.28 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "621f5914-b621-4042-9e88-847715a12b5f")
 		)
@@ -1589,6 +1598,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 31.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 31.75 161.29 0)
 			(effects
 				(font
@@ -1694,6 +1712,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 81.28 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e1667e8-6bd5-47cb-bc34-6d796de5e393")
 		)
@@ -1771,6 +1798,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 81.28 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 81.28 167.64 90)
 			(effects
 				(font
@@ -1889,6 +1925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "85569538-4001-4f95-a5d8-99ed0c96dddb")
 		)
@@ -1983,6 +2028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2057,6 +2111,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 81.28 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 81.28 152.4 90)
 			(effects
 				(font
@@ -2150,6 +2213,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2232,6 +2304,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2306,6 +2387,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 52.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 52.07 168.91 0)
 			(effects
 				(font

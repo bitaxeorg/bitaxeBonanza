@@ -720,6 +720,12 @@
           "label": "Height",
           "name": "Height",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ME",
+          "name": "ME",
+          "show": true
         }
       ],
       "filter_string": "",

@@ -8639,6 +8639,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 201.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0f0f0429-3a62-4ee9-a388-9290921f6882")
 		)
@@ -8768,6 +8777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 133.35 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4fed5aa-bf5d-4cb4-a713-8ff42c27bfa2")
 		)
@@ -8868,6 +8886,15 @@
 		)
 		(property "DK" "P19095CT-ND"
 			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,6 +9005,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 167.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7696e620-3faa-477f-b57a-274171357968")
 		)
@@ -9076,6 +9112,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 111.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 111.76 189.23 0)
 			(effects
 				(font
@@ -9199,6 +9244,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 152.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "877cafbf-fd97-4c33-91a6-1e5b5f496e35")
 		)
@@ -9303,6 +9357,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 127 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4a59c56-3832-4d18-b385-a956a27477c6")
 		)
@@ -9387,7 +9450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 303.53 110.49 0)
 			(effects
 				(font
@@ -9415,6 +9478,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 303.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 303.53 110.49 0)
 			(effects
 				(font
@@ -9537,6 +9609,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 325.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "701fa250-5087-4c2f-b907-d8dd9a808bbf")
 		)
@@ -9629,6 +9710,15 @@
 			)
 		)
 		(property "PARTNO" "USB4105-GF-A"
+			(at 317.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 317.5 59.69 0)
 			(effects
 				(font
@@ -9764,6 +9854,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 294.64 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49e67595-23fc-4e9f-ade4-68ca6819175a")
 		)
@@ -9868,6 +9967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 66.04 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc2e005a-1354-497a-9220-9b5856a543bf")
 		)
@@ -9958,6 +10066,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" ""
+			(at 135.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10067,6 +10184,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 184.15 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 184.15 166.37 0)
 			(effects
 				(font
@@ -10190,6 +10316,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "767fad4e-d6a8-465d-a72a-e084dd2f78cc")
 		)
@@ -10268,6 +10403,15 @@
 			)
 		)
 		(property "PARTNO" "ESP32-S3-WROOM-1-N16R8"
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 200.66 92.71 0)
 			(effects
 				(font
@@ -10508,6 +10652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 317.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d17584b5-2c94-4151-a48f-e3068cc35202")
 		)
@@ -10615,6 +10768,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 260.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 260.35 166.37 0)
 			(effects
 				(font
@@ -10747,6 +10909,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 339.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c2b147b-56d2-4518-870a-547d2dce9180")
 		)
@@ -10851,6 +11022,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 127 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0472f620-a70f-4f81-a677-3b7fa131b327")
 		)
@@ -10927,6 +11107,15 @@
 		)
 		(property "DK" "P19095CT-ND"
 			(at 116.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 116.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,6 +11233,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 279.4 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b74acda-209a-47c3-8fa5-0c6d7527d9f9")
 		)
@@ -11112,6 +11310,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 66.04 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 66.04 90.17 90)
 			(effects
 				(font
@@ -11212,6 +11419,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 140.97 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 140.97 228.6 0)
 			(effects
 				(font
@@ -11341,6 +11557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 294.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33e72ede-5602-43eb-8b56-f5c00e543daf")
 		)
@@ -11456,6 +11681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 271.78 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72c585ce-e665-4bdd-b508-a0433b4bccfd")
 		)
@@ -11536,6 +11770,15 @@
 			)
 		)
 		(property "DK" "311-10KJRCT-ND"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 125.73 46.99 0)
 			(effects
 				(font
@@ -11648,6 +11891,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 279.4 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b46f24dd-4b60-4921-83b9-af64c62d029a")
 		)
@@ -11749,6 +12001,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 279.4 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7a2eca0-2681-4c1f-9432-20be9ce26933")
 		)
@@ -11835,6 +12096,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -11955,6 +12225,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 237.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feafe445-b733-41d9-a16c-4cc73d3e0cc5")
 		)
@@ -12026,6 +12305,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 72.39 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 72.39 90.17 90)
 			(effects
 				(font
@@ -12145,6 +12433,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21514bde-a34a-4b34-b324-de381c8b8ad7")
 		)
@@ -12238,6 +12535,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" ""
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12354,6 +12660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "603242bb-67fa-45bc-a443-17adc1104c95")
 		)
@@ -12451,6 +12766,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "603242bb-67fa-45bc-a443-17adc1104c96")
 		)
@@ -12510,6 +12834,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 167.64 256.54 0)
 			(effects
 				(font
@@ -12635,6 +12968,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 248.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df346b26-4af9-4ec2-9147-26da4a3b8ab0")
 		)
@@ -12750,6 +13092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 306.07 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f88e7234-5174-4d62-8fdc-b5b2ddc946e5")
 		)
@@ -12839,6 +13190,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 72.39 85.09 0)
 			(effects
 				(font
@@ -12962,6 +13322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 283.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9d7fd0e-0e8e-4a1d-b318-a2446b4659ae")
 		)
@@ -13059,6 +13428,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 219.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 219.71 226.06 0)
 			(effects
 				(font
@@ -13326,6 +13704,15 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 283.21 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc9fb9a0-137e-45f1-8e5b-ada88c29fa57")
 		)
@@ -13433,6 +13820,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 167.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 167.64 204.47 0)
 			(effects
 				(font
@@ -13549,6 +13945,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 129.54 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
 			(at 129.54 234.95 0)
 			(effects
 				(font
