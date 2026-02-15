@@ -14715,6 +14715,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e8c92c9-be62-43f7-abac-b4a367d0b3f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/99484245-73af-40ee-a23a-9045a88fd2a4")
 		(sheetname "/Power/")
@@ -14862,7 +14876,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK316BBJ226ML-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14876,7 +14890,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "587-3246-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15155,6 +15169,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "52262fe4-da41-47af-97bb-57fd78c5f7fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "79c03515-ed0b-4d5b-a982-8957d6a3f258")
 			(effects
 				(font
 					(size 1 1)
@@ -16765,6 +16793,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "047dfcae-203d-4c0c-ba1f-a2f7abd7251f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/a4b5b8f7-d514-474e-942c-8b588d8a9c91")
 		(sheetname "/ASIC/")
@@ -17404,7 +17446,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL05B332KA5VPNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17418,7 +17460,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-CL05B332KA5VPNCCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19340,6 +19382,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0a26fd79-e8a3-426a-8706-40f6fd4eee15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/a95a3e14-329f-4c82-b2d7-eba598d3260c")
 		(sheetname "/ASIC/")
@@ -19535,6 +19591,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3deb928d-4e38-407f-8e69-9f6750a0831b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ME" "595-TPS82130SILR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c2c3b467-378e-4f02-8131-d5887c58b140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C473914"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a6eddd9-ef9d-4d75-b927-ce98979966c3")
 			(effects
 				(font
 					(size 1 1)
@@ -35973,7 +36057,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK316BBJ226ML-T"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35987,7 +36071,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "587-3246-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41123,6 +41207,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3148e7c7-6869-4978-b7eb-4c201e7134a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/62eb6396-d00e-446d-a55f-b459898bff1d")
 		(sheetname "/ASIC/")
@@ -41852,6 +41950,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7429f803-c187-4e67-82a9-8ae6137d781c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec432b12-487b-4177-bbe6-278cccb41788")
 			(effects
 				(font
 					(size 1 1)
@@ -44573,6 +44685,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f20e7cac-b1e6-4032-9df0-40dc4c1d5ecf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "28e83dbd-6d85-4ff2-8ea3-a3743c0c1090")
 			(effects
 				(font
 					(size 1 1)
@@ -50162,6 +50288,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9f7f3181-9ec2-4e2b-b6a7-8ed9ef03054b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/78539cd3-fbc0-45dc-a295-77c598472dff")
 		(sheetname "/ASIC/")
@@ -51893,6 +52033,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b9930824-4a66-4113-8482-d694a11161ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/264ad267-e32c-45da-9809-adf6bb41c4c6")
 		(sheetname "/ASIC/")
@@ -52285,7 +52439,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52502,7 +52656,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "CL05B332KA5VPNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52516,7 +52670,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "1276-CL05B332KA5VPNCCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53679,6 +53833,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b15dc27f-66e1-4af6-9021-d91e95cbc77b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/3c7c64b6-717a-4ab6-b1b5-352612e0650e")
 		(sheetname "/ASIC/")
@@ -54135,6 +54303,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6bf1e237-784a-4a48-83e2-b1097b667e56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7565c2c9-3866-4ea3-925c-ebc08bb7e15c")
 			(effects
 				(font
 					(size 1 1)
@@ -55184,6 +55366,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c2bd5047-44af-4a68-8a01-2c78210fe82c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C473914"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e382fad7-4a9c-4dc5-a6c5-1f7f1a822f24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ME" "595-TPS82130SILR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4973d73b-cd2d-40eb-accb-51eb4efb3bae")
 			(effects
 				(font
 					(size 1 1)
@@ -57088,6 +57298,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7af5d833-b9d8-4fc3-be85-07977fcf9b63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/4aedf123-eb5a-435d-94aa-bb22e5fc716b")
 		(sheetname "/ASIC/")
@@ -58645,6 +58869,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0784a49-d40d-49ba-9a10-4563c6832be8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/e79a21c8-5b4e-42ff-b219-4444a2916dc4")
 		(sheetname "/ASIC/")
@@ -60173,6 +60411,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ea2c10a6-9913-487c-adf2-4686918ad93c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fe523f35-91a5-4bc1-8946-6fe4a8d4c244")
 			(effects
 				(font
 					(size 1 1)
