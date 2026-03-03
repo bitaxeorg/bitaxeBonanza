@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -116,36 +116,28 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.27 1.25)
-		(end 0.27 1.25)
+	(fp_rect
+		(start -1.65 -1.3)
+		(end 1.65 1.3)
 		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "62a1c268-8217-4223-aec4-c6d9cebb5bf0")
-	)
-	(fp_line
-		(start 0.27 -1.25)
-		(end -0.27 -1.25)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8f645bbc-9ec8-49b8-a824-206e3f6fe218")
-	)
-	(fp_circle
-		(center -2.35 0.97)
-		(end -2.25 0.97)
-		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e59aa733-2ade-4778-8a18-453e869cd7e1")
+		(uuid "62641f2d-938a-479d-bcd8-d2fdaac9c996")
+	)
+	(fp_poly
+		(pts
+			(xy -1.953 0.922) (xy -2.283 1.162) (xy -2.283 0.682) (xy -1.953 0.922)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "692f1d81-33f4-471b-9905-3ccb28739ce7")
 	)
 	(fp_line
 		(start -2.05 -1.7)

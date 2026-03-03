@@ -5227,6 +5227,10 @@
 		(uuid "8eba22ee-b837-4bfa-8170-4bd7030f5397")
 	)
 	(no_connect
+		(at 245.11 256.54)
+		(uuid "8f23e588-5263-44dd-befc-a46333a86b1d")
+	)
+	(no_connect
 		(at 245.11 231.14)
 		(uuid "90b80314-a016-40cb-bba8-79d53d7ebd43")
 	)
@@ -5267,6 +5271,10 @@
 		(uuid "be33f2b4-7843-44f9-b33a-fdcb586e607f")
 	)
 	(no_connect
+		(at 245.11 259.08)
+		(uuid "bf7ff72b-2258-4579-bb63-bd3f21378ba4")
+	)
+	(no_connect
 		(at 245.11 203.2)
 		(uuid "c193217f-dd1d-495f-b322-f64e4cb2da06")
 	)
@@ -5297,6 +5305,10 @@
 	(no_connect
 		(at 194.31 198.12)
 		(uuid "f8a88431-f40c-43fc-9be5-f8f1c5991fac")
+	)
+	(no_connect
+		(at 245.11 261.62)
+		(uuid "f946b247-c07c-4911-81f9-1b37bee2428e")
 	)
 	(no_connect
 		(at 245.11 220.98)
@@ -5554,16 +5566,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 256.54) (xy 250.19 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125c8690-fafa-4f96-b41b-657f0d5097e0")
-	)
-	(wire
-		(pts
 			(xy 260.35 161.29) (xy 271.78 161.29)
 		)
 		(stroke
@@ -5741,16 +5743,6 @@
 			(type default)
 		)
 		(uuid "204633c4-a3a8-4c88-8d65-280040cf8d81")
-	)
-	(wire
-		(pts
-			(xy 245.11 261.62) (xy 250.19 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2343147c-56c6-470b-8cdc-8edb68306656")
 	)
 	(wire
 		(pts
@@ -7294,16 +7286,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 259.08) (xy 250.19 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66f12bd-dd20-4f28-a38b-6ce6663c4b84")
-	)
-	(wire
-		(pts
 			(xy 217.17 171.45) (xy 214.63 171.45)
 		)
 		(stroke
@@ -8401,17 +8383,6 @@
 		)
 		(uuid "21ec7341-bc68-4fe5-8fda-55e5be4a3307")
 	)
-	(hierarchical_label "DOMAIN2"
-		(shape input)
-		(at 250.19 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e54d898-ee59-4ff6-b3ec-6b77de254121")
-	)
 	(hierarchical_label "TRIP_3V3"
 		(shape input)
 		(at 261.62 213.36 0)
@@ -8434,17 +8405,6 @@
 		)
 		(uuid "33a8882a-a361-4574-8a6b-7ab2235bad93")
 	)
-	(hierarchical_label "DOMAIN1"
-		(shape input)
-		(at 250.19 256.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46178a15-0844-45ca-a8d9-69141ebb32a3")
-	)
 	(hierarchical_label "PGOOD"
 		(shape input)
 		(at 59.69 95.25 180)
@@ -8466,17 +8426,6 @@
 			(justify left)
 		)
 		(uuid "5c032e73-19a5-4b9d-b0c5-2cd502a93505")
-	)
-	(hierarchical_label "DOMAIN3"
-		(shape input)
-		(at 250.19 261.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cd92546-b4ed-41ef-ac80-9e9d84910185")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -12795,7 +12744,7 @@
 		(at 167.64 256.54 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2f2755b-e838-46b4-bec7-208a7856a71b")

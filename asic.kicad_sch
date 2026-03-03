@@ -3715,12 +3715,6 @@
 		(uuid "1d2c5a31-38f8-49b2-a34b-0d1d5d903bc6")
 	)
 	(junction
-		(at 287.02 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1de3e5dd-866e-474c-af12-b877d9ed88f6")
-	)
-	(junction
 		(at 481.33 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3785,12 +3779,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36971818-f2d8-4cae-aa7f-552837a6d3a5")
-	)
-	(junction
-		(at 287.02 290.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dc6d9b9-52e2-46ce-a3f4-f34e8c40f673")
 	)
 	(junction
 		(at 265.43 275.59)
@@ -4001,12 +3989,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a387d889-c4b3-4beb-81d4-7e77841a4728")
-	)
-	(junction
-		(at 287.02 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3ef14d3-034d-46d6-b1ab-64e9c8757393")
 	)
 	(junction
 		(at 287.02 62.23)
@@ -4417,16 +4399,6 @@
 			(type default)
 		)
 		(uuid "0bb82e3b-6c61-4c06-9f41-1242a2255aab")
-	)
-	(wire
-		(pts
-			(xy 287.02 132.08) (xy 287.02 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf9dd9a-08be-4781-a039-e1da4bb7ab78")
 	)
 	(wire
 		(pts
@@ -5130,16 +5102,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 132.08) (xy 295.91 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f96b6de-a266-4445-aeb0-6a91a2e691a3")
-	)
-	(wire
-		(pts
 			(xy 516.89 339.09) (xy 516.89 347.98)
 		)
 		(stroke
@@ -5630,7 +5592,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 199.39) (xy 287.02 213.36)
+			(xy 287.02 199.39) (xy 287.02 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5667,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "7bc68fee-f165-40f8-b6ca-e2b0040d0e02")
-	)
-	(wire
-		(pts
-			(xy 287.02 213.36) (xy 295.91 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc77a66-c4a4-4cfa-bb97-22707e9361df")
 	)
 	(wire
 		(pts
@@ -6150,16 +6102,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 213.36) (xy 287.02 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e337fb3-ea22-4197-8c44-1e3ccb85d794")
-	)
-	(wire
-		(pts
 			(xy 217.17 355.6) (xy 265.43 355.6)
 		)
 		(stroke
@@ -6540,7 +6482,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 119.38) (xy 287.02 132.08)
+			(xy 287.02 119.38) (xy 287.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7220,23 +7162,13 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 276.86) (xy 287.02 290.83)
+			(xy 287.02 276.86) (xy 287.02 293.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f394f762-b7f1-4f14-bc1d-3cf93e7013fd")
-	)
-	(wire
-		(pts
-			(xy 287.02 290.83) (xy 287.02 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3bd96f5-4cb5-472d-814f-877aac3db8ab")
 	)
 	(wire
 		(pts
@@ -7267,16 +7199,6 @@
 			(type default)
 		)
 		(uuid "f5193768-07ca-4d95-91f6-994a3f6804b9")
-	)
-	(wire
-		(pts
-			(xy 287.02 290.83) (xy 295.91 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f647bf1e-049d-4c14-a61c-8568ec959567")
 	)
 	(wire
 		(pts
@@ -8095,39 +8017,6 @@
 		)
 		(uuid "9bff21c9-b0c5-4395-b694-c691a2794c6a")
 	)
-	(hierarchical_label "DOMAIN2"
-		(shape output)
-		(at 295.91 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad1149d4-1024-430e-832b-b30e6bfdd9d6")
-	)
-	(hierarchical_label "DOMAIN1"
-		(shape output)
-		(at 295.91 290.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae7c04a6-b173-4266-9a63-948fba708de4")
-	)
-	(hierarchical_label "DOMAIN3"
-		(shape output)
-		(at 295.91 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec02a1b9-f680-4f1f-9b77-196b409af997")
-	)
 	(hierarchical_label "RX_3V3"
 		(shape input)
 		(at 519.43 327.66 0)
@@ -8175,7 +8064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "bitaxe:SOT-23-5"
 			(at 157.48 163.83 0)
 			(effects
 				(font
@@ -8500,7 +8389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "bitaxe:SOT-23-5"
 			(at 157.48 242.57 0)
 			(effects
 				(font
@@ -11578,7 +11467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "bitaxe:SOT-23-5"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -14814,7 +14703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "bitaxe:SOT-23-5"
 			(at 157.48 316.23 0)
 			(effects
 				(font

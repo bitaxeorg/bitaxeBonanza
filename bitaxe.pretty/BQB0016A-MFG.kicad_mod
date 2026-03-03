@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "BQB0016A-MFG"
-		(at 0 3.301 0)
+		(at 0.08 5.114 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cd03a631-68dc-42ac-b53a-c9933b1d71f4")
@@ -93,16 +93,17 @@
 		(layer "F.SilkS")
 		(uuid "5b616abf-f29d-4533-8662-5879a4588d96")
 	)
-	(fp_circle
-		(center -0.616 -2.46)
-		(end -0.490998 -2.46)
+	(fp_poly
+		(pts
+			(xy -0.563 -2.026) (xy -0.803 -2.356) (xy -0.323 -2.356)
+		)
 		(stroke
-			(width 0.25)
+			(width 0.12)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "bb35b442-b2b6-4f6a-82d0-3234328cc5a9")
+		(uuid "6289dd9a-6d03-4cb4-b55a-6463bb9ac30a")
 	)
 	(fp_poly
 		(pts
