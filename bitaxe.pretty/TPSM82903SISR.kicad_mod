@@ -6,7 +6,7 @@
 	(descr "SIS0011A_2026")
 	(tags "Integrated Circuit")
 	(property "Reference" "REF**"
-		(at -0.484 -2.223 0)
+		(at 1.63 -2.299 0)
 		(layer "F.SilkS")
 		(uuid "b535816b-ae6c-49c0-a7e8-5029c5160352")
 		(effects
@@ -65,16 +65,17 @@
 		(layer "F.SilkS")
 		(uuid "269f717f-801a-4a13-8cc1-88fe714c770e")
 	)
-	(fp_circle
-		(center -1.973 -1.48)
-		(end -1.76 -1.405)
+	(fp_poly
+		(pts
+			(xy -1.224 -1.754) (xy -1.464 -2.084) (xy -0.984 -2.084) (xy -1.224 -1.754)
+		)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "0e540f0d-e802-4e8a-a201-85920cd5e144")
+		(uuid "bfefa9d1-5607-496b-aea4-af4575792a71")
 	)
 	(fp_rect
 		(start -1.722 -1.794)
