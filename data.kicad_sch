@@ -5146,6 +5146,26 @@
 		)
 		(uuid "2b527f89-a1ea-4bd6-a9fd-ca938dd60292")
 	)
+	(text "BOOT"
+		(exclude_from_sim no)
+		(at 147.32 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5215b8fb-5f85-42b3-b5cc-fc1ab769e260")
+	)
+	(text "RESET\n"
+		(exclude_from_sim no)
+		(at 116.84 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fb3ffc7-99cd-48d2-80ff-7aadb039a439")
+	)
 	(text "UART1"
 		(exclude_from_sim no)
 		(at 228.6 199.644 0)

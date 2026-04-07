@@ -7346,7 +7346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -7379,7 +7379,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL21A106KAYNNNG"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 64.77 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -7390,7 +7390,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-6454-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 64.77 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -8938,7 +8938,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8971,7 +8971,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL21A106KAYNNNG"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 64.77 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -8982,7 +8982,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-6454-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 64.77 168.91 90)
 			(hide yes)
 			(show_name no)
