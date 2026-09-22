@@ -108,13 +108,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -122,7 +118,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -131,8 +127,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -163,7 +159,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -185,7 +181,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -196,9 +192,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -206,26 +202,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -660,29 +636,31 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 71.12 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "147e9188-61f9-41a8-b211-d6cb16f83468")
+	(text "Case Mounts"
+		(exclude_from_sim no)
+		(at 109.22 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a27ea10-7fe7-4bac-8040-ce1a870f618a")
 	)
-	(junction
-		(at 71.12 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "291f06b2-5ed5-4c48-85a4-3043030e111b")
+	(text "PCB Mounts"
+		(exclude_from_sim no)
+		(at 82.55 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a97a7c22-27b4-4eab-8dc5-dd739b19baa6")
 	)
 	(junction
 		(at 78.74 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70428d06-7a1c-4473-841a-652d3c9a53bb")
-	)
-	(junction
-		(at 71.12 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dde84f21-13d9-481b-afe4-1ede55ed3216")
 	)
 	(no_connect
 		(at 29.21 171.45)
@@ -726,16 +704,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 78.74 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbe4ff9-4054-4060-bf18-a2f3d3a32ea3")
-	)
-	(wire
-		(pts
 			(xy 153.67 116.84) (xy 128.27 116.84)
 		)
 		(stroke
@@ -743,26 +711,6 @@
 			(type default)
 		)
 		(uuid "1ec5a6a5-40ee-459d-9775-fb357e34882b")
-	)
-	(wire
-		(pts
-			(xy 71.12 175.26) (xy 71.12 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5512a9-5495-4da8-a3ef-db31e9d6d74c")
-	)
-	(wire
-		(pts
-			(xy 78.74 152.4) (xy 71.12 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd244b4-d768-466c-9939-7f038506aaab")
 	)
 	(wire
 		(pts
@@ -833,16 +781,6 @@
 			(type default)
 		)
 		(uuid "31967e1f-840e-4cb3-8384-6bcaf56a64a8")
-	)
-	(wire
-		(pts
-			(xy 71.12 182.88) (xy 83.82 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40cb9b6f-4278-4c16-b54e-f2d351d9e061")
 	)
 	(wire
 		(pts
@@ -976,16 +914,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 175.26) (xy 78.74 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820704b7-aafb-42b6-8c02-c0b02196ee6a")
-	)
-	(wire
-		(pts
 			(xy 96.52 69.85) (xy 96.52 96.52)
 		)
 		(stroke
@@ -1013,16 +941,6 @@
 			(type default)
 		)
 		(uuid "869e8a84-f44b-482f-afde-6a341cc02a2d")
-	)
-	(wire
-		(pts
-			(xy 71.12 152.4) (xy 71.12 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97dd496c-fbfb-40cb-b09f-c04b345619e1")
 	)
 	(wire
 		(pts
@@ -1066,16 +984,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 71.12 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f7e74d-07a6-43d8-9dd1-71a185389d78")
-	)
-	(wire
-		(pts
 			(xy 102.87 69.85) (xy 96.52 69.85)
 		)
 		(stroke
@@ -1103,16 +1011,6 @@
 			(type default)
 		)
 		(uuid "c4d9099d-9bd9-4060-bdca-c8060ee82e1e")
-	)
-	(wire
-		(pts
-			(xy 71.12 167.64) (xy 71.12 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6bf7b91-360b-402c-a4cf-b7c56dfc71bd")
 	)
 	(wire
 		(pts
@@ -1254,16 +1152,6 @@
 		)
 		(uuid "f59c8153-b57f-4ed9-bc64-1c382ac34253")
 	)
-	(wire
-		(pts
-			(xy 71.12 167.64) (xy 78.74 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6f5285-3ae3-4e62-be59-df6277152629")
-	)
 	(label "3V3"
 		(at 90.17 49.53 0)
 		(effects
@@ -1273,16 +1161,6 @@
 			(justify left bottom)
 		)
 		(uuid "0131a1f9-2b62-42cb-97a3-b7d046d38614")
-	)
-	(label "GND"
-		(at 80.01 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1779db82-c23d-4a21-b25e-87f9e5e1f2a8")
 	)
 	(label "5V_SWITCH"
 		(at 90.17 129.54 0)
@@ -1376,30 +1254,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 83.82 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "169e0b1e-7f25-45c2-8e07-05c895ff55c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6757 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 62.23 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1423,8 +1277,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 160.02 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 167.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1433,9 +1287,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1626d1cb-ff0c-41e7-ad29-494f89fc2632")
+		(uuid "04211faa-485c-447f-905a-a2645f3808d1")
 		(property "Reference" "H2"
-			(at 85.09 158.7499 90)
+			(at 76.2 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1446,7 +1300,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 161.2899 90)
+			(at 76.2 168.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,8 +1310,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 160.02 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 73.66 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 160.02 0)
+			(at 73.66 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,19 +1332,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 81.28 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 81.28 160.02 90)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1501,7 +1344,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 160.02 90)
+			(at 73.66 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1511,8 +1354,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 81.28 160.02 90)
+		(property "Sim.Device" ""
+			(at 73.66 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,13 +1365,130 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "621f5914-b621-4042-9e88-847715a12b5f")
+		(property "Sim.Pins" ""
+			(at 73.66 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 99.06 182.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "154063bc-1089-464b-a2aa-2b68c2c68cfe")
+		(property "Reference" "H8"
+			(at 101.6 181.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 101.6 184.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -1658,19 +1618,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 175.26 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 160.02 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24054009-b6b2-4eb2-9a19-7fb2369996dd")
-		(property "Reference" "H4"
-			(at 85.09 173.9899 90)
+		(uuid "1bd8b9c1-b4d5-44fa-9f9e-271de6106cd8")
+		(property "Reference" "H1"
+			(at 76.2 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1681,7 +1641,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 176.5299 90)
+			(at 76.2 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1691,8 +1651,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 175.26 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1703,7 +1663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 175.26 0)
+			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,19 +1673,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 81.28 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 81.28 175.26 90)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1736,7 +1685,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 175.26 90)
+			(at 73.66 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1746,8 +1695,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 81.28 175.26 90)
+		(property "Sim.Device" ""
+			(at 73.66 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1757,32 +1706,40 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "9e1667e8-6bd5-47cb-bc34-6d796de5e393")
+		(property "Sim.Pins" ""
+			(at 73.66 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 167.64 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 99.06 175.26 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
-		(property "Reference" "H3"
-			(at 85.09 166.3699 90)
+		(uuid "1f29f084-5f56-43a8-bdd9-7a1aec89fa3c")
+		(property "Reference" "H7"
+			(at 101.6 173.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1793,7 +1750,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 168.9099 90)
+			(at 101.6 176.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1803,8 +1760,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 167.64 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 99.06 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 167.64 0)
+			(at 99.06 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1825,19 +1782,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 81.28 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 81.28 167.64 90)
+		(property "Description" "Mounting Hole without connection"
+			(at 99.06 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1848,7 +1794,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 167.64 90)
+			(at 99.06 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,8 +1804,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 81.28 167.64 90)
+		(property "Sim.Device" ""
+			(at 99.06 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1869,13 +1815,21 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "5cbc2d8d-5c9f-444f-aa3a-5fe2f8a2e581")
+		(property "Sim.Pins" ""
+			(at 99.06 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H3")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -2143,8 +2097,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 152.4 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 182.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2153,9 +2107,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
-		(property "Reference" "H1"
-			(at 85.09 151.1299 90)
+		(uuid "940c9935-d7f4-40be-b800-10f074a6fed5")
+		(property "Reference" "H4"
+			(at 76.2 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2166,7 +2120,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 153.6699 90)
+			(at 76.2 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2176,8 +2130,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 152.4 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2188,7 +2142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 152.4 0)
+			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,19 +2152,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 81.28 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 81.28 152.4 90)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2221,7 +2164,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 152.4 90)
+			(at 73.66 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,8 +2174,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 81.28 152.4 90)
+		(property "Sim.Device" ""
+			(at 73.66 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,13 +2185,21 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c6576109-99e3-4107-ac9a-849f351288ec")
+		(property "Sim.Pins" ""
+			(at 73.66 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2473,6 +2424,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 99.06 167.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdfa6319-e8e0-45f9-b181-ea5c6e6b298c")
+		(property "Reference" "H6"
+			(at 101.6 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 101.6 168.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 99.06 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 99.06 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 52.07 168.91 0)
 		(unit 1)
@@ -2576,6 +2636,224 @@
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 99.06 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbccd19-90e9-4f75-b5a3-ade6541679fe")
+		(property "Reference" "H5"
+			(at 101.6 158.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 101.6 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 99.06 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 99.06 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d07589ff-af92-4260-90d3-09f6c583d0d7")
+		(property "Reference" "H3"
+			(at 76.2 173.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 76.2 176.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 73.66 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H3")
 					(unit 1)
 				)
 			)

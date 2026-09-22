@@ -1,0 +1,154 @@
+(footprint "PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U1"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ca51645b-b20d-4870-8d87-d765c38803e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "STHW4-DU-HN050206"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "b9becafb-f349-4977-ac5b-200658c31211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68ee3b2c-0644-47e3-bdc5-5194e85f73cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbf14548-8fe3-4b84-a53e-ee2496f0cf4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C18548300"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "940c399b-1d42-4230-9f05-7f61045f0510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C18548300"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a48a4e9-5b79-4021-ad30-c9c1be8ba243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power/")
+	(sheetfile "Power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.75 -1.15)
+		(end 2.75 1.15)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "92d62eb3-884c-4688-8de0-7ac1d2b3e5c9")
+	)
+	(fp_rect
+		(start -2.75 -1.15)
+		(end 2.75 1.15)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "cd504ddf-12b9-44c2-ab51-e6357f62939d")
+	)
+	(fp_rect
+		(start -2.791 -1.196)
+		(end 2.792 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b0e48bdf-fc8b-4a48-98ea-f7f10e4c8c7e")
+	)
+	(fp_circle
+		(center 2.5 -1)
+		(end 2.53 -1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7971b832-f3f3-4555-831a-235fc06a8c08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4313a71f-109f-4eb7-a50d-762432702373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5.5 3.3)
+		(layers "F.Cu")
+		(uuid "8750618e-22bb-4a1b-999b-fd95b346adfc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dshapes/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

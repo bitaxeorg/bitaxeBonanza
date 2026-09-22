@@ -1,0 +1,120 @@
+(footprint "IND-SMD_L2.0-W1.6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "1616ca0d-fbb9-48e3-9070-7cddcb6cbaf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L2.0-W1.6"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "4ff56df2-6fce-45e5-9e5b-deefe1df1f40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcad93ba-6fc0-4f4e-83e0-4e607ce40e41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5267b59f-a8ad-4e41-a2b5-64606e8b00e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ea989009-de04-4ce9-9be7-fb5aa616c3a3")
+	)
+	(fp_rect
+		(start -1.473 -1.001)
+		(end 1.483 1.03)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "978a57ff-25a3-43c0-b0cf-077730b6853d")
+	)
+	(fp_circle
+		(center 1 -0.8)
+		(end 1.03 -0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7e26aec3-7071-4f3c-9742-311393d1700b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9a62b0fc-ce5e-414e-a4e8-062f9a82ea30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.83 0)
+		(size 1 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "472aa160-5bce-48e1-a7db-9e672b4ff6f6")
+	)
+	(pad "2" smd rect
+		(at -0.83 0)
+		(size 1 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a7e1833-362a-4ab9-8bfd-d4c8e87aaa68")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dshapes/IND-SMD_L2.0-W1.6-H1.1.step"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

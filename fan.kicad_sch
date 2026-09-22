@@ -2164,7 +2164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:470531000"
+		(property "Footprint" "bitaxe:fan_connector"
 			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)
