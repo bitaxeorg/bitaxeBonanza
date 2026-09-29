@@ -152,7 +152,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -165,7 +165,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1016,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
@@ -217,6 +217,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.1016,
         0.1524,
         0.2,
@@ -257,6 +258,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
         },
         {
           "diameter": 0.5,
@@ -562,7 +567,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -573,11 +578,22 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "low-power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -823,7 +839,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "J5,U7,U10,U13-17,TP9,TP15,TP61-63,H1-12,L2-3,#PWR1-2,#PWR5-6,C8,C12,C29-30,C49-56,C65-66,FB1-2,R12-13,R15,R25,R27-30",
+    "used_designators": "J5,U7,U10,U13-17,TP9,TP15,TP61-63,H1-12,L2-3,#PWR1-2,#PWR5-6,FB1-2,C8,C12,C29-30,C49-56,C65-66,R12-13,R15,R25,R27-30",
     "variants": []
   },
   "sheets": [
