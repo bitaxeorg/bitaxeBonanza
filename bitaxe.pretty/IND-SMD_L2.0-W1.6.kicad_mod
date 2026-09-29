@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4 0)
 		(layer "F.SilkS")
-		(uuid "1616ca0d-fbb9-48e3-9070-7cddcb6cbaf1")
+		(uuid "bc46c1b3-4f5f-4018-9fde-bc832b3584d6")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "IND-SMD_L2.0-W1.6"
 		(at 0 4 0)
 		(layer "F.Fab")
-		(uuid "4ff56df2-6fce-45e5-9e5b-deefe1df1f40")
+		(uuid "bf71462c-b757-4c4f-b9a6-0517de1dc1c9")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fcad93ba-6fc0-4f4e-83e0-4e607ce40e41")
+		(uuid "d3ecafc7-8bfd-4f81-9e20-a5cf37b5941b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5267b59f-a8ad-4e41-a2b5-64606e8b00e0")
+		(uuid "f6e5a525-3529-4ea4-a2c9-8562c932322c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "ea989009-de04-4ce9-9be7-fb5aa616c3a3")
+		(uuid "8968144e-20ec-4328-8430-0ebdb5e000d6")
 	)
 	(fp_rect
 		(start -1.473 -1.001)
@@ -69,7 +69,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "978a57ff-25a3-43c0-b0cf-077730b6853d")
+		(uuid "ead5f624-bf1f-4a02-a9ab-b6e64bbfd38f")
 	)
 	(fp_circle
 		(center 1 -0.8)
@@ -80,12 +80,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7e26aec3-7071-4f3c-9742-311393d1700b")
+		(uuid "39261a67-0bc0-43dd-930c-eaad8618dbc3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "9a62b0fc-ce5e-414e-a4e8-062f9a82ea30")
+		(uuid "25e51322-5341-49c1-a366-3950a8a65452")
 		(effects
 			(font
 				(size 1 1)
@@ -97,16 +97,16 @@
 		(at 0.83 0)
 		(size 1 1.72)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "472aa160-5bce-48e1-a7db-9e672b4ff6f6")
+		(uuid "380c5e7e-3d0c-429e-89fe-5fa7781a9ef0")
 	)
 	(pad "2" smd rect
 		(at -0.83 0)
 		(size 1 1.72)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2a7e1833-362a-4ab9-8bfd-d4c8e87aaa68")
+		(uuid "8b29f470-3482-4c2d-b827-c833673380a5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dshapes/IND-SMD_L2.0-W1.6-H1.1.step"
+	(model "${KIPRJMOD}/3d/IND-SMD_L2.0-W1.6-H1.1.step"
 		(offset
 			(xyz 0 0 -0)
 		)
