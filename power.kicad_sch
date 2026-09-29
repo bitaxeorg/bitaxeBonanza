@@ -6092,6 +6092,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 251.46 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25120"
+			(at 251.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2283d898-4686-4a77-b3b1-ecd77205e399")
 		)
@@ -6187,6 +6209,17 @@
 		)
 		(property "PARTNO" "STHW4-DU-HN050206"
 			(at 2.54 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 213.36 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,6 +6373,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 135.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 135.89 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6575,6 +6619,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 80.01 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09d3c2cb-70a6-429a-a87b-f77945fa3b31")
 		)
@@ -6689,6 +6744,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 120.65 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 120.65 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -6835,6 +6901,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 275.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 275.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 275.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7002,6 +7090,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 111.76 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cc87581-db25-4987-b437-0ece8ab0392e")
 		)
@@ -7159,6 +7258,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 57.15 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1f091ae-224e-4d32-a45a-c06e94bbf3c3")
 		)
@@ -7296,6 +7406,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 85.09 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 85.09 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7463,6 +7584,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 176.53 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a717ba3-9241-434c-9bb0-c9a4b4254ca4")
 		)
@@ -7609,6 +7741,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 238.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1546"
+			(at 238.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bb7c2e1-ed1a-4375-b226-258851784ef3")
 		)
@@ -7714,6 +7868,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 279.4 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 279.4 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7935,6 +8100,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 170.18 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 170.18 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "592c4b7d-3e60-4751-9ec7-747425227ae8")
 		)
@@ -8040,6 +8227,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 140.97 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 140.97 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -8282,6 +8480,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 66.04 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83f95268-01e3-43b5-8cd9-1608e9fbd787")
 		)
@@ -8506,6 +8715,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 118.11 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 118.11 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d6f0e28-a659-431f-96b5-3577ef120a47")
 		)
@@ -8643,6 +8874,28 @@
 		)
 		(property "Height" ""
 			(at 148.59 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 148.59 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8798,6 +9051,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 160.02 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29936"
+			(at 160.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9945ec7-d586-41c3-b389-c0225d78b0c4")
 		)
@@ -8934,6 +9209,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 295.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 295.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 295.91 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9090,6 +9387,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 171.45 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1531"
+			(at 171.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e90b7fd-c59e-49a9-bf47-9e06c6f2cfbd")
 		)
@@ -9218,6 +9537,17 @@
 		)
 		(property "PARTNO" ""
 			(at 2.54 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 135.89 243.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9360,6 +9690,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 251.46 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25120"
+			(at 251.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "092f7633-0339-4d50-972f-f143c04a22c5")
 		)
@@ -9485,6 +9837,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 195.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 195.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20345977"
 			(at 195.58 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9725,6 +10099,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83325c73-cbb0-41c7-a41a-0cb5be661d85")
 		)
@@ -9871,6 +10256,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 140.97 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 140.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "712c685d-dae8-4883-86a5-8d4dad2ad896")
 		)
@@ -9997,6 +10404,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10164,6 +10593,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 66.04 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5acd8de4-9868-42f5-91a7-903ce7c7a437")
 		)
@@ -10268,6 +10708,17 @@
 		)
 		(property "LCSC" "C703115"
 			(at 2.54 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 50.8 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10424,6 +10875,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 80.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "817df50c-a29e-4233-bec2-b5fc677a3233")
 		)
@@ -10471,7 +10933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:XAL1060122MEC"
+		(property "Footprint" "bitaxe:SRP1245A-180M_BRN"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10482,7 +10944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/8909f858-b441-4d60-acff-8b8ca36f9ede/xal1060.pdf"
+		(property "Datasheet" ""
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10504,7 +10966,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "XAL1060-122MEC"
+		(property "PARTNO" "SRP1245A-180M_BRN"
 			(at 237.49 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -10515,7 +10977,7 @@
 				)
 			)
 		)
-		(property "DK" "2457-XAL1060-122MEC-ND"
+		(property "DK" "118-SRP1245A-1R2MCT-ND"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10549,6 +11011,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 237.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 237.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3224581"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10705,6 +11189,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 133.35 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a13c90cb-1ee9-4f9b-af29-fb496808d879")
 		)
@@ -10840,6 +11346,17 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 100.33 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11014,6 +11531,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 285.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 285.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fbe014c-d2f7-43e4-8b2f-5a08c91d67be")
 		)
@@ -11171,6 +11710,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 111.76 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46544929-55e3-42a8-9f2f-1d284d3a5019")
 		)
@@ -11275,6 +11825,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 138.43 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 138.43 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -11419,6 +11980,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 125.73 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 125.73 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -11576,6 +12148,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 214.63 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ad2ebf0-4116-4680-8469-144eb185abfc")
 		)
@@ -11690,6 +12273,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 120.65 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 120.65 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11826,6 +12420,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 217.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 217.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C253344"
 			(at 217.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11983,6 +12599,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 125.73 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7507031-c909-4ab1-a577-1ad594e8be79")
 		)
@@ -12129,6 +12756,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 265.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 265.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e43debb-dafd-4403-8eff-28c3fbb09048")
 		)
@@ -12224,6 +12873,17 @@
 		)
 		(property "PARTNO" "STHW4-DU-HN050206"
 			(at 2.54 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 213.36 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,6 +13025,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "deec02a3-8ce2-45e5-9209-f5dd44e2e5ee")
 		)
@@ -12469,6 +13151,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 138.43 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 138.43 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -12613,6 +13306,28 @@
 		)
 		(property "Height" ""
 			(at 163.83 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 163.83 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29936"
+			(at 163.83 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12769,6 +13484,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 85.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd6c85a0-3492-4706-b892-626f2ad24ca9")
 		)
@@ -12874,6 +13600,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 313.69 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 313.69 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -13028,6 +13765,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 125.73 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b45e4126-c852-4a79-b418-9b03549f6665")
 		)
@@ -13165,6 +13913,28 @@
 		)
 		(property "Height" ""
 			(at 156.21 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 156.21 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1538"
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13331,6 +14101,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 135.89 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d9315a2-8ad2-465f-9136-6ff474ea3234")
 		)
@@ -13467,6 +14248,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 160.02 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 160.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1760dcc3-11c9-4728-b716-7dfffb0a4672")
 		)
@@ -13562,6 +14365,17 @@
 		)
 		(property "PARTNO" "STHW4-DU-HN050206"
 			(at 2.54 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 213.36 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,6 +14527,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 100.33 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "834301dc-d17f-49f7-b095-390695b69980")
 		)
@@ -13835,6 +14660,17 @@
 		)
 		(property "LCSC" "C703115"
 			(at 2.54 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 50.8 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13980,6 +14816,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 217.17 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 217.17 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C46653"
 			(at 217.17 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14147,6 +15005,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 57.15 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c31cc457-57a9-477b-93de-b9d34197f09c")
 		)
@@ -14293,6 +15162,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 125.73 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 125.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25582032-f422-441d-a663-2fccd951e096")
 		)
@@ -14430,6 +15321,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 125.73 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 125.73 240.03 0)
 			(hide yes)
 			(show_name no)

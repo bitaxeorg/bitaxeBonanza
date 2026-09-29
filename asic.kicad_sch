@@ -8387,6 +8387,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 157.48 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C625461"
+			(at 157.48 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "409147c6-f420-4e13-998b-a9a8962270c1")
 		)
@@ -8521,6 +8543,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 364.49 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35c5ee28-46c9-4746-abdd-92f96fa1d2e8")
 		)
@@ -8633,6 +8666,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 232.41 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 232.41 260.35 90)
 			(hide yes)
 			(show_name no)
@@ -8764,6 +8808,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 157.48 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 157.48 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C625461"
 			(at 157.48 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -8908,6 +8974,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 220.98 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e49b352-7184-4271-806e-08ea01135e2f")
 		)
@@ -9032,6 +9109,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 335.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 335.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126496"
 			(at 335.28 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9167,6 +9266,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 234.95 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "223fbe08-948f-4def-a7e8-3ff6f8423b7a")
 		)
@@ -9279,6 +9389,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 372.11 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 372.11 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -9423,6 +9544,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 495.3 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 495.3 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2862903"
 			(at 495.3 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -9603,6 +9746,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 351.79 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36b90cbc-8e85-4b84-879b-e92a60f1e042")
 		)
@@ -9704,6 +9858,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 287.02 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 287.02 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -10047,6 +10212,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 172.72 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9510ca7c-4b18-4294-8746-fdf787bef4ca")
 		)
@@ -10162,6 +10338,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 226.06 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 226.06 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -10304,6 +10491,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 86.36 318.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab42f984-d594-433b-9bfa-43f891c9ca43")
 		)
@@ -10416,6 +10614,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 231.14 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 231.14 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -10548,6 +10757,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 359.41 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b7e3528-1ee9-49cd-acfa-ac5f53f24216")
 		)
@@ -10660,6 +10880,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 309.88 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 309.88 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -10803,6 +11034,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 472.44 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25765"
+			(at 472.44 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "480eb422-4bec-4d90-8115-2274eb2d9531")
 		)
@@ -10930,6 +11183,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 344.17 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 344.17 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126496"
 			(at 344.17 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11098,6 +11373,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "267131ce-8a3b-4284-9538-33cca2e211ef")
 		)
@@ -11213,6 +11499,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 220.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 220.98 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -11357,6 +11654,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 344.17 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126496"
+			(at 344.17 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a37d4807-397e-44ac-86a6-04e6a2ba5e23")
 		)
@@ -11482,6 +11801,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 471.17 327.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "337f75db-bbb6-457a-bbf0-a30351bcb74b")
 		)
@@ -11595,6 +11925,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 287.02 293.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 287.02 293.37 90)
 			(hide yes)
 			(show_name no)
@@ -11749,6 +12090,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 539.75 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c055fade-4a4b-44d4-b44e-b09e4c48e25f")
 		)
@@ -11874,6 +12226,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 346.71 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a46347d-704b-427d-86f3-e57062bae978")
 		)
@@ -11986,6 +12349,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 349.25 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 349.25 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -12152,6 +12526,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 172.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08c1f21e-daf6-4de5-8dce-0e00b43df6c7")
 		)
@@ -12267,6 +12652,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 240.03 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 240.03 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -12398,6 +12794,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 157.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 157.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C625461"
 			(at 157.48 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12542,6 +12960,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 222.25 313.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4314c53b-cab2-4d49-b2db-3d752a1538f6")
 		)
@@ -12663,6 +13092,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 375.92 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 375.92 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 375.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12798,6 +13249,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 309.88 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67ba5b45-bd92-43a8-b198-2f725f616417")
 		)
@@ -12910,6 +13372,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 228.6 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 228.6 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -13075,6 +13548,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 140.97 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19fc341c-efa7-4379-a7cf-7eab11b3da72")
 		)
@@ -13191,6 +13675,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 287.02 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 287.02 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -13357,6 +13852,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 172.72 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f346f42-f305-4f28-aa60-fffa77f2e7b4")
 		)
@@ -13461,6 +13967,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 287.02 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13782,6 +14299,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 344.17 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126496"
+			(at 344.17 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "677d99bd-e611-480a-89e1-0389cfac710d")
 		)
@@ -13907,6 +14446,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 229.87 257.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aea806bc-eee4-43dc-a816-758ebaa18c39")
 		)
@@ -14019,6 +14569,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 227.33 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 227.33 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -14174,6 +14735,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 458.47 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "161e0cd5-5d3e-4a86-844c-12827fc1cf54")
 		)
@@ -14289,6 +14861,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 238.76 318.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 238.76 318.77 90)
 			(hide yes)
 			(show_name no)
@@ -14433,6 +15016,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 344.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126496"
+			(at 344.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa1ad069-07fa-4f4e-a889-a4b029b31c32")
 		)
@@ -14548,6 +15153,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 243.84 313.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 243.84 313.69 90)
 			(hide yes)
 			(show_name no)
@@ -14680,6 +15296,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 363.22 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48876b71-b7e4-4a80-bed2-e0c5fb795d99")
 		)
@@ -14792,6 +15419,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 354.33 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 354.33 238.76 90)
 			(hide yes)
 			(show_name no)
@@ -14924,6 +15562,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 224.79 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b192775-bdea-4bed-9f9b-b69ba19320cd")
 		)
@@ -15046,6 +15695,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 471.17 322.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71b70e95-4255-4e33-b9f8-e68734136305")
 		)
@@ -15158,6 +15818,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 182.88 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 182.88 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -15302,6 +15973,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 359.41 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 359.41 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7bd7c92b-3cd9-4cf9-8430-e070bf2d1173")
 		)
@@ -15417,6 +16110,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 182.88 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 182.88 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -15572,6 +16276,17 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15740,6 +16455,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 140.97 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbaa1589-b20b-4e23-aa67-8c95e9d6d995")
 		)
@@ -15855,6 +16581,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 223.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 223.52 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -15987,6 +16724,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 237.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c37e9d4f-3bbd-4669-83f6-1452ac50fedc")
 		)
@@ -16099,6 +16847,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 241.3 316.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 241.3 316.23 90)
 			(hide yes)
 			(show_name no)
@@ -16230,6 +16989,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 157.48 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 157.48 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C625461"
 			(at 157.48 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -16375,6 +17156,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 287.02 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7af9592c-3905-486f-ac36-e1946c28701d")
 		)
@@ -16497,6 +17289,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 356.87 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "772e3fd1-fc5c-4de4-b429-008ec9fe1d91")
 		)
@@ -16609,6 +17412,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 236.22 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 236.22 321.31 90)
 			(hide yes)
 			(show_name no)
@@ -16761,6 +17575,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 62.23 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26ccc964-2e7b-4721-9fae-dfd55f85f223")
 		)
@@ -16882,6 +17707,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 222.25 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 222.25 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -17057,6 +17893,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 62.23 330.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90ca8652-7d9b-413e-9a6b-049591fb462a")
 		)
@@ -17172,6 +18019,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 361.95 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 361.95 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -17304,6 +18162,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 382.27 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f49ce47-763a-40ab-8f4a-9300dc04e7f8")
 		)
@@ -17426,6 +18295,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 471.17 330.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89b565e3-d956-48fd-88bb-10b13440bcec")
 		)
@@ -17527,6 +18407,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 287.02 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 287.02 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -17836,6 +18727,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 458.47 334.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a3de225-e874-4338-90fb-3687e714586b")
 		)
@@ -17948,6 +18850,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 182.88 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 182.88 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -18114,6 +19027,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 172.72 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9774288-bbec-4413-b9f3-9b18094c71cf")
 		)
@@ -18229,6 +19153,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 364.49 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 364.49 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -18361,6 +19296,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 182.88 314.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e2cf843-5309-41f2-b646-701726381e41")
 		)
@@ -18462,6 +19408,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 287.02 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 287.02 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -18771,6 +19728,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 471.17 325.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8cd3688-bca2-4e70-a6d6-ff18e000da1b")
 		)
@@ -18883,6 +19851,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 242.57 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 242.57 156.21 90)
 			(hide yes)
 			(show_name no)

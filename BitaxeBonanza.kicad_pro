@@ -78,7 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|137830000|87205000|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
+          "hole_clearance|133032500|89533000|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
         ]
       ],
@@ -164,10 +164,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.2,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -780,7 +780,13 @@
           "group_by": false,
           "label": "ME",
           "name": "ME",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
         }
       ],
       "filter_string": "",

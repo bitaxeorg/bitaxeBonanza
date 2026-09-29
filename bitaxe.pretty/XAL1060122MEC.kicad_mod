@@ -1,14 +1,14 @@
 (footprint "XAL1060122MEC"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "XAL1060-122MEC-1")
 	(tags "Inductor")
 	(property "Reference" "L**"
 		(at -4.281 -7.844 0)
 		(layer "F.SilkS")
-		(uuid "cd1c070f-2b20-4c75-8ccb-b8feb17dceaf")
+		(uuid "675bad58-dcb9-4fe3-8fc0-791416e317df")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1d2cb6f7-c509-4aff-8f17-b9483c6701ad")
+		(uuid "f2a4f3c6-0b73-45af-9cac-b96f45b495a0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ee9ab2ed-8b33-4906-a898-6d467c166e55")
+		(uuid "a1ea966e-768f-4664-92cf-7a22aee6e857")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29fe6f3e-964a-4dd8-9125-8eb9737b7b03")
+		(uuid "fc729d09-5df3-4c6c-b7e2-06c4701d5742")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -5 -5.65)
 		(end 5 5.65)
@@ -62,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "cc89913f-d776-45fe-be49-158773511dcc")
+		(uuid "0cd0be3e-fbe8-4222-a317-9286ae3d781b")
 	)
 	(fp_circle
 		(center -5.948 -0.059038)
@@ -73,47 +74,18 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "665346fd-d5be-4b87-afbe-3328d977d05e")
+		(uuid "7523245c-c54b-4b13-87ab-79c8a7c6d7a0")
 	)
-	(fp_line
-		(start -6 -6.65)
-		(end 6 -6.65)
+	(fp_rect
+		(start -5.312 -5.908)
+		(end 5.221 5.896)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8768292f-7b32-49fa-9da6-a5730872a24c")
-	)
-	(fp_line
-		(start -6 6.65)
-		(end -6 -6.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0abe1d48-1c16-4db5-b3c9-fa2f0764ef13")
-	)
-	(fp_line
-		(start 6 -6.65)
-		(end 6 6.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "addeb99c-0af6-4ff9-a488-5f9d47905a68")
-	)
-	(fp_line
-		(start 6 6.65)
-		(end -6 6.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f6645940-5826-418a-84b3-86d4f3697010")
+		(uuid "e8e3b3ad-5210-41a7-8c43-482fb6dc7a26")
 	)
 	(fp_line
 		(start -5 -5.65)
@@ -123,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "710961a2-a962-487a-a406-42410c98176f")
+		(uuid "bcd05355-023c-4793-be8f-d157aa3c869d")
 	)
 	(fp_line
 		(start -5 5.65)
@@ -133,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5df30d6b-a9cd-4935-90da-c609c28197e6")
+		(uuid "0a5381fa-ff37-4ff0-b009-824a7281c24d")
 	)
 	(fp_line
 		(start 5 -5.65)
@@ -143,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "feea2864-7cb6-40d6-9332-3167ab51e36c")
+		(uuid "0d685781-9d7e-4ba9-a071-1bf487b82959")
 	)
 	(fp_line
 		(start 5 5.65)
@@ -153,12 +125,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e170f387-279f-4c4d-b288-943085a9b0a6")
+		(uuid "08d80bde-c155-40db-a303-fd9092aae6cd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.352 8.211 0)
 		(layer "F.Fab")
-		(uuid "434c0adf-3fae-498b-9277-88851343a243")
+		(uuid "b186af4c-9200-46f3-ba84-09d906d54929")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -170,13 +142,13 @@
 		(at -3.325 0)
 		(size 2.38 9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a4661f53-ae94-4998-a61f-992d890e5525")
+		(uuid "36431446-3636-402b-9d6b-9dfde9db0a0b")
 	)
 	(pad "2" smd rect
 		(at 3.325 0)
 		(size 2.38 9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5681fcb9-8db4-4f20-ae70-3c580a91be00")
+		(uuid "bd69a78e-fa44-4f4b-be2e-adc784e9c0bf")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d/Coilcraft-XAL1060.STEP"

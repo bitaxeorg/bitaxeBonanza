@@ -1509,6 +1509,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a4b8136c-0466-471f-ba74-f61b375f3e7d")
 		)
@@ -1553,7 +1575,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01T-7"
+		(property "Value" "BAS516"
 			(at 177.546 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DLLFSD01LPH4.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311171118_hongjiacheng-BAS516_C7502722.pdf"
 			(at 181.356 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1585,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "BAS516 SOD-523 switching diode; JLCPCB C7502722"
 			(at 179.832 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1596,7 +1618,7 @@
 				)
 			)
 		)
-		(property "DK" "DLLFSD01T-7DICT-ND"
+		(property "DK" ""
 			(at 172.212 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -1607,7 +1629,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "DLLFSD01T-7"
+		(property "PARTNO" "BAS516"
 			(at 168.402 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -1651,7 +1673,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "hongjiacheng"
 			(at 175.26 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1663,6 +1685,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7502722"
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 175.26 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1818,6 +1862,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1523"
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a410b39-20a1-4b81-82bd-b329a71289d9")
 		)
@@ -1960,6 +2026,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 129.54 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 129.54 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2709061f-d9a4-4003-86fa-1bd86bac4538")
 		)
@@ -2004,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01T-7"
+		(property "Value" "BAS516"
 			(at 96.266 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DLLFSD01LPH4.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311171118_hongjiacheng-BAS516_C7502722.pdf"
 			(at 100.076 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2036,7 +2124,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "BAS516 SOD-523 switching diode; JLCPCB C7502722"
 			(at 98.552 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2047,7 +2135,7 @@
 				)
 			)
 		)
-		(property "DK" "DLLFSD01T-7DICT-ND"
+		(property "DK" ""
 			(at 90.932 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -2058,7 +2146,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "DLLFSD01T-7"
+		(property "PARTNO" "BAS516"
 			(at 87.122 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -2102,7 +2190,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "hongjiacheng"
 			(at 93.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2114,6 +2202,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 93.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7502722"
+			(at 93.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 93.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2269,6 +2379,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "65cba1e3-67e7-4abb-946a-d4a41ff4f453")
 		)
@@ -2313,7 +2445,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01T-7"
+		(property "Value" "BAS516"
 			(at 164.846 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DLLFSD01LPH4.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311171118_hongjiacheng-BAS516_C7502722.pdf"
 			(at 168.656 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2345,7 +2477,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "BAS516 SOD-523 switching diode; JLCPCB C7502722"
 			(at 167.132 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2356,7 +2488,7 @@
 				)
 			)
 		)
-		(property "DK" "DLLFSD01T-7DICT-ND"
+		(property "DK" ""
 			(at 159.512 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -2367,7 +2499,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "DLLFSD01T-7"
+		(property "PARTNO" "BAS516"
 			(at 155.702 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -2411,7 +2543,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "hongjiacheng"
 			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2423,6 +2555,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7502722"
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2577,6 +2731,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 166.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 166.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8e39dd9d-0798-4fb1-850f-e64d6e17a49c")
 		)
@@ -2621,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01T-7"
+		(property "Value" "BAS516"
 			(at 153.416 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +2818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DLLFSD01LPH4.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311171118_hongjiacheng-BAS516_C7502722.pdf"
 			(at 157.226 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2653,7 +2829,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "BAS516 SOD-523 switching diode; JLCPCB C7502722"
 			(at 155.702 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2664,7 +2840,7 @@
 				)
 			)
 		)
-		(property "DK" "DLLFSD01T-7DICT-ND"
+		(property "DK" ""
 			(at 148.082 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -2675,7 +2851,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "DLLFSD01T-7"
+		(property "PARTNO" "BAS516"
 			(at 144.272 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -2719,7 +2895,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "hongjiacheng"
 			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2731,6 +2907,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 151.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7502722"
+			(at 151.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2885,6 +3083,28 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 179.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 179.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "774bc354-30a9-42c5-acf6-a200859ce891")
 		)
@@ -3017,6 +3237,28 @@
 			)
 		)
 		(property "Height" ""
+			(at 129.54 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 129.54 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 129.54 59.69 90)
 			(hide yes)
 			(show_name no)

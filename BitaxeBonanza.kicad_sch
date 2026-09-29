@@ -1466,6 +1466,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 73.66 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -1575,6 +1586,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 99.06 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -1673,6 +1695,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 31.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 31.75 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -1807,6 +1840,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 73.66 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -1906,6 +1950,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 99.06 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 99.06 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -2056,6 +2111,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "85569538-4001-4f95-a5d8-99ed0c96dddb")
 		)
@@ -2177,6 +2243,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 52.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2276,6 +2353,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 73.66 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 73.66 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -2395,6 +2483,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 52.07 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2494,6 +2593,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 52.07 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -2613,6 +2723,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 99.06 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2712,6 +2833,17 @@
 			)
 		)
 		(property "Height" ""
+			(at 52.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 52.07 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -2831,6 +2963,17 @@
 				)
 			)
 		)
+		(property "ME" ""
+			(at 99.06 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2930,6 +3073,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 73.66 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
 			(at 73.66 175.26 90)
 			(hide yes)
 			(show_name no)
