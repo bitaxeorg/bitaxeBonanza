@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|99382943|118445206|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ],
-        [
           "hole_clearance|133032500|89533000|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
         ]
@@ -172,7 +168,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.2,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [

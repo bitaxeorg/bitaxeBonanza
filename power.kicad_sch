@@ -10055,7 +10055,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "270"
+			(at 195.58 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "bitaxe:NetTie_2")
 		(at 217.17 99.06 0)

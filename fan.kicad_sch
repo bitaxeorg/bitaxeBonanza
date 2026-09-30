@@ -1750,7 +1750,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "180"
+			(at 127 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 168.91 91.44 270)

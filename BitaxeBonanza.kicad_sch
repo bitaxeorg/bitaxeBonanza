@@ -2142,7 +2142,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Origin" "Center"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 52.07 162.56 0)
