@@ -4,7 +4,7 @@ Catalog review: 2026-09-29. Source: saved `bitaxeBonanza.kicad_pcb` B.Cu positio
 
 - 209 bottom-side footprints: 180 schematic BOM parts in 56 original PARTNO groups, plus 29 test points, fiducials, mounting holes, and a net tie outside the assembly BOM.
 - All 180 BOM positions have a selected JLCPCB/LCSC catalog code. These are candidate assembly selections, not an indication that all parts can be ordered today.
-- 12 × D1–D12 use Preferred C7502722 (BAS516), with 33,674 available and the existing SOD-523 footprint. L1 uses exact C3911742 with 0 available and remains the stock blocker for a complete JLCPCB assembly.
+- 12 × D1–D12 use Preferred C7502722 (BAS516), with 33,674 available and the existing SOD-523 footprint. L1 now uses stocked Extended C3224581 (Bourns SRP1245A-1R2M).
 - Equivalents are labeled separately from exact MPNs. Basic was selected where value, package, voltage, dielectric/tolerance or resistor rating agree. The 10 µF 25 V 0603 capacitor retains its ±10% exact part because the proto Basic choice is ±20%. Y1 uses the requested Proto Basic crystal, whose stability is ±20 ppm versus the original ±10 ppm.
 - The saved schematic BOM has the selected `LCSC` code on all 180 bottom-side positions, including the manually updated reused sheets.
 
@@ -13,7 +13,7 @@ Catalog review: 2026-09-29. Source: saved `bitaxeBonanza.kicad_pcb` B.Cu positio
 | References | Selection | Finding |
 | --- | --- | --- |
 | D1–D12 | [C7502722](https://www.lcsc.com/product-detail/C7502722.html) | Preferred BAS516, 33,674 available; same SOD-523 footprint. It is rated 75 V versus the original 80 V. |
-| L1 | [C3911742](https://www.lcsc.com/product-detail/C3911742.html) | Exact XAL1060-122MEC, 0 available. See the researched replacements below; no L1 selection has been changed in KiCad. |
+| L1 | [C3224581](https://jlcpcb.com/partdetail/BOURNS-SRP1245A1R2M/C3224581) | Bourns SRP1245A-1R2M, 65 available at the latest live check. The saved schematic and PCB use its land pattern; see verification below. |
 | Q1 | [C7420339](https://www.lcsc.com/product-detail/C7420339.html) | Requested Proto generic BSS138 in SOT-23; this is an alternative to the original BSS138K-13 PARTNO. |
 | Y2 | [C5137267](https://www.lcsc.com/product-detail/C5137267.html) | Exact 50 MHz oscillator, 10 available. This limits a multiple-board order. |
 | D13 | [C24672](https://www.lcsc.com/product-detail/C24672.html) | Proto 3.3 V SOD-123 zener. Original DDZ9684-7 exact C165455 has 3 available. |
@@ -43,18 +43,18 @@ KiCad's saved schematic now exports BAS516 as the Value and PARTNO for D1–D12,
 
 ## L1 replacement research
 
-The saved [WEBENCH design report](../WebBench/WBDesign-1004x.pdf) is for 11–13 V input, 2.8 V at 20 A output, and 325 kHz switching. It calculates 5.738 A peak-to-peak inductor ripple and 22.869 A peak switch current. Current through L1 is therefore about 20.07 A RMS at that reported operating point. **The report uses TPS546D24A, while the saved KiCad BOM names TPS546D24SRVFR for U2; those current and compensation results are design guidance, not validation of the actual board.** The original Coilcraft XAL1060-122MEC is 1.2 µH, 2.5 mΩ typical DCR, 43 A saturation, and 17.9/26.3 A for a 20/40 °C rise [per Coilcraft](https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal1060/xal1060-122/).
+The saved [WEBENCH design report](../WebBench/WBDesign-1004x.pdf) is for 11–13 V input, 2.8 V at 20 A output, and 325 kHz switching. It calculates 5.738 A peak-to-peak inductor ripple and 22.869 A peak switch current. Current through L1 is therefore about 20.07 A RMS at that reported operating point. The report uses TPS546D24A, while the saved KiCad BOM names TPS546D24SRVFR for U2. The user has verified that TPS546D24S is a drop-in replacement for TPS546D24A; the WEBENCH values remain a reported operating point rather than a measurement of this board. The original Coilcraft XAL1060-122MEC is 1.2 µH, 2.5 mΩ typical DCR, 43 A saturation, and 17.9/26.3 A for a 20/40 °C rise [per Coilcraft](https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal1060/xal1060-122/).
 
-JLCPCB stock was checked live on 2026-09-29; all viable high-current choices found are **Extended** parts. The cataloged stock is an availability snapshot, not a reservation. The selected L1 code C3911742 remains out of stock.
+JLCPCB stock was checked live on 2026-09-29; all viable high-current choices found are **Extended** parts. The cataloged stock is an availability snapshot, not a reservation. The former L1 code C3911742 was out of stock; the selected C3224581 showed 65 in stock.
 
 | Candidate | LCSC | µH | DCR typ/max | Irms | Isat | Body | Live stock | Assessment |
 | --- | --- | ---: | ---: | ---: | ---: | --- | ---: | --- |
-| [Bourns SRP1245A-1R2M](https://www.bourns.com/docs/product-datasheets/srp1245a.pdf) | [C3224581](https://www.lcsc.com/product-detail/C3224581.html) | 1.2 | 2.5/3.0 mΩ | 28 A | 49 A | 13.5 × 12.5 × 4.8 mm | 65 | Best verified 1.2 µH choice; requires a new footprint and nearby placement review. |
+| [Bourns SRP1245A-1R2M](https://www.bourns.com/docs/product-datasheets/srp1245a.pdf) | [C3224581](https://jlcpcb.com/partdetail/BOURNS-SRP1245A1R2M/C3224581) | 1.2 | 2.5/3.0 mΩ | 28 A | 49 A | 13.5 × 12.5 × 4.8 mm | 65 | Selected and placed in KiCad. |
 | Vishay IHLP5050FDER1R5M01, in WEBENCH list | [C1336173](https://www.lcsc.com/product-detail/C1336173.html) | 1.5 | 2.5 mΩ catalog value | 27 A | 45 A | 13.2 × 12.9 × 6.5 mm | 233 | Electrically plausible; WEBENCH accepts 1.5 µH. New footprint and height check needed. |
 | [Tai-Tech TMPC1265HP-1R5MG-D](https://www.tai-tech.com.tw/tmpc1265hp) | [C357270](https://www.lcsc.com/product-detail/C357270.html) | 1.5 | 2.5/3.0 mΩ | 27 A | 45 A | 13.5 × 12.5 × 6.2 mm | 385 | More stocked 1.5 µH option; new footprint and compensation check needed. |
 | Coilank APS1060M1R2F | [C49261245](https://www.lcsc.com/product-detail/C49261245.html) | 1.2 | 2.64 mΩ catalog value | 26.5 A | 45 A | 11.9 × 11 mm | 82 | Closest body size; manufacturer land pattern and current definitions still need verification. |
 
-The existing L1 footprint has two 2.38 × 9 mm pads at ±3.325 mm and a 10 × 11.3 mm silkscreen body outline. Bourns specifies a 14.2 mm overall recommended land pattern, so its part is not a pad-compatible substitute. C17 is only about 8 mm from L1's center on the bottom side; the larger land pattern will require a clearance and routing review. Bourns defines its 49 A saturation rating at a 20% inductance drop; Coilcraft defines the original 43 A at a 30% drop, so the headline ratings are not measured to the same threshold. Do not change the L1 `PARTNO`, `LCSC`, or footprint until a candidate and land pattern are selected.
+L1 now uses `bitaxe:SRP1245A-180M_BRN` in the schematic and on the bottom PCB. Although the footprint's library name contains `180M`, its two pads measure 3.0988 × 5.0038 mm at ±5.4506 mm, giving a 14.0 mm outer span and 7.80 mm inner gap. This closely follows the [Bourns series land pattern](https://www.bourns.com/docs/product-datasheets/srp1245a.pdf) of 14.2 mm outer span, 8.0 mm gap, and 5.0 mm pad height. The 1R2M and 180M use the same lead-frame package drawing. The schematic `PARTNO` was corrected to `SRP1245A-1R2M`; `LCSC=C3224581`, DK `118-SRP1245A-1R2MCT-ND`, and the pad nets (1 = `/Power/SW1`, 2 = `/VDD`) agree. The saved-board DRC reported no L1 violations or unconnected pads; it reported two unrelated warnings (J1 footprint/library mismatch and an F.Cu copper sliver). Bourns defines its 49 A saturation rating at a 20% inductance drop; Coilcraft defines the original 43 A at a 30% drop, so the headline ratings are not measured to the same threshold.
 
 ## Complete assembly selection
 
@@ -86,7 +86,7 @@ The existing L1 footprint has two 2.38 × 9 mm pads at ±3.325 mm and a 10 × 11
 | FB1, FB2 | 2 | FerriteBead | `Inductor_SMD:L_1206_3216Metric` | `BLM31KN271SN1L` | [C703115](https://www.lcsc.com/product-detail/C703115.html) | `BLM31KN271SN1L` | extended | Exact MPN | Bonanza existing |
 | J1 | 1 | XT30 | `bitaxe:XT30PW-M` | `XT30PW-M` | [C431092](https://www.lcsc.com/product-detail/C431092.html) | `XT30PW-M30.G.Y` | extended | Specified variant | Bonanza existing |
 | J6 | 1 | USB_C_Receptacle_USB2.0 | `bitaxe:USB_C_Receptacle_GCT_USB4105-xx-A` | `USB4105-GF-A` | [C3020560](https://www.lcsc.com/product-detail/C3020560.html) | `USB4105-GF-A` | extended | Exact MPN | New catalog match |
-| L1 | 1 | 1.2uH | `bitaxe:XAL1060122MEC` | `XAL1060-122MEC` | [C3911742](https://www.lcsc.com/product-detail/C3911742.html) | `XAL1060-122MEC` | extended | Exact MPN | New catalog match |
+| L1 | 1 | 1.2uH | `bitaxe:SRP1245A-180M_BRN` | `SRP1245A-1R2M` | [C3224581](https://jlcpcb.com/partdetail/BOURNS-SRP1245A1R2M/C3224581) | `SRP1245A-1R2M` | extended | Exact MPN | User selected |
 | L2, L3 | 2 | 1.5uH | `bitaxe:IND-SMD_L2.0-W1.6` | `FTC201612S1R5MBCA` | [C5832350](https://www.lcsc.com/product-detail/C5832350.html) | `FTC201612S1R5MBCA` | extended | Exact MPN | Bonanza existing |
 | Q1 | 1 | BSS138 | `Package_TO_SOT_SMD:SOT-23` | `BSS138K-13` | [C7420339](https://www.lcsc.com/product-detail/C7420339.html) | `BSS138` | preferred | Equivalent | Proto reused |
 | R1, R4, R17, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52 | 21 | 1k | `Resistor_SMD:R_0402_1005Metric` | `RC0402FR-071KL` | [C11702](https://www.lcsc.com/product-detail/C11702.html) | `0402WGF1001TCE` | basic | Equivalent | Proto reused |

@@ -193,7 +193,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -243,7 +243,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1332,7 +1332,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
+			(property "Reference" "U15"
 				(at 11.43 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1354,7 +1354,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "bitaxeProto:PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206"
+			(property "Footprint" "bitaxe:PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1399,6 +1399,17 @@
 				)
 			)
 			(property "PARTNO" "STHW4-DU-HN050206"
+				(at -210.82 166.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ME" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2295,7 +2306,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U4"
+			(property "Reference" "U13"
 				(at -6.604 9.144 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2315,7 +2326,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bonanzaDisplay:SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR"
+			(property "Footprint" "bitaxe:SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2348,7 +2359,7 @@
 					)
 				)
 			)
-			(property "ME" ""
+			(property "LCSC" "C3200405"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2359,8 +2370,8 @@
 					)
 				)
 			)
-			(property "LCSC" "C3200405"
-				(at 0.254 8.89 0)
+			(property "PARTNO" "TPS62933DRLR"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2370,8 +2381,52 @@
 					)
 				)
 			)
-			(property "PARTNO" "TPS62933DRLR"
-				(at -1.016 11.176 0)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" "296-TPS62933DRLRCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Rotation Offset" "180"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ME" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6296,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 135.89 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6542,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -7171,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 50V X7R ±10% 1210 MLCC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 57.15 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10798,7 +10853,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 80.01 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10944,7 +10999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp1245a.pdf"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10955,7 +11010,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "1.2uH Bourns SRP1245A-1R2M shielded power inductor; JLCPCB C3224581"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10966,7 +11021,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "SRP1245A-180M_BRN"
+		(property "PARTNO" "SRP1245A-1R2M"
 			(at 237.49 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -10999,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 237.49 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -14014,7 +14069,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 135.89 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -14918,7 +14973,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 50V X7R ±10% 1210 MLCC"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 57.15 233.68 0)
 			(hide yes)
 			(show_name no)

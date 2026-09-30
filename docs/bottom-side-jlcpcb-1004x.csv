@@ -110,7 +110,7 @@ FB1,FerriteBead,Inductor_SMD:L_1206_3216Metric,BLM31KN271SN1L,C703115,C703115,BL
 FB2,FerriteBead,Inductor_SMD:L_1206_3216Metric,BLM31KN271SN1L,C703115,C703115,BLM31KN271SN1L,1206,extended,Exact MPN,Bonanza existing,176,
 J1,XT30,bitaxe:XT30PW-M,XT30PW-M,C431092,C431092,XT30PW-M30.G.Y,-,extended,Specified variant,Bonanza existing,31541,Specific XT30PW-M30.G.Y variant inherited from proto; verify tail length against custom footprint.
 J6,USB_C_Receptacle_USB2.0,bitaxe:USB_C_Receptacle_GCT_USB4105-xx-A,USB4105-GF-A,C3020560,C3020560,USB4105-GF-A,SMD,extended,Exact MPN,New catalog match,1031,
-L1,1.2uH,bitaxe:XAL1060122MEC,XAL1060-122MEC,C3911742,C3911742,XAL1060-122MEC,"SMD,11.3x10mm",extended,Exact MPN,New catalog match,0,Selected exact part out of stock on 2026-09-29. Stocked Bourns 1.2uH C3224581 is the best verified candidate; requires new footprint and layout review. See report.
+L1,1.2uH,bitaxe:SRP1245A-180M_BRN,SRP1245A-1R2M,C3224581,C3224581,SRP1245A-1R2M,"SMD,13.5x12.5mm",extended,Exact MPN,User selected,65,User selected Bourns; saved PCB and schematic use series land pattern named SRP1245A-180M_BRN. PARTNO corrected to SRP1245A-1R2M. Live JLC stock 65 on 2026-09-29; saved-board DRC found no L1 violations.
 L2,1.5uH,bitaxe:IND-SMD_L2.0-W1.6,FTC201612S1R5MBCA,C5832350,C5832350,FTC201612S1R5MBCA,0806,extended,Exact MPN,Bonanza existing,1225,
 L3,1.5uH,bitaxe:IND-SMD_L2.0-W1.6,FTC201612S1R5MBCA,C5832350,C5832350,FTC201612S1R5MBCA,0806,extended,Exact MPN,Bonanza existing,1225,
 Q1,BSS138,Package_TO_SOT_SMD:SOT-23,BSS138K-13,C7420339,C7420339,BSS138,SOT-23,preferred,Equivalent,Proto reused,,Requested Proto generic BSS138; replaces original protected-gate BSS138K-13 selection. Schematic PARTNO still identifies the original design part.

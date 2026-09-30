@@ -983,7 +983,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1033,7 +1033,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1737,7 +1737,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U12"
-				(at -50.8 34.925 0)
+				(at 1.27 38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1747,7 +1747,7 @@
 				)
 			)
 			(property "Value" "ESP32-S3-WROOM-1"
-				(at 45.72 34.925 0)
+				(at 1.27 35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1756,7 +1756,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Espressif:ESP32-S3-WROOM-1"
+			(property "Footprint" "bitaxe:ESP32-S3-WROOM-1"
 				(at 0 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1801,6 +1801,39 @@
 				)
 			)
 			(property "PARTNO" "ESP32-S3-WROOM-1-N16R8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ME" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2913202"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10877,6 +10910,17 @@
 			)
 		)
 		(property "ME" ""
+			(at 200.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3169702"
 			(at 200.66 30.48 0)
 			(hide yes)
 			(show_name no)
