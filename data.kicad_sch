@@ -5227,6 +5227,16 @@
 		)
 		(uuid "1c92f032-5ceb-4446-9642-d8cdaa3aa705")
 	)
+	(text "<-- Probably unused: there aren't enough ESP32S3 serial ports"
+		(exclude_from_sim no)
+		(at 297.942 188.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2240d290-1f52-484c-92e1-60d2a25244d9")
+	)
 	(text "TX"
 		(exclude_from_sim no)
 		(at 233.68 188.214 0)
@@ -5638,10 +5648,6 @@
 	(no_connect
 		(at 144.78 82.55)
 		(uuid "9c9c9d55-043c-40eb-8134-b563fe6f7641")
-	)
-	(no_connect
-		(at 302.26 44.45)
-		(uuid "a1ff5702-8c3f-476b-ab50-4ca5bc2ae8a2")
 	)
 	(no_connect
 		(at 259.08 97.79)
@@ -7033,16 +7039,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 69.85) (xy 134.62 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7379230a-01a6-491b-81f4-1eef7f322f16")
-	)
-	(wire
-		(pts
 			(xy 274.32 49.53) (xy 279.4 49.53)
 		)
 		(stroke
@@ -7060,6 +7056,16 @@
 			(type default)
 		)
 		(uuid "75f2c92a-9ef2-4a67-bce3-478e977370af")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781ca8b1-3d96-45b9-ab4b-63b9aeb708ae")
 	)
 	(wire
 		(pts
@@ -7173,7 +7179,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 69.85) (xy 279.4 69.85)
+			(xy 130.81 115.57) (xy 127 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7590,6 +7596,16 @@
 			(type default)
 		)
 		(uuid "be27f412-f6de-4964-b5f7-103060ec068b")
+	)
+	(wire
+		(pts
+			(xy 295.91 44.45) (xy 302.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd20433-7c69-45f2-a1f7-58e9d647eed7")
 	)
 	(wire
 		(pts
@@ -8132,12 +8148,12 @@
 		(uuid "10362fe1-c2b1-448b-865f-385be9fbd2f9")
 	)
 	(label "GND"
-		(at 275.59 69.85 0)
+		(at 130.81 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "12bbf6fd-e230-4e0c-a8dc-ff871923b6ea")
 	)
@@ -11874,6 +11890,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 295.91 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54a5b9dd-a83e-41ba-81d8-659e2efec8bc")
+		(property "Reference" "TP64"
+			(at 291.592 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 286.258 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 295.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 295.91 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 295.91 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 295.91 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 295.91 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 295.91 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 295.91 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15a4ff30-222f-47e6-8d97-365145fdbd33")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
+					(reference "TP64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 78.74 80.01 90)
 		(unit 1)
@@ -14384,7 +14543,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 279.4 69.85 270)
+		(at 127 115.57 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14394,7 +14554,7 @@
 		(dnp no)
 		(uuid "b74afc01-d9bb-4177-9577-5db125789c50")
 		(property "Reference" "TP26"
-			(at 283.718 69.85 90)
+			(at 122.682 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14405,7 +14565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 289.052 69.85 90)
+			(at 117.348 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14416,7 +14576,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 279.4 74.93 0)
+			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14427,7 +14587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 74.93 0)
+			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14438,7 +14598,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 279.4 69.85 0)
+			(at 127 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14449,7 +14609,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 279.4 69.85 0)
+			(at 127 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14460,7 +14620,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 279.4 69.85 0)
+			(at 127 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14470,7 +14630,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 279.4 69.85 90)
+			(at 127 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14481,7 +14641,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 279.4 69.85 90)
+			(at 127 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14492,7 +14652,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 279.4 69.85 90)
+			(at 127 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14503,7 +14663,7 @@
 			)
 		)
 		(property "ME" ""
-			(at 279.4 69.85 90)
+			(at 127 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

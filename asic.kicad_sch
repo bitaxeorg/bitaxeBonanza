@@ -3939,6 +3939,12 @@
 		(uuid "4bff5b3b-383f-4518-85d7-4aa5c0ae00f6")
 	)
 	(junction
+		(at 520.7 327.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a2219d-71a1-444f-809a-e408148340f7")
+	)
+	(junction
 		(at 356.87 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,6 +3967,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64836cfb-4fa9-4924-bd06-6143008d01b9")
+	)
+	(junction
+		(at 523.24 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ab3366-28a4-4127-a8ee-c2be72022806")
 	)
 	(junction
 		(at 458.47 318.77)
@@ -4047,6 +4059,12 @@
 		(uuid "84517478-2505-4df2-bdbd-984d639b3380")
 	)
 	(junction
+		(at 520.7 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b7cb4e-e491-497b-9f68-a3b5601b0def")
+	)
+	(junction
 		(at 472.44 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4069,6 +4087,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "918ae87e-6663-4168-b6d8-97531d294e14")
+	)
+	(junction
+		(at 539.75 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d89b82-e727-49ff-95d3-4ea1f88d6071")
 	)
 	(junction
 		(at 287.02 198.12)
@@ -4155,12 +4179,6 @@
 		(uuid "b3fe7e28-44a7-493a-b9a1-e1420cbeb7c6")
 	)
 	(junction
-		(at 516.89 339.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b570c6f6-2fe6-4418-bcb8-05b84bc07ecf")
-	)
-	(junction
 		(at 372.11 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4209,6 +4227,12 @@
 		(uuid "d62aaec6-09e6-423b-8a85-2f536c6c539d")
 	)
 	(junction
+		(at 523.24 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d66fa2c4-95ea-4a0c-b9b9-0a68c15ff72f")
+	)
+	(junction
 		(at 349.25 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4255,6 +4279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4516d82-9182-4aba-a470-609c583ef2ee")
+	)
+	(junction
+		(at 516.89 339.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4d1cb7f-0131-451e-99b9-6718d9e6bb2a")
 	)
 	(junction
 		(at 287.02 199.39)
@@ -4396,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 322.58) (xy 519.43 322.58)
+			(xy 505.46 322.58) (xy 523.24 322.58)
 		)
 		(stroke
 			(width 0)
@@ -4666,7 +4696,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 330.2) (xy 519.43 330.2)
+			(xy 505.46 330.2) (xy 523.24 330.2)
 		)
 		(stroke
 			(width 0)
@@ -4683,6 +4713,16 @@
 			(type default)
 		)
 		(uuid "1a073d6a-053b-4c28-b036-1c46b31c80d5")
+	)
+	(wire
+		(pts
+			(xy 520.7 336.55) (xy 520.7 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d659aec-85d7-4b1d-ba7e-35be3e9b51f3")
 	)
 	(wire
 		(pts
@@ -4703,6 +4743,16 @@
 			(type default)
 		)
 		(uuid "217a672d-21f9-4811-97f6-cee3db867d72")
+	)
+	(wire
+		(pts
+			(xy 505.46 339.09) (xy 516.89 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228f9d03-a32f-4818-a46e-2e755e9334db")
 	)
 	(wire
 		(pts
@@ -5264,16 +5314,6 @@
 		)
 		(uuid "4f73c54a-0fa0-4492-9c78-fd4944426260")
 	)
-	(wire
-		(pts
-			(xy 516.89 339.09) (xy 516.89 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fea4d24-ab1d-41de-bf5e-7a61691683da")
-	)
 	(polyline
 		(pts
 			(xy 151.13 209.55) (xy 439.42 209.55)
@@ -5443,6 +5483,16 @@
 			(type default)
 		)
 		(uuid "5ab26b70-0b66-4c4c-b6e1-a3987f74d463")
+	)
+	(wire
+		(pts
+			(xy 523.24 322.58) (xy 524.51 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b08eb79-5f5d-42e1-bdab-403dd5d2095e")
 	)
 	(wire
 		(pts
@@ -5636,6 +5686,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 312.42) (xy 520.7 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd3aca7-c1cd-4e0d-8532-5a70afd97814")
+	)
+	(wire
+		(pts
 			(xy 314.96 321.31) (xy 306.07 321.31)
 		)
 		(stroke
@@ -5776,6 +5836,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 314.96) (xy 523.24 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a528ddf-fa2e-45c7-bd4f-904f825ccbdb")
+	)
+	(wire
+		(pts
 			(xy 167.64 165.1) (xy 168.91 165.1)
 		)
 		(stroke
@@ -5793,6 +5863,16 @@
 			(type default)
 		)
 		(uuid "7bc68fee-f165-40f8-b6ca-e2b0040d0e02")
+	)
+	(wire
+		(pts
+			(xy 525.78 336.55) (xy 520.7 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc2c495-3a31-4710-ae4e-03e1979ef2c7")
 	)
 	(wire
 		(pts
@@ -5846,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 327.66) (xy 539.75 347.98)
+			(xy 539.75 327.66) (xy 539.75 336.55)
 		)
 		(stroke
 			(width 0)
@@ -6066,16 +6146,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 339.09) (xy 516.89 339.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de00fbc-526a-41db-a74c-63fc36660d7c")
-	)
-	(wire
-		(pts
 			(xy 144.78 317.5) (xy 147.32 317.5)
 		)
 		(stroke
@@ -6123,6 +6193,16 @@
 			(type default)
 		)
 		(uuid "905b0105-13f7-4bed-a177-1a7168324b42")
+	)
+	(wire
+		(pts
+			(xy 520.7 327.66) (xy 524.51 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d2cf4b-ba5a-4222-957a-f6b69eec9142")
 	)
 	(wire
 		(pts
@@ -6316,6 +6396,16 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 314.96) (xy 523.24 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0715857-4fa4-4957-adf6-870b8876ea7e")
+	)
+	(wire
+		(pts
 			(xy 222.25 250.19) (xy 222.25 264.16)
 		)
 		(stroke
@@ -6396,6 +6486,26 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 312.42) (xy 520.7 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a490aea4-0783-4560-9b18-d424b1aab239")
+	)
+	(wire
+		(pts
+			(xy 525.78 334.01) (xy 523.24 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51d130f-0b25-4701-a59b-7e3aa79fb3dd")
+	)
+	(wire
+		(pts
 			(xy 372.11 223.52) (xy 372.11 228.6)
 		)
 		(stroke
@@ -6463,6 +6573,16 @@
 			(type default)
 		)
 		(uuid "ae8b92bd-2ea7-40d8-a192-b7772b6bd311")
+	)
+	(wire
+		(pts
+			(xy 516.89 339.09) (xy 516.89 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe789ff-2992-4f50-9225-b2d4364b5eb1")
 	)
 	(wire
 		(pts
@@ -6606,7 +6726,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 347.98) (xy 516.89 347.98)
+			(xy 481.33 347.98) (xy 539.75 347.98)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6836,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 327.66) (xy 519.43 327.66)
+			(xy 505.46 327.66) (xy 520.7 327.66)
 		)
 		(stroke
 			(width 0)
@@ -6746,6 +6866,16 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 334.01) (xy 523.24 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c1a624-9141-4315-8d8f-565bbf346f66")
+	)
+	(wire
+		(pts
 			(xy 45.72 321.31) (xy 52.07 321.31)
 		)
 		(stroke
@@ -6753,6 +6883,16 @@
 			(type default)
 		)
 		(uuid "c718f7ea-4804-44a4-90d0-0ac36f3c9cfa")
+	)
+	(wire
+		(pts
+			(xy 523.24 330.2) (xy 524.51 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78373ba-bcc5-4812-9518-1444d70b0253")
 	)
 	(wire
 		(pts
@@ -6886,7 +7026,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 325.12) (xy 519.43 325.12)
+			(xy 505.46 325.12) (xy 520.7 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6943,16 +7083,6 @@
 			(type default)
 		)
 		(uuid "d52254f0-e790-4ded-9b38-ffe8642b97c9")
-	)
-	(wire
-		(pts
-			(xy 516.89 347.98) (xy 539.75 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fcb3db-fcaf-417f-b87c-e5f083ce5098")
 	)
 	(wire
 		(pts
@@ -7023,6 +7153,26 @@
 			(type dot)
 		)
 		(uuid "db396a33-a48f-4176-818e-de69b5ff06f3")
+	)
+	(wire
+		(pts
+			(xy 539.75 336.55) (xy 539.75 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db75cab5-49d4-46e1-accc-c80a6c2e4cf7")
+	)
+	(wire
+		(pts
+			(xy 520.7 325.12) (xy 524.51 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb15e0e-a705-41b4-b4c4-49e89e6a5481")
 	)
 	(wire
 		(pts
@@ -8171,7 +8321,7 @@
 	)
 	(hierarchical_label "RST_3V3"
 		(shape input)
-		(at 519.43 322.58 0)
+		(at 524.51 322.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8226,7 +8376,7 @@
 	)
 	(hierarchical_label "TX_3V3"
 		(shape output)
-		(at 519.43 325.12 0)
+		(at 524.51 325.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8237,7 +8387,7 @@
 	)
 	(hierarchical_label "RX_3V3"
 		(shape input)
-		(at 519.43 327.66 0)
+		(at 524.51 327.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8259,7 +8409,7 @@
 	)
 	(hierarchical_label "TRIP_3V3"
 		(shape output)
-		(at 519.43 330.2 0)
+		(at 524.51 330.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10240,6 +10390,139 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 525.78 314.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "268695c3-9c25-43f7-8aa1-6397bea3f423")
+		(property "Reference" "TP68"
+			(at 532.638 314.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 531.495 316.2299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 525.78 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 525.78 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 525.78 314.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 525.78 314.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 525.78 314.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 525.78 314.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 525.78 314.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6a04c2e-8b60-45fb-992c-4c6f9104358d")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 226.06 95.25 270)
 		(unit 1)
 		(body_style 1)
@@ -10775,6 +11058,139 @@
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 525.78 312.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c427f71-d141-43a7-9b74-67dc621a8bbc")
+		(property "Reference" "TP65"
+			(at 532.638 312.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 531.495 313.6899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 525.78 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 525.78 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 525.78 312.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 525.78 312.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 525.78 312.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 525.78 312.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 525.78 312.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47d93a89-bd6e-4ee1-8bde-f82e210f6faf")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP65")
 					(unit 1)
 				)
 			)
@@ -11953,6 +12369,139 @@
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 525.78 336.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c64dcf2-fe28-4ff8-b5e0-93cd2ac1816f")
+		(property "Reference" "TP66"
+			(at 532.638 336.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 531.495 337.8199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 525.78 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 525.78 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 525.78 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 525.78 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 525.78 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 525.78 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 525.78 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fec303c-f407-4d07-98e4-d4caffec2bfa")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP66")
 					(unit 1)
 				)
 			)
@@ -16616,6 +17165,140 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 539.75 336.55 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad36488c-9f61-448e-a49c-f24eb8a586bb")
+		(property "Reference" "TP69"
+			(at 546.608 336.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 545.465 335.2801 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 539.75 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 539.75 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 539.75 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 539.75 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 539.75 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 539.75 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 539.75 336.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91cde700-b6cd-477d-b5cf-11cbc963c6db")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 237.49 161.29 180)
 		(unit 1)
 		(body_style 1)
@@ -19181,6 +19864,139 @@
 			(project "bitaxeBonanza"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 525.78 334.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edc19e9c-0f01-460e-84d8-88f2182cc380")
+		(property "Reference" "TP67"
+			(at 532.638 334.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TT"
+			(at 531.495 335.2799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 525.78 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 525.78 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 525.78 334.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 525.78 334.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 525.78 334.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 525.78 334.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ME" ""
+			(at 525.78 334.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff23bb42-beca-40d7-b0c5-e289809ad506")
+		)
+		(instances
+			(project "bitaxeBonanza"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP67")
 					(unit 1)
 				)
 			)
