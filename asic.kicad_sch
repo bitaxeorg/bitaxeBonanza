@@ -8582,7 +8582,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "270"
+			(at 157.48 163.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 364.49 156.21 0)
@@ -9013,7 +9022,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "270"
+			(at 157.48 242.57 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 220.98 154.94 180)
@@ -9785,7 +9803,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "270"
+			(at 495.3 327.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 351.79 241.3 0)
@@ -13398,7 +13425,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "270"
+			(at 157.48 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 222.25 313.69 180)
@@ -17727,7 +17763,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "FT Rotation Offset" "270"
+			(at 157.48 316.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 287.02 134.62 90)

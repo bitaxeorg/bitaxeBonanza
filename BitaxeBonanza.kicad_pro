@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|99382943|118445206|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ],
-        [
           "hole_clearance|133032500|89533000|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
         ]
@@ -612,7 +608,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing Files/gerbers/",
+      "plot": "Manufacturing Files/${TITLE}-${REVISION}-gerbers/",
       "pos_files": "../PnP/800x",
       "specctra_dsn": "",
       "step": "bitaxeBonanza.step",
@@ -855,7 +851,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "J5,U7,U10,U13-17,TP9,TP15,TP61-69,H1-12,L2-3,#PWR1-2,#PWR5-6,FB1-2,C8,C12,C29-30,C49-56,C65-67,C69-70,R12-13,R15,R25,R27-32,R53",
+    "used_designators": "J3,J5,U7,U10,U13-17,TP9,TP15,TP61-69,H1-12,L2-3,#PWR1-2,#PWR5-6,FB1-2,C8,C12,C29-30,C49-56,C65-67,C69-70,R12-13,R15,R25,R27-32,R53-55",
     "variants": []
   },
   "sheets": [
