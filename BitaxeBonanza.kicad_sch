@@ -2122,6 +2122,28 @@
 				)
 			)
 		)
+		(property "FT Origin" "Center"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "85569538-4001-4f95-a5d8-99ed0c96dddb")
 		)
@@ -2142,25 +2164,7 @@
 				)
 			)
 		)
-	
-		(property "FT Origin" "Center"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 52.07 162.56 0)

@@ -628,7 +628,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -672,7 +672,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM21BR60G107ME11K"
+		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -683,7 +683,7 @@
 				)
 			)
 		)
-		(property "DK" "490-GRM21BR60G107ME11KCT-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -759,7 +759,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7282454"
+		(property "LCSC" "C15008"
 			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1022,7 +1022,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1066,7 +1066,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM21BR60G107ME11K"
+		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1077,7 +1077,7 @@
 				)
 			)
 		)
-		(property "DK" "490-GRM21BR60G107ME11KCT-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7282454"
+		(property "LCSC" "C15008"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1612,7 +1612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1656,7 +1656,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM21BR60G107ME11K"
+		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1667,7 +1667,7 @@
 				)
 			)
 		)
-		(property "DK" "490-GRM21BR60G107ME11KCT-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1743,7 +1743,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7282454"
+		(property "LCSC" "C15008"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)

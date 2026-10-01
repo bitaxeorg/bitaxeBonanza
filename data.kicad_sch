@@ -10617,6 +10617,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 325.12 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "701fa250-5087-4c2f-b907-d8dd9a808bbf")
 		)
@@ -10643,16 +10654,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "180"
-			(at 325.12 109.22 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "bitaxe:USB_C_Receptacle_USB2.0")
 		(at 317.5 59.69 0)
@@ -12317,6 +12319,17 @@
 				)
 			)
 		)
+		(property "FT Origin" "Center"
+			(at 200.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5d1a8ee8-9f47-45de-ab06-96dbd250fc2f")
 		)
@@ -12448,16 +12461,7 @@
 				)
 			)
 		)
-	
-		(property "FT Origin" "Center"
-			(at 200.66 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 317.5 166.37 180)

@@ -1733,6 +1733,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a556ae8a-0fff-4c6a-932e-4a6c84c833d9")
 		)
@@ -1750,16 +1761,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "180"
-			(at 127 92.71 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 168.91 91.44 270)
