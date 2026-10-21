@@ -1409,12 +1409,6 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/048d514f-fab7-445c-851a-9cf0e4528b25")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1482,7 +1476,7 @@
 			(uuid "bb6bddeb-1b3b-42ec-8a3f-6127752744a0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dshapes/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
+		(model "${KIPRJMOD}/3d/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -4509,12 +4503,6 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/a7eac05f-61d7-43ce-9b9b-4e21cabc9348")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4582,7 +4570,7 @@
 			(uuid "120d9678-db50-45ec-8215-dc7ca6677106")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dshapes/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
+		(model "${KIPRJMOD}/3d/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -5209,7 +5197,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "528f85b9-ae26-4a6e-98dd-b9cc3fa51f9f")
+			(uuid "ac5075b3-3d90-40c2-b9c1-58376a6772c1")
 			(effects
 				(font
 					(size 1 1)
@@ -5222,7 +5210,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac5075b3-3d90-40c2-b9c1-58376a6772c1")
+			(uuid "528f85b9-ae26-4a6e-98dd-b9cc3fa51f9f")
 			(effects
 				(font
 					(size 1 1)
@@ -5259,12 +5247,6 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/cc7bfffb-b8ef-4db3-a0ce-ce83d8c624ac")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5332,7 +5314,7 @@
 			(uuid "172b211a-08f5-46f5-85e1-a90d8ed77378")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dshapes/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
+		(model "${KIPRJMOD}/3d/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -11423,7 +11405,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/GT heatsink.step"
-			(hide yes)
 			(offset
 				(xyz 0 -29 32.5)
 			)
@@ -11435,7 +11416,6 @@
 			)
 		)
 		(model "${KIPRJMOD}/3d/Fan 60x60x25mm.stp"
-			(hide yes)
 			(offset
 				(xyz -5.5 41 33.5)
 			)

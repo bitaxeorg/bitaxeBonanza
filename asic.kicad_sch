@@ -8559,6 +8559,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 157.48 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "409147c6-f420-4e13-998b-a9a8962270c1")
 		)
@@ -8582,16 +8593,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "270"
-			(at 157.48 163.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 364.49 156.21 0)
@@ -8999,6 +9001,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 157.48 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4f5e190-b95e-407f-a893-5845298735e0")
 		)
@@ -9022,16 +9035,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "270"
-			(at 157.48 242.57 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 220.98 154.94 180)
@@ -9744,6 +9748,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 495.3 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "d2b75bb2-5947-4f9b-89e5-73c854b92918")
 		)
@@ -9803,16 +9818,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "270"
-			(at 495.3 327.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 351.79 241.3 0)
@@ -13402,6 +13408,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 157.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d5240cd-6d4e-4059-b0d1-dbfb3fd4db7a")
 		)
@@ -13425,16 +13442,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "270"
-			(at 157.48 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 222.25 313.69 180)
@@ -17740,6 +17748,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 157.48 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6dc88f75-6d4e-408c-802e-f752a280704c")
 		)
@@ -17763,16 +17782,7 @@
 				)
 			)
 		)
-	
-		(property "FT Rotation Offset" "270"
-			(at 157.48 316.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 287.02 134.62 90)

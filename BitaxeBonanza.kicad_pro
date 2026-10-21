@@ -611,7 +611,7 @@
       "plot": "Manufacturing Files/${TITLE}-${REVISION}-gerbers/",
       "pos_files": "../PnP/800x",
       "specctra_dsn": "",
-      "step": "bitaxeBonanza.step",
+      "step": "Manufacturing Files/bitaxeBonanza.step",
       "svg": "",
       "vrml": ""
     },
